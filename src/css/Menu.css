@@ -2,7 +2,7 @@
     height: 0;
     position: sticky;
     position: -webkit-sticky;
-    top: 150px;
+    top: 9vmax;
     right: 0;
     margin-right: 0.5vmax;
     text-align: right;
@@ -11,9 +11,11 @@
     align-items: flex-end;
     font-size: 2.5vmax;
     justify-content: flex-end;
+    z-index: 90;
 }
 
 .menu-element{
     margin-left: 1vmax;
     cursor: pointer;
+
 }

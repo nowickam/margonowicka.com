@@ -1,6 +1,6 @@
 .App {
   font-family: "Roboto Light";
-  font-size: 10vw;
+  font-size: 8vmax;
   display: flex;
   flex-direction: column;
 }

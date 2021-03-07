@@ -10,8 +10,11 @@ function App() {
     <div className="App">
         <Menu />
         <Home id="home"/>
-        <Content id="media1"/>
-        <Content id="media2"/>
+        <Content id="fa"/>
+        <Content id="bio"/>
+        <Content id="ev"/>
+        <Content id="fm"/>
+        <Content id="ll"/>
         <About id="about"/>
     </div>
   );

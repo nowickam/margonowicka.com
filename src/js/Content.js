@@ -2,6 +2,7 @@ import {React, Component} from 'react';
 import ReactDOM from 'react-dom';
 import '../css/Content.css'
 
+
 class Content extends Component{
     constructor(props) {
         super();
@@ -10,9 +11,7 @@ class Content extends Component{
 
     render() {
         return <div id={this.id} className="content-container">
-            <div>
-                lalal
-            </div>
+                <img src={"/media/"+this.id+".png"} />
         </div>
     }
 }

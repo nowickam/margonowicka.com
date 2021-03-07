@@ -18,7 +18,7 @@ class Menu extends Component{
     render() {
         return <div id="menu" className="menu-container">
                 <div className="menu-element" onClick={() => {this.scroll('#home')}}>home</div>
-                <div className="menu-element" onClick={() => {this.scroll('#media1')}}>work</div>
+                <div className="menu-element" onClick={() => {this.scroll('#fa')}}>work</div>
                 <div className="menu-element" onClick={() => {this.scroll('#about')}}>about</div>
         </div>
     }

@@ -1,0 +1,12 @@
+.home-container{
+    height: 100vh;
+}
+
+.name{
+    text-align: left;
+    position: absolute;
+    bottom: 0px;
+    font-size: 10vmax;
+    margin-left: 1vmax;
+    font-weight: bolder;
+}

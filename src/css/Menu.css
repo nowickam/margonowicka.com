@@ -1,0 +1,19 @@
+.menu-container{
+    height: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 150px;
+    right: 0;
+    margin-right: 0.5vmax;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 2.5vmax;
+    justify-content: flex-end;
+}
+
+.menu-element{
+    margin-left: 1vmax;
+    cursor: pointer;
+}

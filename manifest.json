@@ -1,0 +1,15 @@
+{
+  "short_name": "Margo Nowicka",
+  "name": "Margo Nowicka Portfolio",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

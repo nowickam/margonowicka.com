@@ -10,11 +10,13 @@ function App() {
     <div className="App">
         <Menu />
         <Home id="home"/>
-        <Content id="fa"/>
-        <Content id="bio"/>
-        <Content id="ev"/>
-        <Content id="fm"/>
-        <Content id="ll"/>
+        <div className="spacer"/>
+        <Content id="fa" title={"AUDIO-DRIVEN FACIAL ANIMATION"}/>
+        <Content id="bio" title={"ADAM AND EVE"}/>
+        <Content id="ev" title={"EMOTION VISUALIZER"}/>
+        <Content id="fm" title={"FACE MIRROR"}/>
+        <Content id="ll" title={"LUNAR LANDER"}/>
+        <div className="spacer"/>
         <About id="about"/>
     </div>
   );

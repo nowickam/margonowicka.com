@@ -1,6 +1,10 @@
 .App {
-  font-family: "Roboto Light";
-  font-size: 8vmax;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3vmax;
   display: flex;
   flex-direction: column;
+}
+
+.spacer{
+  height: 4vmax;
 }

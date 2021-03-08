@@ -10,9 +10,36 @@ class About extends Component{
 
     render() {
         return <div id={this.id} className="about-container">
-            <div>
-                Małgorzata Nowicka
+            <div className="text-container">
+                <div className="text">
+                    Hi! My name is <b>Małgorzata Nowicka</b>.
+                    I completed a BSc degree in Computer Science at the Warsaw University of Technology.
+                    <br/>
+                    My interests revolve around <b>bridging my technical education and a passion for digital art</b>.
+                    I do that by incorporating 3D modeling, animation, generative coding, data visualization into
+                    my software and machine learning projects.
+                </div>
+                <div className="icon-container">
+                    <b>Contact me:</b>
+                    <div className="icon">
+                        <img className="svg" src="/github.svg"/>
+                        <a href={"https://github.com/nowickam"}>github.com/nowickam</a>
+                    </div>
+                    <div className="icon">
+                        <img className="svg" src="/linkedin.svg"/>
+                        <a href={"https://linkedin.com/in/malgorzata-nowicka"}>linkedin.com/in/malgorzata-nowicka</a>
+                    </div>
+                    <div className="icon">
+                        <img className="svg" src="/gmail.svg"/>
+                        <a href={"mailto:mngnowicka@gmail.com"}>mngnowicka@gmail.com</a>
+                    </div>
+                    <div className="icon">
+                        <img className="svg" src="/vimeo.svg"/>
+                        <a href={"https://vimeo.com/user134790193"}>vimeo.com/user134790193</a>
+                    </div>
+                </div>
             </div>
+            <video id="video-about" autoPlay loop src={"/media/mballs_vertical.mp4"} type={"video/mp4"}>Sorry</video>
         </div>
     }
 }

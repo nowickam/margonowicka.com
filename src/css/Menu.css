@@ -2,12 +2,12 @@
     height: 0;
     position: sticky;
     position: -webkit-sticky;
-    top: 9vmax;
+    top: 3vmax;
     right: 0;
     margin-right: 0.5vmax;
     text-align: right;
     display: flex;
-    flex-direction: column;
+    flex-direction: ROW;
     align-items: flex-end;
     font-size: 2.5vmax;
     justify-content: flex-end;
@@ -17,5 +17,8 @@
 .menu-element{
     margin-left: 1vmax;
     cursor: pointer;
+}
 
+.menu-element:hover{
+    color: #FF4C4C;
 }

@@ -16,7 +16,7 @@ class Home extends Component{
 
     render() {
         return <div id={this.id} className="home-container">
-            <video id="video" autoPlay loop src={"/media/mballs_horizontal.mp4"} type={"video/mp4"}>Sorry</video>
+            <video id="video" autoPlay loop muted src={"/media/mballs_horizontal.mp4"} type={"video/mp4"}>Sorry</video>
             <div className="name">
                 MARGO <br/> NOWICKA
             </div>

@@ -39,7 +39,7 @@ class About extends Component{
                     </div>
                 </div>
             </div>
-            <video id="video-about" autoPlay loop src={"/media/mballs_vertical.mp4"} type={"video/mp4"}>Sorry</video>
+            <video id="video-about" autoPlay loop muted src={"/media/mballs_vertical.mp4"} type={"video/mp4"}>Sorry</video>
         </div>
     }
 }

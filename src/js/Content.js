@@ -2,16 +2,25 @@ import {React, Component} from 'react';
 import ReactDOM from 'react-dom';
 import '../css/Content.css'
 
+import {Transition} from "react-transition-group";
+import {defaultStyle, transitionStyles} from "../App";
 
-class Content extends Component{
+import Fa from './Fa'
+import Fm from './Fm'
+import Ev from './Ev'
+import Ll from './Ll'
+import Bio from './Bio'
+
+
+class Content extends Component {
     constructor(props) {
         super();
         this.state = {
-            overlay: false
+            overlay: false,
+            content: false
         }
         this.id = props.id
         this.title = props.title
-        console.log(this.title)
     }
 
     overlayImage = () => {
@@ -26,14 +35,74 @@ class Content extends Component{
         })
     }
 
+    showContent = () => {
+        this.setState({
+            content: this.id
+        })
+    }
+
+    close = () => {
+        this.setState({
+            content: false
+        })
+    }
+
+
     render() {
         return <div id={this.id} className="content-container">
-            {this.state.overlay && <div className="overlay"/> }
-            {!this.state.overlay && <div className="dimmer"/> }
-            <img className="image" src={"/media/"+this.id+".png"}/>
-            <div className="title" onMouseOver={this.overlayImage} onMouseLeave={this.showImage}>{this.title}</div>
-            {/*    <video className={"video-content "+this.bigSize} autoPlay loop src={"/media/"+this.id+".mp4"} type={"video/mp4"}>Sorry</video>*/}
-            {/*{this.smallMedia && <img className={this.bigSize} src={"/media/"+this.id+".png"} />}*/}
+
+
+            <Transition timeout={300} in={this.state.overlay}>
+                {(state) => (
+                    <div style={{...defaultStyle, ...transitionStyles[state]}}>
+                        {this.state.overlay && <div className="overlay"/>}
+                    </div>
+                )}
+            </Transition>
+
+            {/*<Transition timeout={300} in={this.state.content === "fa"}>*/}
+            {/*    {(state) => (*/}
+            {/*        <div style={{...defaultStyle, ...transitionStyles[state]}}>*/}
+                        {this.state.content === "fa" && <Fa close={this.close}/>}
+            {/*        </div>*/}
+            {/*    )}*/}
+            {/*</Transition>*/}
+
+            {/*<Transition timeout={300} in={this.state.content === "fm"}>*/}
+            {/*    {(state) => (*/}
+            {/*        <div style={{...defaultStyle, ...transitionStyles[state]}}>*/}
+                        {this.state.content === "fm" && <Fm close={this.close}/>}
+            {/*        </div>*/}
+            {/*    )}*/}
+            {/*</Transition>*/}
+
+            {/*<Transition timeout={300} in={this.state.content === "ev"}>*/}
+            {/*    {(state) => (*/}
+            {/*        <div style={{...defaultStyle, ...transitionStyles[state]}}>*/}
+                        {this.state.content === "ev" && <Ev close={this.close}/>}
+            {/*        </div>*/}
+            {/*    )}*/}
+            {/*</Transition>*/}
+
+            {/*<Transition timeout={300} in={this.state.content === "ll"}>*/}
+            {/*    {(state) => (*/}
+            {/*        <div style={{...defaultStyle, ...transitionStyles[state]}}>*/}
+                        {this.state.content === "ll" && <Ll close={this.close}/>}
+            {/*        </div>*/}
+            {/*    )}*/}
+            {/*</Transition>*/}
+
+            {/*<Transition timeout={300} in={this.state.content === "ll"}>*/}
+            {/*    {(state) => (*/}
+            {/*        <div style={{...defaultStyle, ...transitionStyles[state]}}>*/}
+                {this.state.content === "bio" && <Bio close={this.close}/>}
+            {/*        </div>*/}
+            {/*    )}*/}
+            {/*</Transition>*/}
+
+            <img className="image" src={"/media/" + this.id + ".png"}/>
+            <div className="title" onMouseOver={this.overlayImage} onMouseLeave={this.showImage}
+                 onClick={this.showContent}>{this.title}</div>
         </div>
     }
 }

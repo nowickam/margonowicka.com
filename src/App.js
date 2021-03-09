@@ -3,7 +3,21 @@ import Home from './js/Home.js'
 import Content from './js/Content.js'
 import About from './js/About.js'
 import Menu from './js/Menu.js'
+import Fa from './js/Fa.js'
+import Fm from './js/Fm.js'
 
+
+export const defaultStyle = {
+    transition: `opacity ${500}ms ease-in-out`,
+    opacity: 0,
+};
+
+export const transitionStyles = {
+    entering: { opacity: 1},
+    entered: { opacity: 1 },
+    exiting: { opacity: 0 },
+    exited: { opacity: 0 },
+};
 
 function App() {
   return (

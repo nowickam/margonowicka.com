@@ -1,0 +1,65 @@
+.fa-container{
+    background: rgba(255,255,255,0.9);
+    height: 100%;
+    width: 100vw;
+    z-index: 5;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.fa-container-vert{
+    background: rgba(255,255,255,0.9);
+    height: 100%;
+    width: 100vw;
+    z-index: 5;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.marg-right{
+    margin-right: 2vmax;
+}
+
+.fa-video{
+    width: 45vw;
+}
+
+.ll-video{
+    width: 70vw;
+}
+
+.left-image{
+    width: 45vw;
+}
+
+.fa-left-container, .fa-right-container, .fa-upper-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2vmax;
+}
+
+
+.fa-lower-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2vmax;
+}
+
+.fa-text{
+    font-size: 2vmax;
+    text-align: justify;
+}
+
+.close{
+    font-size: 3vmax;
+    cursor: pointer;
+    text-align: right;
+}

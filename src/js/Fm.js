@@ -18,7 +18,7 @@ class Fm extends Component{
                     A web application aimed at displaying a graphical interpretation of the movement of 68 facial landmarks.
                 </div>
                 <a href={"https://nowickam.github.io/face-mirror/"}>webpage</a>
-                <a href={"https://https://github.com/nowickam/face-mirror"}>github</a>
+                <a href={"https://github.com/nowickam/face-mirror"}>github</a>
             </div>
             <div className="fa-right-container">
                 <img className="left-image" src={"/media/fm2.png"}/>

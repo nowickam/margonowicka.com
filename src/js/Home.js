@@ -1,22 +1,43 @@
 import {React, Component} from 'react';
 import ReactDOM from 'react-dom';
 import '../css/Home.css'
+import {css} from "@emotion/core";
+import DotLoader from "react-spinners/DotLoader";
 
-class Home extends Component{
+class Home extends Component {
     constructor(props) {
         super();
         this.id = props.id
+        this.showPage = props.showPage
+        this.state = {
+            loading: true
+        }
     }
 
-    scroll = (id) => {
-        const anchor = document.querySelector(id)
-        if(anchor !== null)
-            anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })
+    finishLoading = () => {
+        this.setState({
+            loading: false
+        }, () =>{
+            this.showPage()
+        })
+
     }
+
 
     render() {
+        const override = css`
+          display: block;
+          margin: 0 auto;
+          justify-content: center;
+        `;
+
         return <div id={this.id} className="home-container">
-            <video id="video" autoPlay loop muted src={"/media/mballs_horizontal.mp4"} type={"video/mp4"}>Sorry</video>
+            {this.state.loading && <div className="overlay-home">
+                <DotLoader color={"#4758FF"} loading={this.state.loading} css={override} size={`30vmax`}/>
+            </div>}
+            <video id="video" autoPlay loop muted src={"/media/mballs_horizontal.mp4"} type={"video/mp4"}
+                   onPlay={this.finishLoading}>Sorry
+            </video>
             <div className="name">
                 MARGO <br/> NOWICKA
             </div>

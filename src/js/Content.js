@@ -2,6 +2,7 @@ import {React, Component} from 'react';
 import ReactDOM from 'react-dom';
 import '../css/Content.css'
 
+
 import {Transition} from "react-transition-group";
 import {defaultStyle, transitionStyles} from "../App";
 

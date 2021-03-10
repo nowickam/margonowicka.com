@@ -34,6 +34,18 @@
     top: 0px;
 }
 
+.overlay-content{
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255,255,255,1);
+    z-index: 2;
+    position: absolute;
+    top: 0px;
+}
+
 .dimmer{
     background: rgba(0,0,0,0.1);
     /*overflow: hidden;*/

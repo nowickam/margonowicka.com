@@ -6,6 +6,7 @@ import About from './js/About.js'
 import Menu from './js/Menu.js'
 import Fa from './js/Fa.js'
 import Fm from './js/Fm.js'
+import {css} from "@emotion/core";
 
 
 export const defaultStyle = {
@@ -19,6 +20,12 @@ export const transitionStyles = {
     exiting: {opacity: 0},
     exited: {opacity: 0},
 };
+
+export const override = css`
+          display: block;
+          margin: 0 auto;
+          justify-content: center;
+        `;
 
 class App extends Component {
     constructor(props) {

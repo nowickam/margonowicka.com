@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import '../css/Home.css'
 import {css} from "@emotion/core";
 import DotLoader from "react-spinners/DotLoader";
+import {override} from '../App'
 
 class Home extends Component {
     constructor(props) {
@@ -25,12 +26,6 @@ class Home extends Component {
 
 
     render() {
-        const override = css`
-          display: block;
-          margin: 0 auto;
-          justify-content: center;
-        `;
-
         return <div id={this.id} className="home-container">
             {this.state.loading && <div className="overlay-home">
                 <DotLoader color={"#4758FF"} loading={this.state.loading} css={override} size={`30vmax`}/>

@@ -17,7 +17,8 @@ class Content extends Component {
         super();
         this.state = {
             overlay: false,
-            content: false
+            content: false,
+            title: false
         }
         this.id = props.id
         this.title = props.title
@@ -44,6 +45,12 @@ class Content extends Component {
     close = () => {
         this.setState({
             content: false
+        })
+    }
+
+    showTitle = () => {
+        this.setState({
+            title:true
         })
     }
 
@@ -100,9 +107,9 @@ class Content extends Component {
             {/*    )}*/}
             {/*</Transition>*/}
 
-            <img className="image" src={"/media/" + this.id + ".png"}/>
-            <div className="title" onMouseOver={this.overlayImage} onMouseLeave={this.showImage}
-                 onClick={this.showContent}>{this.title}</div>
+            <img className="image" src={"/media/" + this.id + ".png"} onLoad={this.showTitle}/>
+            {this.state.title && <div className="title" onMouseOver={this.overlayImage} onMouseLeave={this.showImage}
+                 onClick={this.showContent}>{this.title}</div>}
         </div>
     }
 }

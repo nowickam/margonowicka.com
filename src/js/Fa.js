@@ -40,7 +40,7 @@ class Fa extends Component{
                 </div>
                 <a href={"https://facialanimation.page"}>webpage</a>
                 <a href={"https://vimeo.com/518277009"}>demo</a>
-                <a href={"https://github.com/nowickam/facial- animation/tree/production"}>github</a>
+                <a href={"https://github.com/nowickam/facial-animation/tree/production"}>github</a>
                 <a className="close" onClick={this.close}>close</a>
             </div>
 

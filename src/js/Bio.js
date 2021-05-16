@@ -22,24 +22,26 @@ class Bio extends Component{
 
 
     render() {
-        return <div id={this.id} className="fa-container">
+        return <div id={this.id} className="fa-container-vert">
             {this.state.loading && <div className="overlay-content">
                 <DotLoader color={"#4758FF"} loading={this.state.loading} css={override} size={`30vmax`}/>
             </div>}
-            <div className="fa-left-container">
-                {/*<video className="ll-video" autoPlay loop muted src={"/media/ll.mp4"} type={"video/mp4"}>Sorry</video>*/}
-                <img className="left-image" src={"/media/bio1.png"} onLoad={this.finishLoading}/>
-                <img className="left-image" src={"/media/bio2.png"}/>
-            </div>
-            <div className="fa-right-container">
-                <div className="fa-text">
-                    A trailer to an interactive project on the biodiversity eradication issue. The animation is done in Blender with the use of Biodiversity Heritage Library image collection.
+            <div className="fa-title" onClick={this.close}>{this.props.title}</div>
+            <div className="fa-container-vert-height-bio">
+                <div className="fa-lower-container">
+                    {/*<video className="ll-video" autoPlay loop muted src={"/media/ll.mp4"} type={"video/mp4"}>Sorry</video>*/}
+                    <img className="left-image" src={"/media/bio1.png"} onLoad={this.finishLoading}/>
+                    <img className="left-image" src={"/media/bio2.png"}/>
                 </div>
-                <a href={"https://vimeo.com/manage/videos/518251014"}>demo</a>
+                <div className="fa-upper-container">
+                    <div className="fa-text">
+                        A trailer to an interactive project on the biodiversity eradication issue. The animation is done in Blender with the use of Biodiversity Heritage Library image collection.
+                    </div>
+                    <a href={"https://vimeo.com/manage/videos/518251014"}>video</a>
 
-                <a className="close" onClick={this.close}>close</a>
+                    {/*<a className="close" onClick={this.close}>close</a>*/}
+                </div>
             </div>
-
         </div>
     }
 }

@@ -47,7 +47,7 @@ class App extends Component {
             <Home id="home" showPage={this.showPage}/>
             {this.state.show && <div>
                 <div className="spacer"/>
-                <Content id="fa" title={"AUDIO-DRIVEN FACIAL ANIMATION"}/>
+                <Content id="fa" title={"AUDIO-DRIVEN ANIMATION"}/>
                 <Content id="bio" title={"ADAM AND EVE"}/>
                 <Content id="ev" title={"EMOTION VISUALIZER"}/>
                 <Content id="fm" title={"FACE MIRROR"}/>

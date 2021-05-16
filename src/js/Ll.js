@@ -26,6 +26,7 @@ class Ll extends Component{
             {this.state.loading && <div className="overlay-content">
                 <DotLoader color={"#4758FF"} loading={this.state.loading} css={override} size={`30vmax`}/>
             </div>}
+            <div className="fa-title" onClick={this.close}>{this.props.title}</div>
             <div className="fa-left-container">
                 <video className="ll-video" autoPlay loop muted src={"/media/ll.mp4"} type={"video/mp4"} onPlay={this.finishLoading}>Sorry</video>
 
@@ -36,7 +37,7 @@ class Ll extends Component{
                 </div>
                 <a href={"https://github.com/nowickam/lunar-lander-3d"}>github</a>
 
-                <a className="close" onClick={this.close}>close</a>
+                {/*<a className="close" onClick={this.close}>close</a>*/}
             </div>
 
         </div>

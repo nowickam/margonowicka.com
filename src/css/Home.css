@@ -1,5 +1,5 @@
 .home-container{
-    height: 100vh;
+    height: 100vmin;
     position: relative;
 }
 
@@ -13,8 +13,8 @@
 }
 
 #video{
-    width: 100vw;
-    position: relative;
+    width: 110vw;
+    /*position: absolute;*/
 }
 
 .overlay-home{

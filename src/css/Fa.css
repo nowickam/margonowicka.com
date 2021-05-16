@@ -1,5 +1,5 @@
 .fa-container{
-    background: rgba(255,255,255,0.9);
+    background: rgba(255,255,255,1);
     height: 100%;
     width: 100vw;
     z-index: 5;
@@ -11,7 +11,7 @@
 }
 
 .fa-container-vert{
-    background: rgba(255,255,255,0.9);
+    background: rgba(255,255,255,1);
     height: 100%;
     width: 100vw;
     z-index: 5;
@@ -20,6 +20,32 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.fa-container-vert-height-bio{
+    position: absolute;
+    top: 0px;
+    height: 45%;
+    /*height: calc(100% - 13vmax)*/
+}
+
+.fa-container-vert-height-ev{
+    position: absolute;
+    top: 0px;
+    height: 40%;
+    /*height: calc(100% - 13vmax)*/
+}
+
+.fa-title{
+    font-size: 7.5vmax;
+    position: absolute;
+    bottom: 3vmax;
+    left: 0.5vmax;
+    color: black;
+    /*font-weight: bolder;*/
+    margin-left: 2vmax;
+    cursor: pointer;
+    z-index: 3;
 }
 
 .marg-right{
@@ -39,6 +65,14 @@
 }
 
 .fa-left-container, .fa-right-container, .fa-upper-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2vmax;
+    height: calc(100% - 13vmax)
+}
+
+.fa-upper-container {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -63,4 +97,12 @@
     font-size: 3vmax;
     cursor: pointer;
     text-align: right;
+}
+
+.block{
+    display: block
+}
+
+.margin{
+    margin-right: 1vmax;
 }

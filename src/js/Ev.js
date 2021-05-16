@@ -26,6 +26,8 @@ class Ev extends Component{
             {this.state.loading && <div className="overlay-content">
                 <DotLoader color={"#4758FF"} loading={this.state.loading} css={override} size={`30vmax`}/>
             </div>}
+            <div className="fa-title" onClick={this.close}>{this.props.title}</div>
+            <div className="fa-container-vert-height-ev">
             <div className="fa-upper-container">
                 <div className="fa-text">
                     A generative art-based animation portraying the user’s mood.
@@ -38,7 +40,8 @@ class Ev extends Component{
                 <video className="fa-video" autoPlay loop muted src={"/media/ev.mp4"} type={"video/mp4"} onPlay={this.finishLoading}>Sorry</video>
                 <img className="left-image" src={"/media/ev2.png"}/>
             </div>
-            <a className="close marg-right" onClick={this.close}>close</a>
+            {/*<a className="close marg-right" onClick={this.close}>close</a>*/}
+        </div>
         </div>
     }
 }

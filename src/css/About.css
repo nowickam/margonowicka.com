@@ -1,5 +1,5 @@
 .about-container{
-    height: 99vh;
+    height: 99vmin;
     display: flex;
     flex-direction: row;
 }

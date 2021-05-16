@@ -71,7 +71,7 @@ class Content extends Component {
             {/*<Transition timeout={300} in={this.state.content === "fa"}>*/}
             {/*    {(state) => (*/}
             {/*        <div style={{...defaultStyle, ...transitionStyles[state]}}>*/}
-                        {this.state.content === "fa" && <Fa close={this.close}/>}
+                        {this.state.content === "fa" && <Fa title={this.title} close={this.close}/>}
             {/*        </div>*/}
             {/*    )}*/}
             {/*</Transition>*/}
@@ -79,7 +79,7 @@ class Content extends Component {
             {/*<Transition timeout={300} in={this.state.content === "fm"}>*/}
             {/*    {(state) => (*/}
             {/*        <div style={{...defaultStyle, ...transitionStyles[state]}}>*/}
-                        {this.state.content === "fm" && <Fm close={this.close}/>}
+                        {this.state.content === "fm" && <Fm title={this.title} close={this.close}/>}
             {/*        </div>*/}
             {/*    )}*/}
             {/*</Transition>*/}
@@ -87,7 +87,7 @@ class Content extends Component {
             {/*<Transition timeout={300} in={this.state.content === "ev"}>*/}
             {/*    {(state) => (*/}
             {/*        <div style={{...defaultStyle, ...transitionStyles[state]}}>*/}
-                        {this.state.content === "ev" && <Ev close={this.close}/>}
+                        {this.state.content === "ev" && <Ev title={this.title} close={this.close}/>}
             {/*        </div>*/}
             {/*    )}*/}
             {/*</Transition>*/}
@@ -95,7 +95,7 @@ class Content extends Component {
             {/*<Transition timeout={300} in={this.state.content === "ll"}>*/}
             {/*    {(state) => (*/}
             {/*        <div style={{...defaultStyle, ...transitionStyles[state]}}>*/}
-                        {this.state.content === "ll" && <Ll close={this.close}/>}
+                        {this.state.content === "ll" && <Ll title={this.title} close={this.close}/>}
             {/*        </div>*/}
             {/*    )}*/}
             {/*</Transition>*/}
@@ -103,7 +103,7 @@ class Content extends Component {
             {/*<Transition timeout={300} in={this.state.content === "ll"}>*/}
             {/*    {(state) => (*/}
             {/*        <div style={{...defaultStyle, ...transitionStyles[state]}}>*/}
-                {this.state.content === "bio" && <Bio close={this.close}/>}
+                {this.state.content === "bio" && <Bio title={this.title} close={this.close}/>}
             {/*        </div>*/}
             {/*    )}*/}
             {/*</Transition>*/}

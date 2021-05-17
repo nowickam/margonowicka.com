@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Transition } from "react-transition-group";
 import '../css/Fa.css'
 import DotLoader from "react-spinners/DotLoader";
-import {override} from "../App";
+import {defaultStyle, override, transitionStyles} from "../App";
 
 class Ll extends Component{
     constructor(props) {
@@ -26,14 +26,16 @@ class Ll extends Component{
             {this.state.loading && <div className="overlay-content">
                 <DotLoader color={"#4758FF"} loading={this.state.loading} css={override} size={`30vmax`}/>
             </div>}
+
             <div className="fa-title" onClick={this.close}>{this.props.title}</div>
+
             <div className="fa-left-container">
-                <video className="ll-video" autoPlay loop muted src={"/media/ll.mp4"} type={"video/mp4"} onPlay={this.finishLoading}>Sorry</video>
+                <video className="ll-video" controls src={"/media/ll.mp4"} type={"video/mp4"} onLoadedData={this.finishLoading}>Sorry</video>
 
             </div>
             <div className="fa-right-container">
                 <div className="fa-text">
-                    Inspired by Atari's Lunar Lander and by Daniel Shiffman's Terrain GenerationI decided to create a Java game which will emulate the gameplay of Lunar Lander in 3D.
+                    A Java game emulating the gameplay of Lunar Lander in 3D (inspired by Atari's Lunar Lander and by Daniel Shiffman's Terrain Generation).
                 </div>
                 <a href={"https://github.com/nowickam/lunar-lander-3d"}>github</a>
 

@@ -13,8 +13,10 @@
 }
 
 #video{
-    width: 110vw;
-    /*position: absolute;*/
+    width: 82vmax;
+    position: absolute;
+    right: 0px;
+
 }
 
 .overlay-home{

@@ -30,7 +30,7 @@ class Home extends Component {
             {this.state.loading && <div className="overlay-home">
                 <DotLoader color={"#4758FF"} loading={this.state.loading} css={override} size={`30vmax`}/>
             </div>}
-            <video id="video" autoPlay loop muted src={"/media/mballs_horizontal.mp4"} type={"video/mp4"}
+            <video id="video" autoPlay loop muted src={"/media/mballs_horizontal_crop.mp4"} type={"video/mp4"}
                    onPlay={this.finishLoading}>Sorry
             </video>
             <div className="name">

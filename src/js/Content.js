@@ -68,45 +68,45 @@ class Content extends Component {
                 )}
             </Transition>
 
-            {/*<Transition timeout={300} in={this.state.content === "fa"}>*/}
-            {/*    {(state) => (*/}
-            {/*        <div style={{...defaultStyle, ...transitionStyles[state]}}>*/}
-                        {this.state.content === "fa" && <Fa title={this.title} close={this.close}/>}
-            {/*        </div>*/}
-            {/*    )}*/}
-            {/*</Transition>*/}
+            <Transition timeout={300} in={this.state.content === "fa"}>
+                {(state) => (
+                    <div style={{...defaultStyle, ...transitionStyles[state]}}>
+                        {<Fa title={this.title} close={this.close}/>}
+                    </div>
+                )}
+            </Transition>
 
-            {/*<Transition timeout={300} in={this.state.content === "fm"}>*/}
-            {/*    {(state) => (*/}
-            {/*        <div style={{...defaultStyle, ...transitionStyles[state]}}>*/}
-                        {this.state.content === "fm" && <Fm title={this.title} close={this.close}/>}
-            {/*        </div>*/}
-            {/*    )}*/}
-            {/*</Transition>*/}
+            <Transition timeout={300} in={this.state.content === "fm"}>
+                {(state) => (
+                    <div style={{...defaultStyle, ...transitionStyles[state]}}>
+                        {<Fm title={this.title} close={this.close}/>}
+                    </div>
+                )}
+            </Transition>
 
-            {/*<Transition timeout={300} in={this.state.content === "ev"}>*/}
-            {/*    {(state) => (*/}
-            {/*        <div style={{...defaultStyle, ...transitionStyles[state]}}>*/}
-                        {this.state.content === "ev" && <Ev title={this.title} close={this.close}/>}
-            {/*        </div>*/}
-            {/*    )}*/}
-            {/*</Transition>*/}
+            <Transition timeout={300} in={this.state.content === "ev"}>
+                {(state) => (
+                    <div style={{...defaultStyle, ...transitionStyles[state]}}>
+                        {<Ev title={this.title} close={this.close}/>}
+                    </div>
+                )}
+            </Transition>
 
-            {/*<Transition timeout={300} in={this.state.content === "ll"}>*/}
-            {/*    {(state) => (*/}
-            {/*        <div style={{...defaultStyle, ...transitionStyles[state]}}>*/}
-                        {this.state.content === "ll" && <Ll title={this.title} close={this.close}/>}
-            {/*        </div>*/}
-            {/*    )}*/}
-            {/*</Transition>*/}
+            <Transition timeout={300} in={this.state.content === "ll"}>
+                {(state) => (
+                    <div style={{...defaultStyle, ...transitionStyles[state]}}>
+                        {<Ll title={this.title} close={this.close}/>}
+                    </div>
+                )}
+            </Transition>
 
-            {/*<Transition timeout={300} in={this.state.content === "ll"}>*/}
-            {/*    {(state) => (*/}
-            {/*        <div style={{...defaultStyle, ...transitionStyles[state]}}>*/}
-                {this.state.content === "bio" && <Bio title={this.title} close={this.close}/>}
-            {/*        </div>*/}
-            {/*    )}*/}
-            {/*</Transition>*/}
+            <Transition timeout={300} in={this.state.content === "bio"}>
+                {(state) => (
+                    <div style={{...defaultStyle, ...transitionStyles[state]}}>
+                {<Bio title={this.title} close={this.close}/>}
+                    </div>
+                )}
+            </Transition>
 
             <img className="image" src={"/media/" + this.id + ".png"} onLoad={this.showTitle}/>
             {this.state.title && <div className="title" onMouseOver={this.overlayImage} onMouseLeave={this.showImage}

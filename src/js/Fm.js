@@ -28,9 +28,9 @@ class Fm extends Component{
             </div>}
             <div className="fa-title" onClick={this.close}>{this.props.title}</div>
             <div className="fa-left-container">
-                <video className="fa-video" autoPlay loop muted src={"/media/fm.mp4"} type={"video/mp4"} onPlay={this.finishLoading}>Sorry</video>
+                <video className="fa-video" controls src={"/media/fm.mp4"} type={"video/mp4"} onLoadedData={this.finishLoading}>Sorry</video>
                 <div className="fa-text">
-                    A web application aimed at displaying a graphical interpretation of the movement of 68 facial landmarks.
+                    A web application aimed at displaying a graphical interpretation of the movement of face.
                 </div>
                 <div className="block">
                 <a className="margin" href={"https://nowickam.github.io/face-mirror/"}>webpage</a>

@@ -1,7 +1,8 @@
 .App {
   font-family: 'Roboto', sans-serif;
   font-size: 3vmax;
-  display: flex;
+  display: block;
+  /*position: relative;*/
   flex-direction: column;
 }
 

@@ -23,6 +23,9 @@ class Content extends Component {
         }
         this.id = props.id
         this.title = props.title
+        this.faStyle = {
+            backgroundColor: "red"
+        }
     }
 
     overlayImage = () => {
@@ -60,13 +63,13 @@ class Content extends Component {
         return <div id={this.id} className="content-container">
 
 
-            <Transition timeout={300} in={this.state.overlay}>
-                {(state) => (
-                    <div style={{...defaultStyle, ...transitionStyles[state]}}>
-                        {this.state.overlay && <div className="overlay"/>}
-                    </div>
-                )}
-            </Transition>
+            {/*<Transition timeout={300} in={this.state.overlay}>*/}
+            {/*    {(state) => (*/}
+            {/*        <div style={{...defaultStyle, ...transitionStyles[state]}}>*/}
+            {/*            {this.state.overlay && <div className="overlay"/>}*/}
+            {/*        </div>*/}
+            {/*    )}*/}
+            {/*</Transition>*/}
 
             <Transition timeout={300} in={this.state.content === "fa"}>
                 {(state) => (
@@ -108,9 +111,15 @@ class Content extends Component {
                 )}
             </Transition>
 
+
             <img className="image" src={"/media/" + this.id + ".png"} onLoad={this.showTitle}/>
+            <Transition timeout={300} in={this.state.content===false}>
+                {(state) => (
+                    <div style={{...defaultStyle, ...transitionStyles[state]}}>
             {this.state.title && <div className="title" onMouseOver={this.overlayImage} onMouseLeave={this.showImage}
-                 onClick={this.showContent}>{this.title}</div>}
+                 onClick={this.showContent}>{this.title}</div>}</div>
+                )}
+                    </Transition>
         </div>
     }
 }

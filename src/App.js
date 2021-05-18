@@ -1,7 +1,6 @@
-import {React, Component} from 'react';
+import {Component, React} from 'react';
 import './App.css';
 import Home from './js/Home.js'
-import Content from './js/Content.js'
 import About from './js/About.js'
 import Menu from './js/Menu.js'
 import Fa from './js/Fa.js'
@@ -10,7 +9,6 @@ import Ll from './js/Ll.js'
 import Ev from './js/Ev.js'
 import {css} from "@emotion/core";
 import Bio from "./js/Bio";
-import './css/Content.css'
 
 
 export const defaultStyle = {
@@ -36,10 +34,10 @@ export const transitionColor = {
 };
 
 export const override = css`
-          display: block;
-          margin: 0 auto;
-          justify-content: center;
-        `;
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
+`;
 
 class App extends Component {
     constructor(props) {
@@ -62,16 +60,11 @@ class App extends Component {
             {this.state.show &&
             <div>
                 <div className="spacer"/>
-                    <Fa id="fa" title="AUDIO-DRIVEN ANIMATION" />
-                    <Bio id="bio" title="ADAM AND EVE" />
-                    <Ev id="ev" title="EMOTION VISUALIZER" />
-                    <Fm id="fm" title="FACE MIRROR" />
-                    <Ll id="ll" title="LUNAR LANDER" />
-                {/*<Content id="fa" title={"AUDIO-DRIVEN ANIMATION"}/>*/}
-                {/*<Content id="bio" title={"ADAM AND EVE"}/>*/}
-                {/*<Content id="ev" title={"EMOTION VISUALIZER"}/>*/}
-                {/*<Content id="fm" title={"FACE MIRROR"}/>*/}
-                {/*<Content id="ll" title={"LUNAR LANDER"}/>*/}
+                <Fa id="fa" title="AUDIO-DRIVEN ANIMATION"/>
+                <Bio id="bio" title="ADAM AND EVE"/>
+                <Ev id="ev" title="EMOTION VISUALIZER"/>
+                <Fm id="fm" title="FACE MIRROR"/>
+                <Ll id="ll" title="LUNAR LANDER"/>
                 <div className="spacer"/>
                 <About id="about"/>
             </div>

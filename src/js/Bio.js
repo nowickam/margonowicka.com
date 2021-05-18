@@ -1,16 +1,15 @@
-import {React, Component} from 'react';
-import ReactDOM from 'react-dom';
-import { Transition } from "react-transition-group";
+import {Component, React} from 'react';
+import {Transition} from "react-transition-group";
 import '../css/Fa.css'
 import DotLoader from "react-spinners/DotLoader";
 import {defaultColor, defaultStyle, override, transitionColor, transitionStyles} from "../App";
 
-class Bio extends Component{
+class Bio extends Component {
     constructor(props) {
         super();
         this.id = props.id
         this.title = props.title
-        this.state= {
+        this.state = {
             loading: true,
             content: false,
             title: false,
@@ -18,12 +17,11 @@ class Bio extends Component{
     }
 
     toggleContent = () => {
-        if(this.state.content){
+        if (this.state.content) {
             this.setState({
                 content: false,
             })
-        }
-        else{
+        } else {
             this.setState({
                 content: this.id,
             })
@@ -32,7 +30,7 @@ class Bio extends Component{
 
     showTitle = () => {
         this.setState({
-            title:true
+            title: true
         })
     }
 
@@ -50,13 +48,15 @@ class Bio extends Component{
             <div className="img-container">
                 <Transition timeout={300} in={!this.state.content}>
                     {(state) => (
-                        <img style={{...defaultStyle, ...transitionStyles[state]}} className="image" src={"/media/" + this.id + ".png"} onLoad={this.showTitle}/>
+                        <img style={{...defaultStyle, ...transitionStyles[state]}} className="image"
+                             src={"/media/" + this.id + ".png"} onLoad={this.showTitle}/>
                     )}
                 </Transition>
 
                 <Transition timeout={300} in={!this.state.content}>
                     {(state) => (
-                        <div style={{...defaultColor, ...transitionColor[state]}} className="title-black" onClick={this.toggleContent}>{this.title}</div>
+                        <div style={{...defaultColor, ...transitionColor[state]}} className="title-black"
+                             onClick={this.toggleContent}>{this.title}</div>
 
                     )}
                 </Transition>
@@ -71,7 +71,8 @@ class Bio extends Component{
                         </div>
                         <div className="fa-upper-container">
                             <div className="fa-text">
-                                A trailer to an interactive project on the biodiversity eradication issue. The animation is done in Blender with the use of Biodiversity Heritage Library image collection.
+                                A trailer to an interactive project on the biodiversity eradication issue. The animation
+                                is done in Blender with the use of Biodiversity Heritage Library image collection.
                             </div>
                             <a href={"https://vimeo.com/manage/videos/518251014"}>video</a>
 

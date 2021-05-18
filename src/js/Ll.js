@@ -1,16 +1,15 @@
-import {React, Component} from 'react';
-import ReactDOM from 'react-dom';
-import { Transition } from "react-transition-group";
+import {Component, React} from 'react';
+import {Transition} from "react-transition-group";
 import '../css/Fa.css'
 import DotLoader from "react-spinners/DotLoader";
 import {defaultColor, defaultStyle, override, transitionColor, transitionStyles} from "../App";
 
-class Ll extends Component{
+class Ll extends Component {
     constructor(props) {
         super();
         this.id = props.id
         this.title = props.title
-        this.state= {
+        this.state = {
             loading: true,
             content: false,
             title: false,
@@ -18,12 +17,11 @@ class Ll extends Component{
     }
 
     toggleContent = () => {
-        if(this.state.content){
+        if (this.state.content) {
             this.setState({
                 content: false,
             })
-        }
-        else{
+        } else {
             this.setState({
                 content: this.id,
             })
@@ -32,7 +30,7 @@ class Ll extends Component{
 
     showTitle = () => {
         this.setState({
-            title:true
+            title: true
         })
     }
 
@@ -49,13 +47,15 @@ class Ll extends Component{
             <div className="img-container">
                 <Transition timeout={300} in={!this.state.content}>
                     {(state) => (
-                        <img style={{...defaultStyle, ...transitionStyles[state]}} className="image" src={"/media/" + this.id + ".png"} onLoad={this.showTitle}/>
+                        <img style={{...defaultStyle, ...transitionStyles[state]}} className="image"
+                             src={"/media/" + this.id + ".png"} onLoad={this.showTitle}/>
                     )}
                 </Transition>
 
                 <Transition timeout={300} in={!this.state.content}>
                     {(state) => (
-                        <div style={{...defaultColor, ...transitionColor[state]}} className="title-black" onClick={this.toggleContent}>{this.title}</div>
+                        <div style={{...defaultColor, ...transitionColor[state]}} className="title-black"
+                             onClick={this.toggleContent}>{this.title}</div>
 
                     )}
                 </Transition>
@@ -63,12 +63,15 @@ class Ll extends Component{
                 <div className="fa-container">
                     {/*<div className="fa-title" onClick={this.close}>{this.props.title}</div>*/}
                     <div className="fa-left-container">
-                        <video className="ll-video" controls src={"/media/ll.mp4"} type={"video/mp4"} onLoadedData={this.finishLoading}>Sorry</video>
+                        <video className="ll-video" controls src={"/media/ll.mp4"} type={"video/mp4"}
+                               onLoadedData={this.finishLoading}>Sorry
+                        </video>
 
                     </div>
                     <div className="fa-right-container">
                         <div className="fa-text">
-                            A Java game emulating the gameplay of Lunar Lander in 3D (inspired by Atari's Lunar Lander and by Daniel Shiffman's Terrain Generation).
+                            A Java game emulating the gameplay of Lunar Lander in 3D (inspired by Atari's Lunar Lander
+                            and by Daniel Shiffman's Terrain Generation).
                         </div>
                         <a href={"https://github.com/nowickam/lunar-lander-3d"}>github</a>
 

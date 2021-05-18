@@ -1,8 +1,7 @@
-import {React, Component} from 'react';
-import ReactDOM from 'react-dom';
+import {Component, React} from 'react';
 import '../css/About.css'
 
-class About extends Component{
+class About extends Component {
     constructor(props) {
         super();
         this.id = props.id
@@ -39,7 +38,9 @@ class About extends Component{
                     </div>
                 </div>
             </div>
-            <video id="video-about" autoPlay loop muted src={"/media/mballs_vertical_crop.mp4"} type={"video/mp4"}>Sorry</video>
+            <video id="video-about" autoPlay loop muted src={"/media/mballs_vertical_crop.mp4"}
+                   type={"video/mp4"}>Sorry
+            </video>
         </div>
     }
 }

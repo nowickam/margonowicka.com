@@ -1,17 +1,16 @@
-import {React, Component} from 'react';
-import ReactDOM from 'react-dom';
+import {Component, React} from 'react';
 import '../css/Fa.css'
 import DotLoader from "react-spinners/DotLoader";
-import {defaultStyle, override, transitionStyles, defaultColor, transitionColor} from '../App'
+import {defaultColor, defaultStyle, override, transitionColor, transitionStyles} from '../App'
 import {Transition} from "react-transition-group";
 
 
-class Fa extends Component{
+class Fa extends Component {
     constructor(props) {
         super();
         this.id = props.id
         this.title = props.title
-        this.state= {
+        this.state = {
             loading: true,
             content: false,
             title: false,
@@ -19,12 +18,11 @@ class Fa extends Component{
     }
 
     toggleContent = () => {
-        if(this.state.content){
+        if (this.state.content) {
             this.setState({
                 content: false,
             })
-        }
-        else{
+        } else {
             this.setState({
                 content: this.id,
             })
@@ -33,7 +31,7 @@ class Fa extends Component{
 
     showTitle = () => {
         this.setState({
-            title:true
+            title: true
         })
     }
 
@@ -50,13 +48,15 @@ class Fa extends Component{
             <div className="img-container">
                 <Transition timeout={300} in={!this.state.content}>
                     {(state) => (
-                <img style={{...defaultStyle, ...transitionStyles[state]}} className="image" src={"/media/" + this.id + ".png"} onLoad={this.showTitle}/>
+                        <img style={{...defaultStyle, ...transitionStyles[state]}} className="image"
+                             src={"/media/" + this.id + ".png"} onLoad={this.showTitle}/>
                     )}
                 </Transition>
 
                 <Transition timeout={300} in={!this.state.content}>
                     {(state) => (
-                            <div style={{...defaultColor, ...transitionColor[state]}} className="title-black" onClick={this.toggleContent}>{this.title}</div>
+                        <div style={{...defaultColor, ...transitionColor[state]}} className="title-black"
+                             onClick={this.toggleContent}>{this.title}</div>
 
                     )}
                 </Transition>
@@ -74,8 +74,10 @@ class Fa extends Component{
                             Interactive web application for uploading an audio file with human speech and displaying the
                             corresponding lip movements on the provided avatar.
                             <br/>
-                            A neural network model is used to predict the sequence of phonemes which is then translated to
-                            visemes and mapped onto the avatar. The avatar was created in Blender and each viseme is treated
+                            A neural network model is used to predict the sequence of phonemes which is then translated
+                            to
+                            visemes and mapped onto the avatar. The avatar was created in Blender and each viseme is
+                            treated
                             as combinations of shape keyed facial configurations.
                         </div>
                         {/*<a href={"https://facialanimation.page"}>webpage</a>*/}

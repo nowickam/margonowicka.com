@@ -1,5 +1,5 @@
-.fa-container{
-    background: rgba(255,255,255,1);
+.fa-container {
+    background: rgba(255, 255, 255, 1);
     height: 100%;
     width: 100vw;
     z-index: 3;
@@ -10,38 +10,48 @@
     justify-content: space-around;
 }
 
-.image{
+.content-container {
+    height: fit-content;
+    width: 100vw;
+    display: block;
+    /*flex-direction: column;*/
+    /*align-items: center;*/
+    /*justify-content: space-between;*/
+    position: relative;
+}
+
+.image {
     width: 100vw;
     height: 100%;
     z-index: 4;
-    position:relative;
+    position: relative;
     top: 0px;
     /*overflow: hidden;*/
 }
 
-.image-hidden{
+.image-hidden {
     visibility: hidden;
     width: 100vw;
     height: 100%;
     z-index: 4;
-    position:relative;
+    position: relative;
     top: 0px;
     /*overflow: hidden;*/
 }
 
-.container{
+.container {
     /*position: relative;*/
     /*top: 0px;*/
 }
 
-.img-container{
+.img-container {
     position: relative;
     top: 0px;
     /*z-index: 6;*/
 }
 
-.fa-container-vert{
-    background: rgba(255,255,255,1);
+.fa-container-vert {
+    background: rgba(255, 255, 255, 1);
     height: 100%;
     width: 100vw;
     z-index: 5;
@@ -52,21 +62,21 @@
     justify-content: space-around;
 }
 
-.fa-container-vert-height-bio{
+.fa-container-vert-height-bio {
     position: absolute;
     top: 0px;
     height: 45%;
     /*height: calc(100% - 13vmax)*/
 }
 
-.fa-container-vert-height-ev{
+.fa-container-vert-height-ev {
     position: absolute;
     top: 0px;
     height: 40%;
     /*height: calc(100% - 13vmax)*/
 }
 
-.title-black{
+.title-black {
     font-size: 7.5vmax;
     position: absolute;
     bottom: 3vmax;
@@ -78,23 +88,23 @@
     z-index: 4;
 }
 
-.marg-right{
+.marg-right {
     margin-right: 2vmax;
 }
 
-.fa-video{
+.fa-video {
     width: 45vw;
 }
 
-.ll-video{
+.ll-video {
     width: 70vw;
 }
 
-.left-image{
+.left-image {
     width: 45vw;
 }
 
-.fa-left-container, .fa-right-container, .fa-upper-container{
+.fa-left-container, .fa-right-container, .fa-upper-container {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -110,7 +120,7 @@
 }
 
 
-.fa-lower-container{
+.fa-lower-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -118,22 +128,22 @@
     align-items: center;
 }
 
-.fa-text{
+.fa-text {
     font-size: 2vmax;
     text-align: justify;
 }
 
 
-.close{
+.close {
     font-size: 3vmax;
     cursor: pointer;
     text-align: right;
 }
 
-.block{
+.block {
     display: block
 }
 
-.margin{
+.margin {
     margin-right: 1vmax;
 }

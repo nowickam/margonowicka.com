@@ -1,11 +1,11 @@
 .App {
-  font-family: 'Roboto', sans-serif;
-  font-size: 3vmax;
-  display: block;
-  /*position: relative;*/
-  flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vmax;
+    display: block;
+    /*position: relative;*/
+    flex-direction: column;
 }
 
-.spacer{
-  height: 4vmax;
+.spacer {
+    height: 4vmax;
 }

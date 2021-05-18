@@ -1,7 +1,5 @@
-import {React, Component} from 'react';
-import ReactDOM from 'react-dom';
+import {Component, React} from 'react';
 import '../css/Home.css'
-import {css} from "@emotion/core";
 import DotLoader from "react-spinners/DotLoader";
 import {override} from '../App'
 
@@ -18,7 +16,7 @@ class Home extends Component {
     finishLoading = () => {
         this.setState({
             loading: false
-        }, () =>{
+        }, () => {
             this.showPage()
         })
 

@@ -1,20 +1,20 @@
-.about-container{
+.about-container {
     height: 99vmin;
     display: flex;
     flex-direction: row;
 }
 
-#video-about{
+#video-about {
     height: 100%;
 }
 
-.svg{
+.svg {
     width: 3vmax;
     height: 2.5vmax;
     margin: 0.5vmax;
 }
 
-.icon{
+.icon {
     display: flex;
     flex-direction: row;
 }
@@ -43,7 +43,7 @@ a:active {
     color: #4758FF;
 }
 
-.text-container{
+.text-container {
     margin-left: 2vmax;
     height: 100%;
     display: flex;
@@ -51,6 +51,6 @@ a:active {
     justify-content: space-around;
 }
 
-.text{
+.text {
     text-align: justify;
 }

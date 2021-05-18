@@ -1,9 +1,9 @@
-.home-container{
+.home-container {
     height: 100vmin;
     position: relative;
 }
 
-.name{
+.name {
     text-align: left;
     position: absolute;
     bottom: 0px;
@@ -12,20 +12,20 @@
     font-weight: bolder;
 }
 
-#video{
+#video {
     width: 82vmax;
     position: absolute;
     right: 0px;
 
 }
 
-.overlay-home{
+.overlay-home {
     height: 100%;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(255,255,255,1);
+    background: rgba(255, 255, 255, 1);
     z-index: 2;
     position: absolute;
     top: 0px;

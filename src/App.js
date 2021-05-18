@@ -62,7 +62,6 @@ class App extends Component {
             <div>
                 <div className="spacer"/>
                 <Fa id="fa" title="AUDIO-DRIVEN ANIMATION"/>
-
                 <Bio id="bio" title="ADAM AND EVE"/>
                 <Fp id="fp" title="FLOWER POWER"/>
                 <Ev id="ev" title="EMOTION VISUALIZER"/>

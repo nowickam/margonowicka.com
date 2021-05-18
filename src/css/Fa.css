@@ -164,3 +164,15 @@
 .margin {
     margin-right: 1vmax;
 }
+
+.overlay-content{
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255,255,255,1);
+    z-index: 10;
+    position: absolute;
+    top: 0px;
+}

@@ -28,9 +28,9 @@ class Ll extends Component {
         }
     }
 
-    showTitle = () => {
+    showPage = () => {
         this.setState({
-            title: true
+            loading: false
         })
     }
 
@@ -48,7 +48,7 @@ class Ll extends Component {
                 <Transition timeout={300} in={!this.state.content}>
                     {(state) => (
                         <img style={{...defaultStyle, ...transitionStyles[state]}} className="image"
-                             src={"/media/" + this.id + ".png"} onLoad={this.showTitle}/>
+                             src={"/media/" + this.id + ".png"} onLoad={this.showPage}/>
                     )}
                 </Transition>
 
@@ -82,9 +82,9 @@ class Ll extends Component {
 
             </div>
 
-            {this.state.loading && <div className="overlay-content">
-                <DotLoader color={"#4758FF"} loading={this.state.loading} css={override} size={`30vmax`}/>
-            </div>}
+            {/*{this.state.loading && <div className="overlay-content">*/}
+            {/*    <DotLoader color={"#4758FF"} loading={this.state.loading} css={override} size={`30vmax`}/>*/}
+            {/*</div>}*/}
 
         </div>
     }

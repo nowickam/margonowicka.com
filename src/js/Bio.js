@@ -84,9 +84,9 @@ class Bio extends Component {
 
             </div>
 
-            {this.state.loading && <div className="overlay-content">
-                <DotLoader color={"#4758FF"} loading={this.state.loading} css={override} size={`30vmax`}/>
-            </div>}
+            {/*{this.state.loading && <div className="overlay-content">*/}
+            {/*    <DotLoader color={"#4758FF"} loading={this.state.loading} css={override} size={`30vmax`}/>*/}
+            {/*</div>}*/}
 
         </div>
     }

@@ -7,6 +7,7 @@ import Fa from './js/Fa.js'
 import Fm from './js/Fm.js'
 import Ll from './js/Ll.js'
 import Ev from './js/Ev.js'
+import Fp from './js/Fp.js'
 import {css} from "@emotion/core";
 import Bio from "./js/Bio";
 
@@ -61,7 +62,9 @@ class App extends Component {
             <div>
                 <div className="spacer"/>
                 <Fa id="fa" title="AUDIO-DRIVEN ANIMATION"/>
+
                 <Bio id="bio" title="ADAM AND EVE"/>
+                <Fp id="fp" title="FLOWER POWER"/>
                 <Ev id="ev" title="EMOTION VISUALIZER"/>
                 <Fm id="fm" title="FACE MIRROR"/>
                 <Ll id="ll" title="LUNAR LANDER"/>

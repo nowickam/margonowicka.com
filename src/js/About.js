@@ -11,13 +11,14 @@ class About extends Component {
         return <div id={this.id} className="about-container">
             <div className="text-container">
                 <div className="text">
-                    Hi! My name is <b>Małgorzata Nowicka</b>.
+                    Hi! My name is <b>Małgorzata Nowicka</b>.<br/>
                     I completed a BSc degree in Computer Science at the Warsaw University of Technology.
                     <br/>
                     My interests revolve around <b>bridging my technical education and a passion for digital art</b>.
                     I do that by incorporating 3D modeling, animation, generative coding, data visualization into
-                    my software and machine learning projects.
+                    my software and machine learning projects.<br/>
                 </div>
+
                 <div className="icon-container">
                     <b>Contact me:</b>
                     <div className="icon">

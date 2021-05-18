@@ -19,9 +19,9 @@
     flex-direction: row;
 }
 
-/*.icon-container{*/
-/*    padding-bottom: 10px;*/
-/*}*/
+.icon-container{
+    font-size: 2.5vmax;
+}
 
 a:link {
     text-decoration: none;

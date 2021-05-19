@@ -7,6 +7,8 @@ import {
 } from "react-router-dom";
 import Main from './js/Main'
 import FpMore from './js/FpMore'
+import BioMore from './js/BioMore'
+import ScrollToTop from './js/ScrollToTop'
 import {css} from "@emotion/core";
 
 
@@ -47,14 +49,19 @@ class App extends Component {
     render() {
         return <div className="App">
             <BrowserRouter>
+                <ScrollToTop>
                 <Switch>
-                    <Route path="/fp-more">
+                    <Route path="/reclaimed">
                         <FpMore/>
+                    </Route>
+                    <Route path="/adam-and-eve">
+                        <BioMore/>
                     </Route>
                     <Route path="/">
                         <Main/>
                     </Route>
                 </Switch>
+                </ScrollToTop>
             </BrowserRouter>
         </div>
     }

@@ -74,7 +74,7 @@ class Fp extends Component {
                             {/*<a href={"https://vimeo.com/551378238"}>left video</a>*/}
                             {/*<br/>*/}
                             {/*<a href={"https://vimeo.com/551378285"}>right video</a>*/}
-                            <Link to="/fp-more">learn more</Link>
+                            <Link className="link" to="/reclaimed">learn more</Link>
                         </div>
                         <video className="fp-video marg-right" controls src={"/media/fp1.mp4"} type={"video/mp4"}
                                onLoadedData={this.finishLoading}>Sorry

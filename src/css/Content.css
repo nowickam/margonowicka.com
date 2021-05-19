@@ -39,9 +39,12 @@
     /*overflow: hidden;*/
 }
 
-.container {
-    /*position: relative;*/
-    /*top: 0px;*/
+.container-more {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2vmax;
 }
 
 .img-container {
@@ -66,6 +69,7 @@
     position: absolute;
     top: 0px;
     height: 45%;
+    width: 95%;
     /*height: calc(100% - 13vmax)*/
 }
 
@@ -92,6 +96,10 @@
     margin-right: 2vmax;
 }
 
+.marg-top {
+    margin-top: 2vmax;
+}
+
 .fa-video {
     width: 45vw;
 }
@@ -108,6 +116,14 @@
     width: 45vw;
 }
 
+.bio-image {
+    width: 40vw;
+}
+
+.bio-video{
+    width: 65%;
+}
+
 .fa-left-container, .fa-right-container, .fa-upper-container {
     display: flex;
     flex-direction: column;
@@ -120,7 +136,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 2vmax;
+    /*padding: 2vmax;*/
 }
 
 
@@ -128,7 +144,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 2vmax;
+    padding: 1vmax;
     align-items: center;
 }
 
@@ -146,6 +162,13 @@
     font-size: 2vmax;
     text-align: justify;
     padding: 1vmax;
+}
+
+.bio-text{
+    font-size: 1.7vmax;
+    text-align: justify;
+    width: 65%;
+    line-height: 1.25;
 }
 
 .fa-text {
@@ -178,4 +201,18 @@
     z-index: 10;
     position: absolute;
     top: 0px;
+}
+
+.link{
+    font-size: 3vmax;
+}
+
+.left{
+    position: absolute;
+    left: 1vmax;
+    top: 1vmax;
+}
+
+.small{
+    font-size: 1vmax;
 }

@@ -3,6 +3,7 @@ import {Transition} from "react-transition-group";
 import '../css/Content.css'
 import DotLoader from "react-spinners/DotLoader";
 import {defaultColor, defaultStyle, override, transitionColor, transitionStyles} from "../App";
+import {Link} from "react-router-dom";
 
 class Bio extends Component {
     constructor(props) {
@@ -62,22 +63,15 @@ class Bio extends Component {
                 </Transition>
 
                 <div className="fa-container">
-                    {/*<div className="fa-title" onClick={this.close}>{this.props.title}</div>*/}
                     <div className="fa-container-vert-height-bio">
                         <div className="fa-lower-container">
-                            {/*<video className="ll-video" autoPlay loop muted src={"/media/ll.mp4"} type={"video/mp4"}>Sorry</video>*/}
                             <img className="left-image" src={"/media/bio1.png"} onLoad={this.finishLoading}/>
                             <img className="left-image" src={"/media/bio2.png"}/>
                         </div>
-                        <div className="fa-upper-container">
                             <div className="fa-text">
-                                A trailer to an interactive project on the biodiversity eradication issue. The animation
-                                is done in Blender with the use of Biodiversity Heritage Library image collection.
+                                An animation touching on the biodiversity eradication issue.
                             </div>
-                            <a href={"https://vimeo.com/manage/videos/518251014"}>video</a>
-
-                            {/*<a className="close" onClick={this.close}>close</a>*/}
-                        </div>
+                        <Link to="/adam-and-eve">learn more</Link>
                     </div>
 
                 </div>

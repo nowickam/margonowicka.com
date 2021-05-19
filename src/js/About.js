@@ -23,11 +23,11 @@ class About extends Component {
                     <b>Contact me:</b>
                     <div className="icon">
                         <img className="svg" src="/github.svg"/>
-                        <a href={"https://github.com/nowickam"}>github.com/nowickam</a>
+                        <a href={"https://github.com/nowickam"} target="_blank">github.com/nowickam</a>
                     </div>
                     <div className="icon">
                         <img className="svg" src="/linkedin.svg"/>
-                        <a href={"https://linkedin.com/in/malgorzata-nowicka"}>linkedin.com/in/malgorzata-nowicka</a>
+                        <a href={"https://linkedin.com/in/malgorzata-nowicka"} target="_blank">linkedin.com/in/malgorzata-nowicka</a>
                     </div>
                     <div className="icon">
                         <img className="svg" src="/gmail.svg"/>
@@ -35,10 +35,14 @@ class About extends Component {
                     </div>
                     <div className="icon">
                         <img className="svg" src="/vimeo.svg"/>
-                        <a href={"https://vimeo.com/user134790193"}>vimeo.com/user134790193</a>
+                        <a href={"https://vimeo.com/user134790193"} target="_blank">vimeo.com/user134790193</a>
                     </div>
+                    <footer>&copy; Copyright 2020-2021, Małgorzata Nowicka</footer>
                 </div>
+
+
             </div>
+
             <video id="video-about" autoPlay loop muted src={"/media/mballs_vertical_crop.mp4"}
                    type={"video/mp4"}>Sorry
             </video>

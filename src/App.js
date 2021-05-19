@@ -1,15 +1,14 @@
 import {Component, React} from 'react';
 import './App.css';
-import Home from './js/Home.js'
-import About from './js/About.js'
-import Menu from './js/Menu.js'
-import Fa from './js/Fa.js'
-import Fm from './js/Fm.js'
-import Ll from './js/Ll.js'
-import Ev from './js/Ev.js'
-import Fp from './js/Fp.js'
+import {
+    BrowserRouter,
+    Switch,
+    Route
+} from "react-router-dom";
+import Main from './js/Main'
+import FpMore from './js/FpMore'
 import {css} from "@emotion/core";
-import Bio from "./js/Bio";
+
 
 
 export const defaultStyle = {
@@ -43,36 +42,23 @@ export const override = css`
 class App extends Component {
     constructor(props) {
         super();
-        this.state = {
-            show: false
-        }
-    }
-
-    showPage = () => {
-        this.setState({
-            show: true
-        })
     }
 
     render() {
         return <div className="App">
-            {this.state.show && <Menu/>}
-            <Home id="home" showPage={this.showPage}/>
-            {this.state.show &&
-            <div>
-                <div className="spacer"/>
-                <Fa id="fa" title="AUDIO-DRIVEN ANIMATION"/>
-                <Bio id="bio" title="ADAM AND EVE"/>
-                <Fp id="fp" title="FLOWER POWER"/>
-                <Ev id="ev" title="EMOTION VISUALIZER"/>
-                <Fm id="fm" title="FACE MIRROR"/>
-                <Ll id="ll" title="LUNAR LANDER"/>
-                <div className="spacer"/>
-                <About id="about"/>
-            </div>
-            }
+            <BrowserRouter>
+                <Switch>
+                    <Route path="/fp-more">
+                        <FpMore/>
+                    </Route>
+                    <Route path="/">
+                        <Main/>
+                    </Route>
+                </Switch>
+            </BrowserRouter>
         </div>
     }
 }
+
 
 export default App;

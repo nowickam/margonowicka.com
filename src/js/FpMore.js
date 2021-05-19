@@ -1,14 +1,12 @@
 import {Component, React} from 'react';
 import '../css/Content.css'
 import DotLoader from "react-spinners/DotLoader";
-import {
-    Link
-} from "react-router-dom";
 import {defaultColor, defaultStyle, override, transitionColor, transitionStyles} from '../App'
 import {Transition} from "react-transition-group";
+import {Link} from "react-router-dom";
 
 
-class Fp extends Component {
+class FpMore extends Component {
     constructor(props) {
         super();
         this.id = props.id
@@ -49,32 +47,14 @@ class Fp extends Component {
     render() {
         return <div id={this.id} className="container">
             <div className="img-container">
-                <Transition timeout={300} in={!this.state.content}>
-                    {(state) => (
-                        <img style={{...defaultStyle, ...transitionStyles[state]}} className="image"
-                             src={"/media/" + this.id + ".png"} onLoad={this.showPage}/>
-                    )}
-                </Transition>
-
-                <Transition timeout={300} in={!this.state.content}>
-                    {(state) => (
-                        <div style={{...defaultColor, ...transitionColor[state]}} className="title-black"
-                             onClick={this.toggleContent}>{this.title}</div>
-
-                    )}
-                </Transition>
 
                 <div className="fa-container">
-                    {/*<div className="fa-title" onClick={this.close}>{this.props.title}</div>*/}
+                    <Link to="/">back</Link>
                     <div className="fp-container">
                         <div className="fp-text">
-                            VFX project in the need of seeing Warsaw a bit more green and wild.
+                            Wait for it!
                             <br/>
                             <br/>
-                            {/*<a href={"https://vimeo.com/551378238"}>left video</a>*/}
-                            {/*<br/>*/}
-                            {/*<a href={"https://vimeo.com/551378285"}>right video</a>*/}
-                            <Link to="/fp-more">learn more</Link>
                         </div>
                         <video className="fp-video marg-right" controls src={"/media/fp1.mp4"} type={"video/mp4"}
                                onLoadedData={this.finishLoading}>Sorry
@@ -96,4 +76,4 @@ class Fp extends Component {
     }
 }
 
-export default Fp;
+export default FpMore;

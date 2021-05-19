@@ -1,5 +1,5 @@
 import {Component, React} from 'react';
-import '../css/Fa.css'
+import '../css/Content.css'
 import DotLoader from "react-spinners/DotLoader";
 import {defaultColor, defaultStyle, override, transitionColor, transitionStyles} from '../App'
 import {Transition} from "react-transition-group";

@@ -143,6 +143,9 @@
 
 .fp-text{
     flex-grow: 2;
+    font-size: 2vmax;
+    text-align: justify;
+    padding: 1vmax;
 }
 
 .fa-text {

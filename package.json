@@ -40,5 +40,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://margonowicka.com"
+  "homepage": "https://margonowicka.com",
+  "devDependencies": {
+    "react-router-dom": "^5.2.0"
+  }
 }

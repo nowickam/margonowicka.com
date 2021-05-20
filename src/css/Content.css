@@ -121,7 +121,7 @@
 }
 
 .bio-video{
-    width: 65%;
+    width: 55%;
 }
 
 .fa-left-container, .fa-right-container, .fa-upper-container {
@@ -165,10 +165,11 @@
 }
 
 .bio-text{
-    font-size: 1.7vmax;
+    font-size: 1.5vmax;
     text-align: justify;
-    width: 65%;
+    width: 55%;
     line-height: 1.25;
+    position: relative;
 }
 
 .fa-text {
@@ -214,5 +215,39 @@
 }
 
 .small{
-    font-size: 1vmax;
+    font-size: 0.8vmax;
+}
+
+.bio-text-narrow{
+    /*width: 90%;*/
+}
+
+.bio-text-narrow2{
+    /*width: 90%;*/
+    margin-left: auto;
+}
+
+.bio-text-img1{
+    position: absolute;
+    right: -55%;
+    top: 0%;
+    width: 50%;
+}
+
+.bio-text-img2{
+    position: absolute;
+    bottom: 10%;
+    left: -55%;
+    width: 50%;
+}
+
+.bio-text-img3{
+    position: absolute;
+    bottom: -50%;
+    right: -55%;
+    width: 50%;
+}
+
+.fp-image{
+    height: 80%
 }

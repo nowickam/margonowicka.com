@@ -45,32 +45,20 @@ class FpMore extends Component {
 
 
     render() {
-        return <div id={this.id} className="container">
-            <div className="img-container">
-
-                <div className="fa-container">
-                    <Link to="/">back</Link>
-                    <div className="fp-container">
-                        <div className="fp-text">
-                            Wait for it!
-                            <br/>
-                            <br/>
-                        </div>
-                        <video className="fp-video marg-right" controls src={"/media/fp1.mp4"} type={"video/mp4"}
-                               onLoadedData={this.finishLoading}>Sorry
-                        </video>
-                        <video className="fp-video marg-right" controls src={"/media/fp2.mp4"} type={"video/mp4"}
-                               onLoadedData={this.finishLoading}>Sorry
-                        </video>
-                    </div>
-
-                </div>
-
+        return <div id={this.id} className="container-more">
+                    <Link className="link left" to="/">back</Link>
+            <div className="marg-top">Reclaimed</div>
+            <div className="bio-text">
+                Soon!
+                <br/>
+                <br/>
             </div>
-
-            {/*{this.state.loading && <div className="overlay-content">*/}
-            {/*    <DotLoader color={"#4758FF"} loading={this.state.loading} css={override} size={`30vmax`}/>*/}
-            {/*</div>}*/}
+                        {/*<video className="fp-video marg-right" controls src={"/media/fp1.mp4"} type={"video/mp4"}*/}
+                        {/*       onLoadedData={this.finishLoading}>Sorry*/}
+                        {/*</video>*/}
+                        {/*<video className="fp-video marg-right" controls src={"/media/fp2.mp4"} type={"video/mp4"}*/}
+                        {/*       onLoadedData={this.finishLoading}>Sorry*/}
+                        {/*</video>*/}
 
         </div>
     }

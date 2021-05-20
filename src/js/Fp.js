@@ -67,7 +67,7 @@ class Fp extends Component {
                 <div className="fa-container">
                     {/*<div className="fa-title" onClick={this.close}>{this.props.title}</div>*/}
                     <div className="fp-container">
-                        <div className="fp-text">
+                        <div className="fp-text marg-right">
                             VFX project in the need of seeing Warsaw a bit more green and wild.
                             <br/>
                             <br/>
@@ -76,12 +76,8 @@ class Fp extends Component {
                             {/*<a href={"https://vimeo.com/551378285"}>right video</a>*/}
                             <Link className="link" to="/reclaimed">learn more</Link>
                         </div>
-                        <video className="fp-video marg-right" controls src={"/media/fp1.mp4"} type={"video/mp4"}
-                               onLoadedData={this.finishLoading}>Sorry
-                        </video>
-                        <video className="fp-video marg-right" controls src={"/media/fp2.mp4"} type={"video/mp4"}
-                               onLoadedData={this.finishLoading}>Sorry
-                        </video>
+                        <img className="fp-image marg-right" src={"/media/inter2.png"}/>
+                        <img className="fp-image marg-right" src={"/media/inter1.png"}/>
                     </div>
 
                 </div>

@@ -10,6 +10,7 @@ import Ev from './Ev.js'
 import Fp from './Fp.js'
 import {css} from "@emotion/core";
 import Bio from "./Bio";
+import DotLoader from "react-spinners/DotLoader";
 
 
 export const defaultStyle = {
@@ -44,33 +45,47 @@ class Main extends Component {
     constructor(props) {
         super();
         this.state = {
-            show: false
+            loading: true,
+            children: 8,
+            childrenLoaded: 0
         }
     }
 
     showPage = () => {
         this.setState({
-            show: true
+            loading: true
+        })
+    }
+
+    childLoaded = () => {
+        this.setState({
+            childrenLoaded: this.state.childrenLoaded + 1
+        }, () => {
+            if(this.state.childrenLoaded === this.state.children)
+                this.setState({
+                    loading: false
+                })
         })
     }
 
     render() {
         return <div className="App">
-            {this.state.show && <Menu/>}
-            <Home id="home" showPage={this.showPage}/>
-            {this.state.show &&
-            <div>
+            {this.state.loading && <div className="overlay-home">
+                <DotLoader color={"#4758FF"} loading={this.state.loading} css={override} size={`30vmax`}/>
+            </div>}
+            <div style={{display: this.state.loading ? "none" : "block"}}>
+                <Menu/>
+                <Home id="home" onChildLoad={this.childLoaded} loading={this.state.loading}/>
                 <div className="spacer"/>
-                <Fa id="fa" title="AUDIO-DRIVEN SPEECH"/>
-                <Bio id="bio" title="ADAM AND EVE"/>
-                <Fp id="fp" title="RECLAIMED"/>
-                <Ev id="ev" title="EMOTION VISUALIZER"/>
-                <Fm id="fm" title="FACE MIRROR"/>
-                <Ll id="ll" title="LUNAR LANDER"/>
+                <Fa id="fa" title="AUDIO-DRIVEN SPEECH" onChildLoad={this.childLoaded} loading={this.state.loading}/>
+                <Bio id="bio" title="ADAM AND EVE" onChildLoad={this.childLoaded} loading={this.state.loading}/>
+                <Fp id="fp" title="APOCALYPSE NOW" onChildLoad={this.childLoaded} loading={this.state.loading}/>
+                <Ev id="ev" title="EMOTION VISUALIZER" onChildLoad={this.childLoaded} loading={this.state.loading}/>
+                <Fm id="fm" title="FACE MIRROR" onChildLoad={this.childLoaded} loading={this.state.loading}/>
+                <Ll id="ll" title="LUNAR LANDER" onChildLoad={this.childLoaded} loading={this.state.loading}/>
                 <div className="spacer"/>
-                <About id="about"/>
+                <About id="about" onChildLoad={this.childLoaded} loading={this.state.loading}/>
             </div>
-            }
         </div>
     }
 }

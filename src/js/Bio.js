@@ -50,7 +50,7 @@ class Bio extends Component {
                 <Transition timeout={300} in={!this.state.content}>
                     {(state) => (
                         <img style={{...defaultStyle, ...transitionStyles[state]}} className="image"
-                             src={"/media/" + this.id + ".png"} onLoad={this.showTitle}/>
+                             src={"/media/" + this.id + ".png"} onLoad={this.props.onChildLoad}/>
                     )}
                 </Transition>
 
@@ -65,7 +65,7 @@ class Bio extends Component {
                 <div className="fa-container">
                     <div className="fa-container-vert-height-bio">
                         <div className="fa-lower-container">
-                            <img className="left-image" src={"/media/bio1.png"} onLoad={this.finishLoading}/>
+                            <img className="left-image" src={"/media/bio1.png"}/>
                             <img className="left-image" src={"/media/bio2.png"}/>
                         </div>
                             <div className="fa-text">
@@ -77,10 +77,6 @@ class Bio extends Component {
                 </div>
 
             </div>
-
-            {/*{this.state.loading && <div className="overlay-content">*/}
-            {/*    <DotLoader color={"#4758FF"} loading={this.state.loading} css={override} size={`30vmax`}/>*/}
-            {/*</div>}*/}
 
         </div>
     }

@@ -48,7 +48,7 @@ class Fm extends Component {
                 <Transition timeout={300} in={!this.state.content}>
                     {(state) => (
                         <img style={{...defaultStyle, ...transitionStyles[state]}} className="image"
-                             src={"/media/" + this.id + ".png"} onLoad={this.showTitle}/>
+                             src={"/media/" + this.id + ".png"} onLoad={this.props.onChildLoad}/>
                     )}
                 </Transition>
 
@@ -64,7 +64,7 @@ class Fm extends Component {
                     {/*<div className="fa-title" onClick={this.close}>{this.props.title}</div>*/}
                     <div className="fa-left-container">
                         <video className="fa-video" controls src={"/media/fm.mp4"} type={"video/mp4"}
-                               onLoadedData={this.finishLoading}>Sorry
+                               >Sorry
                         </video>
                         <div className="fa-text">
                             A web application aimed at displaying a graphical interpretation of the movement of face.
@@ -76,17 +76,11 @@ class Fm extends Component {
                     </div>
                     <div className="fa-right-container">
                         <img className="left-image" src={"/media/fm2.png"}/>
-
-                        {/*<a className="close" onClick={this.close}>close</a>*/}
                     </div>
 
                 </div>
 
             </div>
-
-            {/*{this.state.loading && <div className="overlay-content">*/}
-            {/*    <DotLoader color={"#4758FF"} loading={this.state.loading} css={override} size={`30vmax`}/>*/}
-            {/*</div>}*/}
 
         </div>
     }

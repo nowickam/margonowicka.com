@@ -48,7 +48,7 @@ class Ev extends Component {
                 <Transition timeout={300} in={!this.state.content}>
                     {(state) => (
                         <img style={{...defaultStyle, ...transitionStyles[state]}} className="image"
-                             src={"/media/" + this.id + ".png"} onLoad={this.showPage}/>
+                             src={"/media/" + this.id + ".png"} onLoad={this.props.onChildLoad}/>
                     )}
                 </Transition>
 
@@ -74,7 +74,7 @@ class Ev extends Component {
                         </div>
                         <div className="fa-lower-container">
                             <video className="fa-video" controls src={"/media/ev.mp4"} type={"video/mp4"}
-                                   onLoadedData={this.finishLoading}>Sorry
+                                   >Sorry
                             </video>
                             <img className="left-image" src={"/media/ev2.png"}/>
                         </div>
@@ -84,10 +84,6 @@ class Ev extends Component {
                 </div>
 
             </div>
-
-            {/*{this.state.loading && <div className="overlay-content">*/}
-            {/*    <DotLoader color={"#4758FF"} loading={this.state.loading} css={override} size={`30vmax`}/>*/}
-            {/*</div>}*/}
 
         </div>
     }

@@ -48,7 +48,7 @@ class Ll extends Component {
                 <Transition timeout={300} in={!this.state.content}>
                     {(state) => (
                         <img style={{...defaultStyle, ...transitionStyles[state]}} className="image"
-                             src={"/media/" + this.id + ".png"} onLoad={this.showPage}/>
+                             src={"/media/" + this.id + ".png"} onLoad={this.props.onChildLoad}/>
                     )}
                 </Transition>
 
@@ -64,7 +64,7 @@ class Ll extends Component {
                     {/*<div className="fa-title" onClick={this.close}>{this.props.title}</div>*/}
                     <div className="fa-left-container">
                         <video className="ll-video" controls src={"/media/ll.mp4"} type={"video/mp4"}
-                               onLoadedData={this.finishLoading}>Sorry
+                               >Sorry
                         </video>
 
                     </div>
@@ -75,16 +75,12 @@ class Ll extends Component {
                         </div>
                         <a href={"https://github.com/nowickam/lunar-lander-3d"}>github</a>
 
-                        {/*<a className="close" onClick={this.close}>close</a>*/}
                     </div>
 
                 </div>
 
             </div>
 
-            {/*{this.state.loading && <div className="overlay-content">*/}
-            {/*    <DotLoader color={"#4758FF"} loading={this.state.loading} css={override} size={`30vmax`}/>*/}
-            {/*</div>}*/}
 
         </div>
     }

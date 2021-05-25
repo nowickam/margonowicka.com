@@ -11,7 +11,7 @@ class About extends Component {
         return <div id={this.id} className="about-container">
             <div className="text-container">
                 <div className="text">
-                    Hi! My name is <b>Margo</b>.<br/>
+                    Hi! I'm <b>Margo</b>.<br/>
                     I completed a BSc degree in Computer Science at the Warsaw University of Technology.
                     <br/>
                     My interests revolve around <b>bridging my technical education and a passion for digital art</b>.
@@ -44,7 +44,7 @@ class About extends Component {
             </div>
 
             <video id="video-about" autoPlay loop muted src={"/media/mballs_vertical_crop.mp4"}
-                   type={"video/mp4"}>Sorry
+                   type={"video/mp4"} onLoadedData={this.props.onChildLoad}>Sorry
             </video>
         </div>
     }

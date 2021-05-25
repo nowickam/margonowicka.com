@@ -52,7 +52,7 @@ class Fp extends Component {
                 <Transition timeout={300} in={!this.state.content}>
                     {(state) => (
                         <img style={{...defaultStyle, ...transitionStyles[state]}} className="image"
-                             src={"/media/" + this.id + ".png"} onLoad={this.showPage}/>
+                             src={"/media/" + this.id + ".png"} onLoad={this.props.onChildLoad}/>
                     )}
                 </Transition>
 

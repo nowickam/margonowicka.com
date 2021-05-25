@@ -49,7 +49,7 @@ class Fa extends Component {
                 <Transition timeout={300} in={!this.state.content}>
                     {(state) => (
                         <img style={{...defaultStyle, ...transitionStyles[state]}} className="image"
-                             src={"/media/" + this.id + ".png"} onLoad={this.showPage}/>
+                             src={"/media/" + this.id + ".png"} onLoad={this.props.onChildLoad}/>
                     )}
                 </Transition>
 
@@ -65,7 +65,7 @@ class Fa extends Component {
                     {/*<div className="fa-title" onClick={this.close}>{this.props.title}</div>*/}
                     <div className="fa-left-container">
                         <video className="fa-video" controls src={"/media/fa.mp4"} type={"video/mp4"}
-                               onLoadedData={this.finishLoading}>Sorry
+                               >Sorry
                         </video>
                         <img className="left-image" src={"/media/fa1.png"}/>
                     </div>

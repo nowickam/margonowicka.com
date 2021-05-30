@@ -1,9 +1,12 @@
 import {Component, React} from 'react';
 import '../css/Menu.css'
+import { polyfill } from "seamless-scroll-polyfill";
+
 
 class Menu extends Component {
     constructor() {
         super();
+        polyfill();
     }
 
     scroll = (id) => {

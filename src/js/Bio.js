@@ -73,7 +73,6 @@ class Bio extends Component {
                             </div>
                         <Link to="/adam-and-eve">learn more</Link>
                     </div>
-
                 </div>
 
             </div>

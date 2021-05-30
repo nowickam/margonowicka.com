@@ -129,11 +129,12 @@
     top: 0%;
     right: -10%;
     /*width: 40%;*/
-    height:162%
+    height:162%;
 }
 
 .left-image {
     width: 45vw;
+    max-height: 100%;
 }
 
 .bio-image {
@@ -149,7 +150,8 @@
     flex-direction: column;
     justify-content: space-evenly;
     padding: 2vmax;
-    height: calc(100% - 13vmax)
+    height: calc(100% - 13vmax);
+    max-height: 100%;
 }
 
 .fa-upper-container {
@@ -213,6 +215,7 @@
 .fa-text {
     font-size: 2vmax;
     text-align: justify;
+    overflow: scroll;
 }
 
 
@@ -296,4 +299,32 @@
 
 .marg-right-auto{
     margin-right: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .title-black{
+        font-size: 5vmax;
+    }
+
+    .bio-text, .fp-text-more{
+        font-size: 1vmax;
+    }
+
+    .fa-text, .fp-text{
+        font-size: 1.5vmax;
+    }
+
+    .fa-container-vert-height-ev{
+        height: 60%;
+    }
+
+    .link{
+        font-size: 1.5vmax;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .title-black{
+        font-size: 3vmax;
+    }
 }

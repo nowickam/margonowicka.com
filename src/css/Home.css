@@ -1,6 +1,7 @@
 .home-container {
     height: 100vmin;
     position: relative;
+    width: 100%;
 }
 
 .name {
@@ -13,10 +14,13 @@
 }
 
 #video {
-    width: 82vmax;
+    width: 90vw;
     position: absolute;
+    top:0px;
     right: 0px;
-
+    /*float: right;*/
+    overflow: hidden;
+    /*border: 1px solid black;*/
 }
 
 .overlay-home {

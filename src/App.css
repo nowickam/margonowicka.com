@@ -4,8 +4,20 @@
     display: flex;
     /*position: relative;*/
     flex-direction: column;
+
 }
 
 .spacer {
     height: 4vmax;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 600px) {
+    .App{
+        font-size: 2vmax;
+    }
 }

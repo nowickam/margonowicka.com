@@ -1,0 +1,86 @@
+.container {
+  /* display: grid;
+  grid-template-columns: 10vw auto auto;
+  grid-template-rows: auto;
+  column-gap: 1vw;
+  row-gap: 1vh; */
+  display: flex;
+  flex-direction: row;
+  margin-left: 1.5vmax;
+  margin-bottom: 1.5vmax;
+  margin-top: 0.5vmax;
+}
+
+.title {
+  font-size: 1.2vmax;
+}
+
+.titleActive {
+  font-size: 1.2vmax;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 0.75vmax;
+}
+
+.thumbnailContainer {
+  cursor: pointer;
+  margin-bottom: 1.5vmax;
+}
+
+.thumbnailContainerActive {
+  color: gray;
+  cursor: pointer;
+  margin-bottom: 1.5vmax;
+}
+
+/* WORK DETAILS PAGE */
+
+.overflow {
+  overflow: auto;
+}
+.workMainContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  height: 100px;
+  margin: 2vmax;
+  padding-left: 2vmax;
+  margin-top: 0vmax;
+}
+
+.workImgMain {
+  grid-column: 1 / span 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2vmax;
+}
+
+.workText {
+  font-size: 1.2vmax;
+  text-align: justify;
+  padding-top: 1vmax;
+}
+
+.workTextContainer {
+  grid-column: 1;
+  margin-right: 2vmax;
+}
+
+.workImgContainer {
+  grid-column: 2;
+}
+
+.workParagraph {
+  padding: 1vmax;
+}
+
+.workLinks {
+  text-decoration: underline;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2vmax;
+  padding: 1vmax;
+}

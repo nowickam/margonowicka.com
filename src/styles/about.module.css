@@ -1,0 +1,17 @@
+.description {
+  grid-column: 1;
+  grid-row: 1;
+  margin-left: 2vmax;
+  margin-top: 1vmax;
+  width: 50vmax;
+  text-align: justify;
+  font-size: 1.2vmax;
+}
+
+.workLinks {
+  text-decoration: underline;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2vmax;
+  margin: 2vmax;
+}

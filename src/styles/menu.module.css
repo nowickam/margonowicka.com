@@ -1,0 +1,55 @@
+/* #menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 2vmax;
+  text-align: left;
+  z-index: 1;
+  /* margin: 1vmax; 
+  display: inline-flex;
+} */
+
+#menu {
+  grid-column: 1;
+  grid-row: 1;
+  font-size: 2vmax;
+  /* text-align: left; */
+  z-index: 1;
+  display: inline-flex;
+  /* margin: 1vmax; */
+  /* display: inline-flex; */
+  margin-left: 1vmax;
+  /* margin-top: 1vmax; */
+}
+
+.link {
+  cursor: pointer;
+  margin-right: 1vmax;
+}
+
+.link:hover {
+  color: gray;
+}
+
+.linkActive {
+  composes: link;
+  font-weight: bold;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.linkWhite {
+  composes: link;
+  color: white;
+}
+
+.linkBlack {
+  composes: link;
+  color: black;
+}

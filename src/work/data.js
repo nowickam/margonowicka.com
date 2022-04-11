@@ -21,7 +21,7 @@ export const data = [
 
     },
     {
-        title: "What is in the shell",
+        title: "In the shell",
         img: "/thumbnails/wiits.png",
         text: [
             "It was a long time ago, when my mum who told me that the seashells remember the ocean. With a childish response, I listened and listened to the hum of the moving water, crushing of the waves enclosed in this cavity. I wonder, what the shell would remember now, with the expansion of human environment, dooming overpopulation - cacophony of yells and sounds.",
@@ -60,7 +60,9 @@ export const data = [
             "img": "/media/slime1.png"
         },
         media: {
-            "img": "/media/malachite1.png"
+            "img": "/media/slime2.png",
+            "img": "/media/malachite1.png",
+            "img": "/media/malachite2.png"
         },
         description: "generative coding"
 

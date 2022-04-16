@@ -21,12 +21,12 @@ export const data = [
 
     },
     {
-        title: "In the shell",
+        title: "In the Shell",
         img: "/thumbnails/wiits.png",
         text: [
-            "It was a long time ago, when my mum who told me that the seashells remember the ocean. With a childish response, I listened and listened to the hum of the moving water, crushing of the waves enclosed in this cavity. I wonder, what the shell would remember now, with the expansion of human environment, dooming overpopulation - cacophony of yells and sounds.",
-            "It was a month ago that I finally learned what the noise in the seashell actually is. Stripped of another myth that it is the sound of blood coursing through my body, I found out that the shell resonates the surrounding ambient sound. This renders a dimension that is more personal - how do I go from a quiet childhood, spent in the serenity of my imagination, to a world that wants me to react to every relationship problem, solve every economic crisis, mourn every coronavirus death.",
-            "It is now that I am putting myself in a shell. Shielding myself from anxiety and fear springing from the interaction with it. Not laughing, not responding to texts, not initiating any meetups, I bury myself in the depths of the shell. Hoping someone notices, reaches into these depths? ",
+            "It was a long time ago, when my mum who told me that the seashells remember the ocean. With a childish response, I listened and listened to the hum of the moving water, crushing of the waves enclosed in this cavity. Mum's protective narrative bubble burst, unveiling a world that wants me to enjoy its chaos and mourn its entropy.",
+            "It was a month ago that I finally learned what the noise in the seashell actually is. Stripped of another myth that it is the sound of blood coursing through my body, I found out that the shell resonates the surrounding ambient sound. Having rendered my own pulse onto the world, I realize it is not about me, I was deceived by my own bias",
+            "It is now that I am frantically putting myself back in the shell. Shielding myself from anxiety and fear springing from the interaction with the cacophony of yells and cries. I don't speak, laugh, respond to texts, invite to my home, I bury myself in the depths of the shell and slowly fossilize to become a part of it.",
             "This project comprises of two seashells that one can listen to. The first seashell synthesizes underwater ocean ambient sounds depending on the shell’s tilt. The second seashell streams several distorted radio channels. So the two seashells contrapose each other in a fight for the imprint in the collective memory; and at the same time represent a progression, going outwards, from tranquility to overwhelm."
         ],
         links: {
@@ -47,10 +47,29 @@ export const data = [
 
     },
     {
+        title: "Marginal Recollections",
+        img: "/thumbnails/shell.png",
+        text: [
+            "Marginal Recollections is an interactive spatial-audiovisual installation designed by Nuvisko collective of Aalto New Media Students. As participants approach the work their presence becomes visible and their silhouette can play with the rippled surface. Participants’ movements also trigger subtle changes in the audio soundscape. "
+        ],
+        links: {
+
+        },
+        mainMedia: {
+            "video": "/media/marep1.mp4"
+        },
+        media: {
+            "video1": "/media/marep2.mp4",
+            "video2": "/media/marep3.mp4",
+            "video3": "/media/marep4.mp4",
+        },
+        description: "interactive installation, touchdesigner"
+    },
+    {
         title: "Imperfections",
         img: "/thumbnails/imp.png",
         text: [
-            "Every medium carries an imperfection specific to the material or technique used in the process of production. What is the imperfection of a computer? In this work, it was the human programmer. In its precise execution of every command, the human becomes the source of desirable and undesirable phenomena.",
+            "Every medium carries an imperfection specific to the material or technique used in the process of production. In this work, the imperfection was the human programmer. In its precise execution of every command, the human becomes the source of desirable and undesirable phenomena of the program.",
             "This work explores the organic interactions of singular-cell organisms and formation patterns of minerals with the contribution of the inorganic code bugs. "
         ],
         links: {
@@ -60,9 +79,9 @@ export const data = [
             "img": "/media/slime1.png"
         },
         media: {
-            "img": "/media/slime2.png",
-            "img": "/media/malachite1.png",
-            "img": "/media/malachite2.png"
+            "img1": "/media/slime3.png",
+            "img2": "/media/malachite1.png",
+            "img3": "/media/malachite2.png"
         },
         description: "generative coding"
 

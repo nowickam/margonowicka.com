@@ -1,5 +1,36 @@
 export const data = [
     {
+        title: "Invisible Lines",
+        img: "/thumbnails/ada.png",
+        text: [
+            "The work comprises two large projections facing each other. On the one side the colors of the images of waves, forest, underwater reef are bleeding into the silhouette of the person entering the space. The feeling of calm is reflected in the sounds of wind and birds. The opposing screen shows burning destruction, glitchy horror happening outside of the person’s reflection, with a dissolution of crimson reds and blacks inside it. Sounds of underwater volcanoes and explosions accompany the turmoil.",
+            "When one travels between the two extremes, one notices an invisible border in the middle, that unveils where one arrives, and blurs the place that is left behind.",
+            "The structure resembles the one of triptych, contraposing two states of the internal, emotional and external, environmental, with the viewer in the middle, exerting their agency over the order and the chaos, Eden and Last Judgement.",
+            "What is so appealing about this simple form is that it escapes the false subtleties and elaborated explanations of the current-day manipulators, and portrays a cry that has stayed unchanged for centuries. Why do I deserve to live and you don’t? A childish cry - one might say it’s politics, history, money. In the face of people fleeing their homes, being tortured and dead, this explanation still doesn’t make sense.",
+            "What makes us different from the earthly characters of Bosh’ imagination is that we can see what happens to the left and to the right, behind and in front of the central panel. Sheltered on one side, we can see the bombs detonating, feel the earth trembling from its impact. Running from the horrors of hell, you’re safe on the other side of the imaginary line.",
+            "Borges warns of imaginary, constructed worlds, and warns of triptychs.",
+            "‘Ten years ago any symmetry with a semblance of order - dialectical materialism, anti-Semitism, Nazism - was sufficient to entrance the minds of men. How could one do other than submit to [the constructed symmetry], to the minute and vast evidence of an orderly planet? It is useless to answer that reality is also orderly. Perhaps it is, but in accord­ance with divine laws - I translate: inhuman laws - which we never quite grasp. The contact and the habit of [the constructed, symmetrical planet] have disintegrated this world. Enchanted by its rigor, humanity forgets over and again that it is a rigor of chess masters, not of angels.’",
+            "Rigorous drawing of invisible lines disturbs the inhuman laws of this world, that we so eagerly want to make our own. At the same time, the very human nature of our constructs makes them paradoxically pointless - why did we agree that this invisible line goes here, what is the reason for creating hells and heavens of this world, side by side.",
+            "The construction of fake dualism, idealistic and absurd, serves the chess masters playing within their squares of the divine board ignoring the suffering of everything that happens to appear on it.",
+            "",
+            "Citation from ‘Tlon, Uqbar, Orbis Tertius’ by Jorge Luis Borges"
+        ],
+        links: {
+            "video": "https://youtu.be/LiDLAK-ukv8",
+        },
+        mainMedia: {
+            "video": "/media/lines.mp4",
+        },
+        media: {
+            "img1": "/media/lines1.png",
+            "img2": "/media/lines2.png",
+            "video1": "/media/lines1.mp4",
+            "video2": "/media/lines2.mp4"
+        },
+        description: "interactive installation, touchdesigner"
+
+    },
+    {
         title: "Audio-Driven Animation",
         img: "/thumbnails/ada.png",
         text: [

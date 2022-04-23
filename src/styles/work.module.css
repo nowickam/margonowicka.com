@@ -1,14 +1,18 @@
 .container {
-  /* display: grid;
-  grid-template-columns: 10vw auto auto;
+  display: grid;
+  grid-template-columns: 10vw auto;
   grid-template-rows: auto;
   column-gap: 1vw;
-  row-gap: 1vh; */
-  display: flex;
+  row-gap: 1vh;
+  margin-left: 1.5vmax;
+  margin-bottom: 1.5vmax;
+  margin-top: 0.5vmax;
+  /* display: flex;
   flex-direction: row;
   margin-left: 1.5vmax;
   margin-bottom: 1.5vmax;
   margin-top: 0.5vmax;
+  width: 100%; */
 }
 
 .title {
@@ -22,6 +26,10 @@
 
 .description {
   font-size: 0.75vmax;
+}
+
+.thumbnailsContainer {
+  height: 100px;
 }
 
 .thumbnailContainer {
@@ -39,7 +47,16 @@
 
 .overflow {
   overflow: auto;
+  /* grid-column: 1;
+  grid-row: 0; */
 }
+
+.overflow2 {
+  overflow: auto;
+  /* grid-column: 0;
+  grid-row: 0; */
+}
+
 .workMainContainer {
   display: grid;
   grid-template-columns: auto auto;
@@ -48,6 +65,7 @@
   margin: 2vmax;
   padding-left: 2vmax;
   margin-top: 0vmax;
+  width: 80vw;
 }
 
 .workImgMain {

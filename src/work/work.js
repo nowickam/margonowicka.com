@@ -44,7 +44,7 @@ export default class Work extends Component {
         }, this)
         return (
             <div className={styles.container}>
-                <div className={styles.thumbnailsContainer}>{workList}</div>
+                <div className={styles.overflow2}><div className={styles.thumbnailsContainer}>{workList}</div></div>
                 <WorkDetails workId={this.state.workId} />
             </div>
         );

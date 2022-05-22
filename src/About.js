@@ -25,7 +25,7 @@ export default class About extends Component {
         return (
             <div>
                 <div className={styles.description}>
-                    I'm Margo Nowicka and I create visual narratives and metaphors stemming from the daily experiences, anxieties, and emotional states that desperately need a resolution. My outlets vary from generative visualization, interactive installation, creative coding to storytelling and animation.
+                    I'm Margo Nowicka and I create visual narratives and metaphors stemming from the daily experiences and emotional states that desperately need a resolution. My outlets vary from generative visualization, interactive installation, creative coding to storytelling and animation.
                 </div>
                 <div className={styles.workLinks}>{linksArray}</div>
             </div>

@@ -31,6 +31,27 @@ export const data = [
 
     },
     {
+        title: "Differential Growth",
+        img: "/thumbnails/imp.png",
+        text: [
+            "Study of the nature-inspired simulations with the differential growth algorithm."
+        ],
+        links: {
+            "github": "https://github.com/nowickam/differential-growth"
+        },
+        mainMedia: {
+            "img": "/media/diff1.png"
+        },
+        media: {
+            "img1": "/media/diff2.png",
+            "img2": "/media/diff3.png",
+            "img3": "/media/diff4.png",
+            "img4": "/media/diff5.png"
+        },
+        description: "generative coding"
+
+    },
+    {
         title: "Audio-Driven Animation",
         img: "/thumbnails/ada.png",
         text: [

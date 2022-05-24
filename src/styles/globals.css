@@ -26,8 +26,7 @@ a {
   height: 100vh;
 }
 
-.workImg,
-.workVideo,
+
 .mainVideo,
 .mainImg {
   width: 100%;
@@ -37,7 +36,9 @@ a {
 .workImg,
 .workVideo {
   margin-top: 1vmax;
+  max-width: 100%;
   max-height: 91vh;
+  object-fit: contain;
 }
 
 .mainVideoVertical {
@@ -56,7 +57,7 @@ a {
 
 #footer {
   position: absolute;
-  bottom: 0;
+  bottom: 0.35vmax;
   left: 1vmax;
   z-index: -1;
   font-size: 0.75vmax;

@@ -3,7 +3,7 @@ export const data = [
         title: "Invisible Lines",
         img: "/thumbnails/ada.png",
         text: [
-            "The work comprises two large projections facing each other. On the one side the colors of the images of waves, forest, underwater reef are bleeding into the silhouette of the person entering the space. The feeling of calm is reflected in the sounds of wind and birds. The opposing screen shows burning destruction, glitchy horror happening outside of the person’s reflection, with a dissolution of crimson reds and blacks inside it. Sounds of underwater volcanoes and explosions accompany the turmoil.",
+            "The work comprises of two large projections facing each other. On the one side the colors of the images of waves, forest, underwater reef are bleeding into the silhouette of the person entering the space. The feeling of calm is reflected in the sounds of wind and birds. The opposing screen shows burning destruction, glitchy horror happening outside of the person’s reflection, with a dissolution of crimson reds and blacks inside it. Sounds of underwater volcanoes and explosions accompany the turmoil.",
             "When one travels between the two extremes, one notices an invisible border in the middle, that unveils where one arrives, and blurs the place that is left behind.",
             "The structure resembles the one of triptych, contraposing two states of the internal, emotional and external, environmental, with the viewer in the middle, exerting their agency over the order and the chaos, Eden and Last Judgement.",
             "What is so appealing about this simple form is that it escapes the false subtleties and elaborated explanations of the current-day manipulators, and portrays a cry that has stayed unchanged for centuries. Why do I deserve to live and you don’t? A childish cry - one might say it’s politics, history, money. In the face of people fleeing their homes, being tortured and dead, this explanation still doesn’t make sense.",
@@ -40,10 +40,12 @@ export const data = [
             "github": "https://github.com/nowickam/differential-growth"
         },
         mainMedia: {
-            "img": "/media/diff1.png"
+            "img": "/media/diff1.png",
         },
         media: {
+            "img": "media/diff6.png",
             "video1": "/media/diff.mp4",
+
             "img1": "/media/diff5.png",
             "img2": "/media/diff4.png",
             "img3": "/media/diff3.png",

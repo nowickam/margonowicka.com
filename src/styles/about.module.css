@@ -1,9 +1,4 @@
 .description {
-  grid-column: 1;
-  grid-row: 1;
-  margin-left: 2vmax;
-  margin-top: 1vmax;
-  width: 50vmax;
   text-align: justify;
   font-size: 1.2vmax;
 }
@@ -12,14 +7,32 @@
   text-decoration: underline;
   display: flex;
   flex-direction: column;
+  width: fit-content;
   font-size: 1.2vmax;
-  margin: 2vmax;
+  margin-top: 1vmax;
 }
 
 .imgAbout {
-  grid-column: 1;
-  grid-row: 1;
-  margin-left: 2vmax;
   margin-top: 1vmax;
-  max-width: 50vmax;
+  max-width: 100%;
+}
+
+.credits {
+  text-align: justify;
+  font-size: 1vmax;
+}
+
+.overflow {
+  overflow: auto;
+}
+
+.aboutContainer{
+  height: 100px;
+}
+
+.margin{
+  margin: 2vmax;
+  margin-top: 1vmax;
+  display: grid;
+  grid-template-columns: 60% auto;
 }

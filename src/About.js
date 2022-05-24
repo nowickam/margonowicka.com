@@ -23,12 +23,18 @@ export default class About extends Component {
         }
 
         return (
-            <div>
-                <div className={styles.description}>
-                    I'm Margo Nowicka and I create visual narratives and metaphors stemming from the daily experiences and emotional states in need of a resolution. My outlets vary from generative visualization, interactive installation, creative coding to storytelling and animation.
+            <div className={styles.margin}>
+
+                <div className={styles.overflow}>
+                    <div className={styles.aboutContainer}>
+                        <div className={styles.description}>
+                            I'm Margo Nowicka and I create visual narratives and metaphors stemming from the daily experiences and emotions in need of a resolution. My outlets vary from generative visualization, interactive installation, creative coding to storytelling and animation.
+                        </div>
+                        <div className={styles.workLinks}>{linksArray}</div>
+                        <img src="/media/about.png" alt="about" className={styles.imgAbout} />
+                        <div className={styles.credits}>photo: Mateusz Król</div>
+                    </div>
                 </div>
-                <div className={styles.workLinks}>{linksArray}</div>
-                <img src="/media/about.png" alt="about" className={styles.imgAbout} />
             </div>
         );
     }

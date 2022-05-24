@@ -43,10 +43,11 @@ export const data = [
             "img": "/media/diff1.png"
         },
         media: {
-            "img1": "/media/diff2.png",
-            "img2": "/media/diff3.png",
-            "img3": "/media/diff4.png",
-            "img4": "/media/diff5.png"
+            "video1": "/media/diff.mp4",
+            "img1": "/media/diff5.png",
+            "img2": "/media/diff4.png",
+            "img3": "/media/diff3.png",
+            "img4": "/media/diff2.png"
         },
         description: "generative coding"
 
@@ -164,7 +165,7 @@ export const data = [
 
     },
     {
-        title: "Apocalypse Now",
+        title: "Posthuman",
         img: "/thumbnails/apon.png",
         text: [
             "Imagine a city of the future. Imagine the nature in it. Untrimmed grass, free to grow on the sidewalk. Ivy climbing up the skyscrapers. Trees growing old, undisturbed, uncut, their trunks twisting and wrapping around the railings.",
@@ -181,7 +182,8 @@ export const data = [
             "videoV2": "/media/fp2.mp4"
         },
         media: {
-            "img": "/media/fp.png",
+            // "img": "/media/fp.png",
+            "video1": "/media/fp.mp4"
 
         },
         description: "procedural 3d animation"

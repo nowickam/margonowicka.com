@@ -47,9 +47,9 @@ export default function WorkDetails(props) {
     for (const [key, value] of Object.entries(data[id].mainMedia)) {
         if (key.substring(0, 5) === "video") {
             if (key[5] === 'V')
-                mainMedia.push(<video key={id + value} className="mainVideoVertical" controls src={value} type={"video/mp4"} > Sorry</video>)
+                mainMedia.push(<video key={id + value} className="mainVideoVertical" autoPlay muted loop controls src={value} type={"video/mp4"} > Sorry</video>)
             else
-                mainMedia.push(<video key={id + value} className="mainVideo" controls src={value} type={"video/mp4"} > Sorry</video>)
+                mainMedia.push(<video key={id + value} className="mainVideo" autoPlay muted loop controls src={value} type={"video/mp4"} > Sorry</video>)
         }
         else if (key.substring(0, 3) === "img") {
             mainMedia.push(<img key={id + value} src={value} alt={data[id].title} className="mainImg" />)
@@ -59,7 +59,7 @@ export default function WorkDetails(props) {
     for (const [key, value] of Object.entries(data[id].media)) {
         console.log(key, value)
         if (key.substring(0, 5) === "video")
-            media.push(<video key={id + value} className="workVideo" controls src={value} type={"video/mp4"} > Sorry</video>)
+            media.push(<video key={id + value} className="workVideo" autoPlay muted loop controls src={value} type={"video/mp4"} > Sorry</video>)
         else if (key.substring(0, 3) === "img") {
             media.push(<img key={id + value} src={value} alt={data[id].title} className="workImg" />)
             // media.push(<img key={id + value} src={value} alt={data[id].title} className="workImg"></img>)

@@ -47,6 +47,7 @@ export const data = [
             "‘Ten years ago any symmetry with a semblance of order - dialectical materialism, anti-Semitism, Nazism - was sufficient to entrance the minds of men. How could one do other than submit to [the constructed symmetry], to the minute and vast evidence of an orderly planet? It is useless to answer that reality is also orderly. Perhaps it is, but in accord­ance with divine laws - I translate: inhuman laws - which we never quite grasp. The contact and the habit of [the constructed, symmetrical planet] have disintegrated this world. Enchanted by its rigor, humanity forgets over and again that it is a rigor of chess masters, not of angels.’",
             "Rigorous drawing of invisible lines disturbs the inhuman laws of this world, that we so eagerly want to make our own. At the same time, the very human nature of our constructs makes them paradoxically pointless - why did we agree that this invisible line goes here, what is the reason for creating hells and heavens of this world, side by side.",
             "The construction of fake dualism, idealistic and absurd, serves the chess masters playing within their squares of the divine board ignoring the suffering of everything that happens to appear on it.",
+            "Visuals: Calvin Guillot, Margo Nowicka \n Sound: Mathias Leopold \n Supervision: Matti Niinimäki \n",
             "",
             "Citation from ‘Tlon, Uqbar, Orbis Tertius’ by Jorge Luis Borges"
         ],
@@ -71,10 +72,12 @@ export const data = [
         title: "Differential Growth",
         img: "/thumbnails/imp.png",
         text: [
-            "Study of the nature-inspired simulations with the differential growth algorithm."
+            "Study of the nature-inspired simulations with the differential growth algorithm.",
+            "Supervision: Nuno Correia \n",
         ],
         links: {
-            "github": "https://github.com/nowickam/differential-growth"
+            "github": "https://github.com/nowickam/differential-growth",
+            "generative media reel": "https://teaching.nunocorreia.com/2022-gmc-aalto/"
         },
         mainMedia: {
             "img": "/media/diff1.png",
@@ -96,7 +99,8 @@ export const data = [
         img: "/thumbnails/ada.png",
         text: [
             "Interactive web application for uploading an audio file with human speech and displaying the corresponding lip movements on the provided avatar.",
-            "A neural network model is used to predict the sequence of phonemes which is then translated to visemes and mapped onto the avatar. The avatar was created in Blender and each viseme is treated as combinations of shape keyed facial configurations."
+            "A neural network model is used to predict the sequence of phonemes which is then translated to visemes and mapped onto the avatar. The avatar was created in Blender and each viseme is treated as combinations of shape keyed facial configurations.",
+            "Machine learning: Filip Zawadka \n Animation: Margo Nowicka \n Supervision: Agnieszka Jastrzębska \n",
         ],
         links: {
             "video": "https://www.youtube.com/watch?v=-8hFjVzXUXE",
@@ -121,14 +125,16 @@ export const data = [
             "It is now that I am frantically putting myself back in the shell. Shielding myself from anxiety and fear springing from the interaction with the cacophony of yells and cries. I don't speak, laugh, respond to texts, invite to my home, I bury myself in the depths of the shell and slowly fossilize to become a part of it.",
             "Repeating after Fernando Pessoa:",
             "‘Believing that each step of my life would mean contact with the horror of the New and that each new person I met was a new and living fragment of the unknown to be placed before me on the table for my daily horrified contemplation, I decided to abstain from everything, to go nowhere, to reduce action to the minimum, to avoid as far as possible meeting either men or events, to perfect abstinence and take abdication to new heights. That's how much living frightens and torments me.’",
-            "This project comprises of two seashells that one can listen to. The first seashell synthesizes underwater ocean ambient sounds depending on the shell’s tilt. The second seashell streams several distorted radio channels. So the two seashells contrapose each other in a fight for the imprint in the collective memory; and at the same time represent a progression, going outwards, from tranquility to overwhelm."
+            "This project comprises of two seashells that one can listen to. The first seashell synthesizes underwater ocean ambient sounds depending on the shell’s tilt. The second seashell streams several distorted radio channels. So the two seashells contrapose each other in a fight for the imprint in the collective memory; and at the same time represent a progression, going outwards, from tranquility to overwhelm.",
+            "Supervision: Matti Niinimäki \n",
         ],
         links: {
             "github": "https://github.com/nowickam/what-is-in-the-shell",
             "ocean project page": "https://www.hackster.io/nowickam/what-is-in-the-shell-ocean-7ce990",
             "radio project page": "https://www.hackster.io/nowickam/what-is-in-the-shell-radio-eb7a41",
             "ocean video": "https://www.youtube.com/watch?v=IiaRDXWyYTM",
-            "radio video": "https://youtu.be/9V2kslX2MmU"
+            "radio video": "https://youtu.be/9V2kslX2MmU",
+            "critical making exhibition": "https://criticalmaking.xyz"
         },
         mainMedia: {
             "img": "media/shell.png"
@@ -144,7 +150,8 @@ export const data = [
         title: "Marginal Recollections",
         img: "/thumbnails/shell.png",
         text: [
-            "Marginal Recollections is an interactive spatial-audiovisual installation designed by Nuvisko collective of Aalto New Media Students. As participants approach the work their presence becomes visible and their silhouette can play with the rippled surface. Participants’ movements also trigger subtle changes in the audio soundscape. "
+            "Marginal Recollections is an interactive spatial-audiovisual installation designed by Nuvisko collective of Aalto New Media Students. As participants approach the work their presence becomes visible and their silhouette can play with the rippled surface. Participants’ movements also trigger subtle changes in the audio soundscape. ",
+            "Sound: Panu Luukkonen \n Visuals: Margo Nowicka",
         ],
         links: {
 
@@ -164,7 +171,8 @@ export const data = [
         img: "/thumbnails/imp.png",
         text: [
             "Every medium carries an imperfection specific to the material or technique used in the process of production. In this work, the imperfection was the human programmer. In its precise execution of every command, the human becomes the source of desirable and undesirable phenomena of the program.",
-            "This work explores the organic interactions of singular-cell organisms and formation patterns of minerals with the contribution of the inorganic code bugs. "
+            "This work explores the organic interactions of singular-cell organisms and formation patterns of minerals with the contribution of the inorganic code bugs. ",
+            "Supervision: Matti Niinimäki \n",
         ],
         links: {
             "github": "https://github.com/nowickam/simple-complexity"

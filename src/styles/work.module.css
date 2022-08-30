@@ -78,7 +78,7 @@
 
 .workText {
   font-size: 1.2vmax;
-  text-align: justify;
+  /* text-align: justify; */
   padding-top: 1vmax;
   white-space: pre-line;
 }

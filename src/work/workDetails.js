@@ -42,6 +42,7 @@ export default function WorkDetails(props) {
     }
 
     let media = [];
+    let mediaWide = [];
     let mainMedia = [];
 
     for (const [key, value] of Object.entries(data[id].mainMedia)) {
@@ -55,13 +56,19 @@ export default function WorkDetails(props) {
             mainMedia.push(<img key={id + value} src={value} alt={data[id].title} className="mainImg" />)
         }
     }
-    console.log(mainMedia)
+    // console.log(mainMedia)
     for (const [key, value] of Object.entries(data[id].media)) {
         console.log(key, value)
         if (key.substring(0, 5) === "video")
-            media.push(<video key={id + value} className="workVideo" autoPlay muted loop controls src={value} type={"video/mp4"} > Sorry</video>)
+            media.push(<video key={id + value} className="workVideo" muted controls src={value} type={"video/mp4"} > Sorry</video>)
+        else if (key.substring(0, 5) === "videw")
+            mediaWide.push(<video key={id + value} className="workVideo" muted controls src={value} type={"video/mp4"} > Sorry</video>)
         else if (key.substring(0, 3) === "img") {
             media.push(<img key={id + value} src={value} alt={data[id].title} className="workImg" />)
+            // media.push(<img key={id + value} src={value} alt={data[id].title} className="workImg"></img>)
+        }
+        else if (key.substring(0, 3) === "imw") {
+            mediaWide.push(<img key={id + value} src={value} alt={data[id].title} className="workImg" />)
             // media.push(<img key={id + value} src={value} alt={data[id].title} className="workImg"></img>)
         }
     }
@@ -75,6 +82,7 @@ export default function WorkDetails(props) {
                     <div className={styles.workLinks}>{links}</div>
                 </div>
                 <div className={styles.workImgContainer}>{media}</div>
+                <div className={styles.workImgWideContainer}>{mediaWide}</div>
             </div>
         </div>
     );

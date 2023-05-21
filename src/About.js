@@ -12,9 +12,9 @@ export default class About extends Component {
 
     render() {
         let links = {
-            "github": "https://github.com/nowickam",
-            "linkedin": "https://linkedin.com/in/malgorzata-nowicka",
-            "mail": "mailto:mngnowicka@gmail.com"
+            "programming portoflio": "https://github.com/nowickam",
+            "mail": "mailto:mngnowicka@gmail.com",
+            // "cv": "./media/cv.pdf"
         }
         let linksArray = []
 
@@ -28,7 +28,7 @@ export default class About extends Component {
                 <div className={styles.overflow}>
                     <div className={styles.aboutContainer}>
                         <div className={styles.description}>
-                            I'm Margo Nowicka and I create visual narratives and metaphors stemming from the daily experiences and emotions in need of a resolution. My outlets vary from generative visualization, interactive installation, creative coding to storytelling and animation.
+                            With my art I seek to have conversations, non-linear and non-verbalizable, with myself and others. I create visual narratives and metaphors stemming from the daily experiences and emotions, and my outlets vary from generative visualization, interactive installation, creative coding to storytelling and animation. Born in Wrocław, Poland, currently based in Helsinki, Finland.
                         </div>
                         <div className={styles.workLinks}>{linksArray}</div>
                         <img src="/media/about.png" alt="about" className={styles.imgAbout} />

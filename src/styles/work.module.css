@@ -94,6 +94,12 @@
   flex-direction: column;
 }
 
+.workImgWideContainer {
+  grid-column: 1 / span 2;
+  display: flex;
+  flex-direction: column;
+}
+
 .workParagraph {
   padding: 1vmax;
 }

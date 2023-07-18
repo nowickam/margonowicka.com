@@ -17,7 +17,7 @@ export const data = [
             // "too see the animation, please reach out by email": "mailto:mngnowicka@gmail.com"
         },
         mainMedia: {
-            "img1": "/media/dys1_new3.webp",
+            "img1": "/media/dys_new4.webp",
         },
         media: {
             "img1": "/media/dys2.jpg",

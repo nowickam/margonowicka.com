@@ -14,6 +14,7 @@ export default class About extends Component {
         let links = {
             "CV": "./media/Nowicka_CV.pdf",
             "programming portoflio": "https://github.com/nowickam",
+            "filmfreeway": "https://filmfreeway.com/MalgorzataNowicka",
             "mail": "mailto:mngnowicka@gmail.com",
         }
         let linksArray = []

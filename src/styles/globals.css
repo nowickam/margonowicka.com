@@ -4,6 +4,7 @@ body {
   margin: 0;
   height: 100%;
   font-family: "Noto Serif JP", serif;
+  font-size: 15px;
 }
 
 a {
@@ -51,7 +52,7 @@ a {
   text-decoration: underline;
   display: flex;
   flex-direction: column;
-  font-size: 1.5vmax;
+  font-size: 1.5rem;
   padding: 1vmax;
 }
 
@@ -60,6 +61,17 @@ a {
   bottom: 0.35vmax;
   left: 1vmax;
   z-index: -1;
-  font-size: 0.75vmax;
+  font-size: 0.75rem;
   color: gray;
+}
+
+@media screen and (max-width: 768px) {
+  html,
+body {
+  font-size: 10px;
+}
+  .mainVideoVertical{
+    max-width: 100%;
+  }
+  
 }

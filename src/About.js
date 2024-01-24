@@ -12,14 +12,14 @@ export default class About extends Component {
 
     render() {
         let links = {
+            "CV": "./media/Nowicka_CV.pdf",
             "programming portoflio": "https://github.com/nowickam",
             "mail": "mailto:mngnowicka@gmail.com",
-            // "cv": "./media/cv.pdf"
         }
         let linksArray = []
 
         for (let link in links) {
-            linksArray.push(<a key={link} href={links[link]} rel="noreferrer" target="_blank">{link}</a>)
+            linksArray.push(<a key={link} href={links[link]} rel="noreferrer" target="_blank" style={{ padding: "0.25rem" }}>{link}</a>)
         }
 
         return (
@@ -28,11 +28,14 @@ export default class About extends Component {
                 <div className={styles.overflow}>
                     <div className={styles.aboutContainer}>
                         <div className={styles.description}>
-                            With my art I seek to have conversations, non-linear and non-verbalizable, with myself and others. I create visual narratives and metaphors stemming from the daily experiences and emotions, and my outlets vary from generative visualization, interactive installation, creative coding to storytelling and animation. Born in Wrocław, Poland, currently based in Helsinki, Finland.
+                            My interests reside in the formation of the self at the edges of consciousness and humanity — in meeting other people and machines. That is why I mainly focus on introspecting the turmoils of social anxiety, extrospecting the technological determinism in the age of computation, as well as questioning the dimension along which the specting is being done. I operate with the languages of animation and new media art.
+                        </div>
+                        <div className={styles.description}>
+                            I come from Wrocław, Poland and am currently based in Helsinki, Finland.
                         </div>
                         <div className={styles.workLinks}>{linksArray}</div>
-                        <img src="/media/about.png" alt="about" className={styles.imgAbout} />
-                        <div className={styles.credits}>photo: Mateusz Król</div>
+                        {/* <img src="/media/about.png" alt="about" className={styles.imgAbout} /> */}
+                        {/* <div className={styles.credits}>photo: Mateusz Król</div> */}
                     </div>
                 </div>
             </div>

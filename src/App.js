@@ -32,7 +32,7 @@ export default class App extends Component {
                     <Route path="/work" element={<Work changeRoute={this.changeRoute} />} />
                     <Route path="/about" element={<About changeRoute={this.changeRoute} />} />
                 </Routes>
-                <div id='footer'>© 2020-2023 Margo Nowicka</div>
+                <div id='footer'>© 2020-2024 Margo Nowicka</div>
             </div>
         );
     }

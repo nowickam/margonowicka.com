@@ -25,7 +25,6 @@ export default class Work extends Component {
         this.props.changeRoute("w")
     }
 
-
     changeWork(id) {
         this.setState({
             workId: id

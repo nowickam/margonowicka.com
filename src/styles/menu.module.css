@@ -12,7 +12,7 @@
 #menu {
   grid-column: 1;
   grid-row: 1;
-  font-size: 2vmax;
+  font-size: 2rem;
   /* text-align: left; */
   z-index: 1;
   display: inline-flex;

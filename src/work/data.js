@@ -36,7 +36,7 @@ export const data = [
         img: "",
         text: [
             "​​The paradigmatic role of computational technologies in culture and science oftentimes renders natural phenomena as well as human action, interaction and introspection as forms of computation. The inaccurate yet foundational character of those interpretations has been the motivation for my Master’s thesis. ",
-            "In my research, I aimed to identify what is overstated, forgotten or taken for granted in science and culture shaped by computation, rediscover the meaning of carbon-based bodily experience in the light of anxiety caused by the imposition of silicon-based technological advances, and convey and develop conceptual alternatives by creating the short animation “Aurinko and Selene”.",
+            "In my research, I aimed to identify what is overstated, forgotten or taken for granted in science and culture shaped by computation, and rediscover the meaning of carbon-based bodily experience in the light of anxiety caused by the imposition of silicon-based technological advances. I used McLuhan's framework of a tetrad of human artifact influences (enhance-obscolesce-retrieve-reverse) to analyze the pervasiveness of language and concepts derived from and applied to computational technologies. Finally, I tried to convey and develop conceptual alternatives by creating the short animation “Aurinko and Selene”.",
             "It is a story of two children, Aurinko (fi. sun) and Selene (gr. moon), who drink milk and subsequently have a mythical argument over their physical and metaphysical differences which separate them ever since. The flow of bodily digestion/indigestion of lactose is contrasted with the images of different encodings (biblical text, human genome, self-generating computer code) that have aimed to explain all kinds of existential questions in all kinds of zeitgeists. ",
             "The thesis is an embrace of the immediate, embodied experience of being alive. The embrace and its contraposition with the textual, conventional thought tries to reposition these impressions and codes in their own terms – one is not confused with the other. The work is a dream of reconnection with oneself and others instead of doubling into minds and bodies and isolating into the abstract, cranial chambers of rational thought.",
 
@@ -57,6 +57,7 @@ export const data = [
             // "img2": "/media/dys3.jpg",
             // "img4": "/media/dys5.jpg",
             // "img5": "/media/dys6.jpg",
+            "imw1": "/media/ause12.webp",
         },
         description: "2D animation"
     },

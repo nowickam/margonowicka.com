@@ -42,7 +42,7 @@ export const data = [
 
         ],
         footer: [
-            "Animation: Margo Nowicka \n Sound design: Marija Šumarac \n Music: Mercedes Krapovickas \n Voiceover: Aaron Gelder \n Advisor: Nicola Cerioli \n Supervisor: Rupesh Vyas \n In collaboration with Finngen"
+            "Animation: Margo Nowicka \n Sound design: Marija Šumarac \n Music: Mercedes Krapovickas \n Voiceover: Aaron Gelder \n Advisor: Nicola Cerioli \n Supervisor: Rupesh Vyas \n Help and support: Hanna-Katri Eskelinen, Calvin Guillot, Kai Lappalainen \n In collaboration with Finngen"
 
         ],
         links: {
@@ -58,6 +58,31 @@ export const data = [
             // "img4": "/media/dys5.jpg",
             // "img5": "/media/dys6.jpg",
             "imw1": "/media/ause12.webp",
+        },
+        description: "2D animation"
+    },
+    {
+        title: "Don't you weigh yourself",
+        img: "",
+        text: [
+            "Binging on one’s own bones unveils the heavenly lightness to oneself and the blissful invisibility to other’s."
+        ],
+        footer: [
+            "Animation and sound: Margo Nowicka \n Help and support: Aaron Geldert, Calvin Guillot"
+
+        ],
+        links: {
+            // "too see the animation, please reach out by email": "mailto:mngnowicka@gmail.com"
+        },
+        mainMedia: {
+            "videoEmbed": "https://player.vimeo.com/video/914393561?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+        },
+        media: {
+            // "img1": "/media/dys2.jpg",
+            // "img3": "/media/dysKino.webp",
+            // "img2": "/media/dys3.jpg",
+            // "img4": "/media/dys5.jpg",
+            // "img5": "/media/dys6.jpg",
         },
         description: "2D animation"
     },

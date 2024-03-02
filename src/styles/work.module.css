@@ -85,6 +85,12 @@
   white-space: pre-line;
 }
 
+.workDesc {
+  padding: 1vmax;
+  white-space: pre-line;
+  text-align: right;
+}
+
 .workTextContainer {
   grid-column: 1;
   margin-right: 2vmax;

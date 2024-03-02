@@ -68,9 +68,14 @@ export default function WorkDetails(props) {
         else if (key.substring(0, 3) === "imr") {
             mediaWideRow.push(<img key={id + value} src={value} alt={data[id].title} className="workImg" />)
         }
+        // TEXTS
+        else if (key.substring(0, 4) === "text") {
+            media.push(<div key={id + value} className={styles.workDesc}>{value}</div>)
+        }
         else if (key.substring(0, 6) === "footer") {
             media.push(<div key={id + key} className={styles.workFooter}>{value}</div>)
         }
+
     }
 
     return (

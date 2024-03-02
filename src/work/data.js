@@ -49,14 +49,14 @@ export const data = [
             "thesis": "https://aaltodoc.aalto.fi/server/api/core/bitstreams/637768a9-63d5-4180-a5dc-6dcb99ca55a7/content"
         },
         mainMedia: {
-            "img1": "/media/ause10.png",
+            // "img1": "/media/ause10.png",
+            "videoEmbed": "https://player.vimeo.com/video/918695987?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
         },
         media: {
-            "img1": "/media/ause4.webp",
+            // "img1": "/media/ause4.webp",
             "img3": "/media/ause3.png",
-            // "img2": "/media/dys3.jpg",
-            // "img4": "/media/dys5.jpg",
-            // "img5": "/media/dys6.jpg",
+            "text1": "The process of lactose digestion in humans. The visual representation on top of the network serves as the visual language for the animation.",
+            // "img1": "/media/ause10.png",
             "imw1": "/media/ause12.webp",
         },
         description: "2D animation"

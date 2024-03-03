@@ -65,7 +65,9 @@ export const data = [
         title: "Don't you weigh yourself",
         img: "",
         text: [
-            "Binging on one’s own bones unveils the heavenly lightness to oneself and the blissful invisibility to other’s."
+            "Binging on one’s own bones brings blissful lightness to oneself and invisibility to others.",
+            "The narration of this animation is a short, simple text I wrote in the midst of a binging episode. It’s a wordplay on the roots of the three Polish phrases associated with metaphorical and literal weight.",
+            "It tries to work out the apathetic cycle of emotional repression, and subsequent shame and social isolation that such a compulsive behavior brings. "
         ],
         footer: [
             "Animation and sound: Margo Nowicka \n Help and support: Aaron Geldert, Calvin Guillot"
@@ -78,7 +80,7 @@ export const data = [
             "videoEmbed": "https://player.vimeo.com/video/914393561?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
         },
         media: {
-            // "img1": "/media/dys2.jpg",
+            "img1": "/media/noweigh.png",
             // "img3": "/media/dysKino.webp",
             // "img2": "/media/dys3.jpg",
             // "img4": "/media/dys5.jpg",

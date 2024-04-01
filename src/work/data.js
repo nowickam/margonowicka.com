@@ -80,7 +80,7 @@ export const data = [
             "videoEmbed": "https://player.vimeo.com/video/914393561?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
         },
         media: {
-            "img1": "/media/noweigh.png",
+            // "img1": "/media/noweigh.png",
             // "img3": "/media/dysKino.webp",
             // "img2": "/media/dys3.jpg",
             // "img4": "/media/dys5.jpg",

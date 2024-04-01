@@ -29,10 +29,10 @@ export default class About extends Component {
                 <div className={styles.overflow}>
                     <div className={styles.aboutContainer}>
                         <div className={styles.description}>
-                            My interests reside in the formation of the self at the edges of consciousness and humanity — in meeting other people and machines. That is why I mainly focus on introspecting the turmoils of social anxiety, extrospecting the humanist anxiety in the age of computational-technological determinism, as well as meditating on the dimension of specting and its edges.
+                           I am a new media artist and animator.  My interests reside in the formation of the self at the edges of consciousness and humanity — in meeting other people and machines. That is why I mainly focus on introspecting the turmoils of social anxiety, extrospecting the humanist anxiety in the age of computational-technological determinism, as well as meditating on the dimension of specting and its edges.
                         </div>
                         <div className={styles.description}>
-                            I operate with the languages of animation and new media art. The areas of my focus have been shaped by my education, with the BSc in Computer Science from Warsaw University of Technology, and MA in New Media from Aalto University. I come from Wrocław, Poland and am currently based in Helsinki, Finland.
+                            The areas of my focus come from my background with the BSc in Computer Science from Warsaw University of Technology, and MA in New Media from Aalto University. I come from Wrocław, Poland and am currently based in Helsinki, Finland.
                         </div>
                         <div className={styles.workLinks}>{linksArray}</div>
                         {/* <img src="/media/about.png" alt="about" className={styles.imgAbout} /> */}

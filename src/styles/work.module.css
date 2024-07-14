@@ -114,17 +114,18 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-
-  gap: 2vmax
+  gap: 2vmax;
+  overflow-x: scroll;
+  height: fit-content;
 }
 
 .workImgWideRowContainer img {
   /* flex: 1; */
-  max-width: 50%;
+  /* max-width: 50%; */
 }
 .workImgWideRowContainer video {
   /* flex: 1; */
-  max-width: 50%;
+  /* max-width: 50%; */
 }
 
 .workParagraph {

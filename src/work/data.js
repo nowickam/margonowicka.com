@@ -62,6 +62,40 @@ export const data = [
         description: "2D animation"
     },
     {
+        title: "In My Mind's Eye",
+        img: "",
+        text: [
+
+            "The concept of this work stems from the nonrational thought, forgotten memory, deepest emotion. It occupies the space \“between the beginnings of our sense of self and the chaos of our strongest feelings.\"[1]",
+
+            "The molten glass reveals and distorts at the same time: the figures and objects, their colors and shapes. It is like a lens of the Romantic, reclaiming the tool from the verses of the ballad: \“Feeling and faith speak more clearly to me Than the lenses and eye of the sage.\”[2]",
+
+            "The aforementioned ballad is considered a literary manifesto of Polish Romanticism. Lacking an independent state, the strong rooting in nationalism parallels the inclination of the Finnish national Romanticism to draw from folklore and history. The combination of the folk tales, search for historical essence and the focus on the individual and their subjective experience is reflected in the choice of the source paintings from the Finnish National Gallery collection. The images focus on portraits, impressionist landscapes, and Karelianist heritage, among others.",
+
+            "The ballad opens with a motto — a quote from Shakespeare’s Hamlet, who is haunted by the memory of his deceased father. The deep pain and unrecognized knowledge that reside in him, spill through the lens of his soul as the nonrational image of his father: \“Methinks, I see… Where? — In my mind's eye.\”[2]",
+        ],
+        footer: [
+            "This work was a submission for a competition organized by The Finnish National Gallery in aim create a  generative artwork that uses the CC0-licensed collection data of the  Gallery in its implementation.\n\n[1] Audre Lorde, “Uses of the Erotic: The Erotic as Power”\n[2] Adam Mickiewicz, “Romantyczność”"
+
+        ],
+        links: {
+        },
+        mainMedia: {
+            "imgV1": "/media/eye1_2.png",
+        },
+        media: {
+            "img3": "/media/eye3.webp",
+            // "imw4": "/media/eye4.webp",
+            // "imw5": "/media/eye5.webp",
+            "imr6": "/media/eye6.webp",
+            "imr7": "/media/eye2.webp",
+            "imr8": "/media/eye8.webp",
+            "imr9": "/media/eye7.webp",
+            // "imw9": "/media/eye9.webp",
+        },
+        description: "generative coding"
+    },
+    {
         title: "Don't you weigh yourself",
         img: "",
         text: [

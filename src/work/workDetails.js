@@ -44,7 +44,10 @@ export default function WorkDetails(props) {
                 mainMedia.push(<video key={id + value} className="mainVideo" autoPlay muted loop controls src={value} type={"video/mp4"} > Sorry</video>)
         }
         else if (key.substring(0, 3) === "img") {
-            mainMedia.push(<img key={id + value} src={value} alt={data[id].title} className="mainImg" />)
+            if (key[3] === 'V')
+                mainMedia.push(<img key={id + value} src={value} alt={data[id].title} className="mainImgVertical" />)
+            else
+                mainMedia.push(<img key={id + value} src={value} alt={data[id].title} className="mainImg" />)
         }
     }
 

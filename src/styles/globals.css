@@ -49,6 +49,11 @@ a {
   height: auto;
 }
 
+.mainImgVertical {
+  height: 91vh;
+  /* height: auto; */
+}
+
 .workLinks {
   text-decoration: underline;
   display: flex;

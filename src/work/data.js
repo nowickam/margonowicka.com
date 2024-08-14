@@ -137,7 +137,8 @@ export const data = [
             "github": "https://github.com/nowickam/cellular-automaton-sequencer"
         },
         mainMedia: {
-            "videoEmbed": "https://player.vimeo.com/video/905488131?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+            // "videoEmbed": "https://player.vimeo.com/video/905488131?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+            "videoEmbed": "https://player.vimeo.com/video/998573990?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
         },
         media: {
             "img1": "/media/czas.webp",

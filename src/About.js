@@ -12,7 +12,7 @@ export default class About extends Component {
 
     render() {
         let links = {
-            "CV": "./media/Nowicka_CV.pdf",
+            "CV": "./media/CV_Nowicka_8.2024.pdf",
             "programming portoflio": "https://github.com/nowickam",
             "filmfreeway": "https://filmfreeway.com/MalgorzataNowicka",
             "mail": "mailto:mngnowicka@gmail.com",
@@ -29,10 +29,10 @@ export default class About extends Component {
                 <div className={styles.overflow}>
                     <div className={styles.aboutContainer}>
                         <div className={styles.description}>
-                           I am a new media artist and animator.  My interests reside in the formation of the self at the edges of consciousness and humanity — in meeting other people and machines. That is why I mainly focus on introspecting the turmoils of social anxiety, extrospecting the humanist anxiety in the age of computational-technological determinism, as well as meditating on the dimension of specting and its edges.
+                            I am a new media artist, programmer and animator.  My artistic and research interests reside in fostering kinship with people and machines. I focus on the themes of social anxiety and humanist anxiety in the age of computational-technological determinism.
                         </div>
                         <div className={styles.description}>
-                            The areas of my focus come from my background with the BSc in Computer Science from Warsaw University of Technology, and MA in New Media from Aalto University. I come from Wrocław, Poland and am currently based in Helsinki, Finland.
+                            The areas of my focus come from my background with the BSc in Computer Science from Warsaw University of Technology, and MA in New Media from Aalto University. I come from Wrocław, Poland, currently based in Helsinki, Finland.
                         </div>
                         <div className={styles.workLinks}>{linksArray}</div>
                         {/* <img src="/media/about.png" alt="about" className={styles.imgAbout} /> */}

@@ -166,8 +166,9 @@ export const data = [
         media: {
             // "video": "/media/posthuman3.mp4",
             // "video2": "/media/posthuman5.webm",
+            "imw2": "/media/posthuman8.webp",
             "imw1": "/media/posthuman7.webp",
-            "videw3": "/media/posthuman6_short.webm",
+            // "videw3": "/media/posthuman6_short.webm",
         },
         description: "stage visualisation, chamber opera"
     },

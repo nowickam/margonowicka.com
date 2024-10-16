@@ -12,10 +12,10 @@ export default class About extends Component {
 
     render() {
         let links = {
-            "CV": "./media/CV_Nowicka_8.2024.pdf",
+            "CV": "./media/CV_Nowicka_9.2024.pdf",
             "programming portoflio": "https://github.com/nowickam",
             "filmfreeway": "https://filmfreeway.com/MalgorzataNowicka",
-            "mail": "mailto:mngnowicka@gmail.com",
+            "mngnowicka[at]gmail.com": "mailto:mngnowicka@gmail.com",
         }
         let linksArray = []
 
@@ -29,10 +29,10 @@ export default class About extends Component {
                 <div className={styles.overflow}>
                     <div className={styles.aboutContainer}>
                         <div className={styles.description}>
-                            I am a new media artist, programmer and animator.  My artistic and research interests reside in fostering kinship with people and machines. I focus on the themes of social anxiety and humanist anxiety in the age of computational-technological determinism.
+                            I am a new media artist, creative coder and animator.  My current artistic and research interests reside in deconstructing the totalistic discourses of computation. I want to foster a more critical understanding of computer logic by devising softer, more intelligible modes of algorithmic representation.
                         </div>
                         <div className={styles.description}>
-                            The areas of my focus come from my background with the BSc in Computer Science from Warsaw University of Technology, and MA in New Media from Aalto University. I come from Wrocław, Poland, currently based in Helsinki, Finland.
+                            I have a BSc in Computer Science from Warsaw University of Technology, and MA in New Media from Aalto University. I come from Wrocław, Poland, currently based in Helsinki, Finland.
                         </div>
                         <div className={styles.workLinks}>{linksArray}</div>
                         {/* <img src="/media/about.png" alt="about" className={styles.imgAbout} /> */}

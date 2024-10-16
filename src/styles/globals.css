@@ -4,7 +4,7 @@ body {
   margin: 0;
   height: 100%;
   font-family: "Noto Serif JP", serif;
-  font-size: 15px;
+  font-size: 1.5vh;
   overflow: hidden;
 }
 
@@ -78,6 +78,11 @@ body {
 }
   .mainVideoVertical{
     max-width: 100%;
+  }
+
+  .mainImgVertical{
+    max-width: 100%;
+    height: auto;
   }
   
 }

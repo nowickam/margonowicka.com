@@ -75,6 +75,9 @@ export default function WorkDetails(props) {
         else if (key.substring(0, 4) === "text") {
             media.push(<div key={id + value} className={styles.workDesc}>{value}</div>)
         }
+        else if (key.substring(0, 4) === "texw") {
+            mediaWide.push(<div key={id + value} className={styles.workDesc}>{value}</div>)
+        }
         else if (key.substring(0, 6) === "footer") {
             media.push(<div key={id + key} className={styles.workFooter}>{value}</div>)
         }
@@ -91,8 +94,11 @@ export default function WorkDetails(props) {
                     <div className={styles.workFooters}>{footers}</div>
                 </div>
                 <div className={styles.workImgContainer}>{media}</div>
-                <div className={styles.workImgWideRowContainer}>{mediaWideRow}</div>
-                <div className={styles.workImgWideContainer}>{mediaWide}</div>
+                <div className={styles.workImgWideContainer}>
+                    <div className={styles.workImgWideRow}>{mediaWideRow}</div>
+                    <div className={styles.workImgWide}>{mediaWide}</div>
+                </div>
+
             </div>
         </div>
     );

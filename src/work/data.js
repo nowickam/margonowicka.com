@@ -1,5 +1,74 @@
 export const data = [
     {
+        title: "Lines of Descent",
+        img: "",
+        text: [
+            "Presenting data in visual form can help us notice patterns, aid our understanding of complex ideas and generate new findings. Students from Aalto University are participating in the FinnGen research project on exploring Finnish genetic information by creating data visualizations to help researchers navigate enormous genetic datasets, thereby fueling genetic discoveries.",
+            "At the heart of this exhibition lies the collaborative effort between Aalto University and FinnGen, a collaboration that underscores the importance of bridging the gap between scientific research and public understanding.",
+            "The exhibition consists of three parts. It opens with my Master’s thesis animation, which invites the visitors to reflect on how different myths, metaphors and frames influence science and culture, and how they intertwine in understanding genetics. The exhibition showcases the data visualization tools, as a result of the student work with the FinnGen project. It displays the Nature cover, with the simulation I programmed. In addition, I was responsible for the exhibition as well as the graphical design."
+
+        ],
+        footer: [
+
+
+        ],
+        links: {
+        },
+        mainMedia: {
+            "videoV2": "/media/oodi4.mp4",
+            "videoV1": "/media/oodi3.mp4",
+            // "videoV3": "/media/oodi6.mp4",
+        },
+        media: {
+
+            "imw1": "/media/oodi2.webp",
+            "imw2": "/media/oodi3.webp",
+            "imw3": "/media/oodi9.webp",
+            "imr1": "/media/oodi7.webp",
+            "imr2": "/media/oodi8.webp",
+            "imr3": "/media/descent4.webp",
+            "imr4": "/media/oodi11.webp",
+            "text1": "Curation: Outi Turpeinen, Margo Nowicka, Rupesh Vyas\nExhibition design: Margo Nowicka, Jennifer Sanderson\nCopywriting: Jennifer Sanderson\nAnimation: Margo Nowicka\nMusic: Mercedes Krapovickas\nSound design: Marija Šumarac\nFinnGen/FIMM: Mervi Aavikko, Mari Kaunisto, Helen Cooper, Mary Pat Reeve\nTranslation: Helen Cooper, Mari Kaunisto\nVoiceover: Helen Cooper, Aaron Geldert\nCommunications: Johanna Sippo\nVenue: Oodi Library, Helsinki\nDigital/physical fabrication: Rupesh Vyas, Laura Törnroos, Janne Andberg, Tatu Vuorio, Roel Meijs, Eila Hietanen, Arkus Ahonen"
+        },
+        description: "exhibition design"
+    },
+    {
+        title: "Aurinko and Selene",
+        img: "",
+        text: [
+            "​​The paradigmatic role of computational technologies in culture and science oftentimes renders natural phenomena as well as human action, interaction and introspection as forms of computation. The inaccurate yet foundational character of those interpretations has been the motivation for my Master’s thesis. ",
+            "In my research, I aimed to identify what is overstated, forgotten or taken for granted in science and culture shaped by computation, and rediscover the meaning of carbon-based bodily experience in the light of anxiety caused by the imposition of silicon-based technological advances. I used McLuhan's framework of a tetrad of human artifact influences (enhance-obscolesce-retrieve-reverse) to analyze the pervasiveness of language and concepts derived from and applied to computational technologies. Finally, I tried to convey and develop conceptual alternatives by creating the short animation “Aurinko and Selene”.",
+            "It tells the story of two children, Sun (fi. Aurinko) and Moon (gr. Selene), whose sibling bond is fractured by a genetic difference—lactose tolerance. Sun carries the gene that allows her to digest milk, while Moon does not. Their shared experience of drinking milk turns into a vivid exploration of their bodies' reactions. As colourful visuals depict their physical sensations, monochrome text frames their evolving effort to understand this difference.",
+            "As the story unfolds, Moon seeks answers from Sun about her discomfort, only to suspect her sister of causing harm. This suspicion leads to a cosmic separation between the two. The revelation of their genetic differences becomes a metaphor for the complexity, embodiment and beauty of variation.",
+            "The thesis is an embrace of the immediate, embodied experience of being alive. The embrace and its contraposition with the textual, conventional thought tries to reposition these impressions and codes in their own terms – one is not confused with the other. The work is a dream of reconnection with oneself and others instead of doubling into minds and bodies and isolating into the abstract, cranial chambers of rational thought.",
+
+        ],
+        footer: [
+            "Animation: Margo Nowicka \n Sound design: Marija Šumarac \n Music: Mercedes Krapovickas \n Voiceover: Aaron Gelder \n Advisor: Nicola Cerioli \n Supervisor: Rupesh Vyas \n Help and support: Hanna-Katri Eskelinen, Calvin Guillot, Kai Lappalainen \n In collaboration with Finngen"
+
+        ],
+        links: {
+            "Thesis text": "https://aaltodoc.aalto.fi/server/api/core/bitstreams/637768a9-63d5-4180-a5dc-6dcb99ca55a7/content"
+        },
+        mainMedia: {
+            // "img1": "/media/ause10.png",
+            "videoEmbed": "https://player.vimeo.com/video/1020066957?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            // "videoEmbed": "https://player.vimeo.com/video/918695987?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+        },
+        media: {
+            // "img1": "/media/ause4.webp",
+            "vider1": "/media/ause1.mp4",
+            "imr2": "/media/ause3.png",
+            "texw1": "The process of lactose digestion in humans. The visual representation on top of the network (right) serves as the visual language for the lactose tolerance part of the animation (left).",
+            // "img1": "/media/ause10.png",
+            "img1": "/media/ause12.webp",
+            "text2": "The fourfold influence of computation. Along with the definition of computation (center), it outlines what concepts are enhanced, strengthened by it (upper-left); what is pushed away to the background (lower-right); what is retrieved from the past (lower-left); and what is reversed, what opposites it brings up when exaggerated, pushed to its limits (upper-left).",
+            "imw1": "/media/ause13.webp",
+            "texw3": "The 3-channel version of the animation for the Lines of Descent exhibition in the Helsinki Central Library Oodi. "
+        },
+        description: "2D animation"
+    },
+    {
         title: "Dysmorphia",
         img: "",
         text: [
@@ -10,7 +79,7 @@ export const data = [
             "The feeling of the ‘I’ and being in control of its image - all of it is an illusion. A painful one, since the need of being in control can never be satisfied. The tendency to assume the worst leads to self-detrimental thoughts. Confrontation with the distorted image one has, leads into a squishing awkwardness, painful assignment of flaws, division of the self, indecisiveness. ",
             "Sometimes, one is able to cool down the disrupting thoughts and sensations, recover from the overwhelming realisations. Sometimes, the interaction generates reactions which one only exaggerates, spiralling into the egocentric doom. ",
             "One always hopes that it will all change. Once the ‘I’ starts fresh and wakes up to a new day, everything will be alright. Then the ‘I’ can finally become a loving partner, kind friend, engaged citizen. But with time one gets tired and learns that there is no escape to the illusion and the torment it generates. That one needs to reject the notion of the ‘I’ but at the same time reject the need to do it. One goes in a circle, being tossed by the projections of ego, external and internal. Understandably, loosing hope and giving into dysmorphia. The only solution is to coincide with the contents of the consciousness, flow without creating a narrative of it.",
-
+            "\n\nOfficial Selection:\nFredrikstad Animation Festival 2022, Fredrikstad, Norway,\n15th Annual Short Short Story Film Festival, Bethel CT, USA,\n23. Animatricks International Animation Festival, Helsinki, Finland,\n17th Anim!Arte - International Student Animation Festival of Brazil, Rio De Janeiro, Brazil,\nKinomural 2023, Wrocław Poland."
         ],
         footer: [
             "Animation: Margo Nowicka \n Sound: Lucien Montandon \n Supervision: Kai Lappalainen \n"
@@ -31,35 +100,121 @@ export const data = [
         },
         description: "3D animation"
     },
+
     {
-        title: "Aurinko and Selene",
+        title: "Genetic Bottleneck",
         img: "",
         text: [
-            "​​The paradigmatic role of computational technologies in culture and science oftentimes renders natural phenomena as well as human action, interaction and introspection as forms of computation. The inaccurate yet foundational character of those interpretations has been the motivation for my Master’s thesis. ",
-            "In my research, I aimed to identify what is overstated, forgotten or taken for granted in science and culture shaped by computation, and rediscover the meaning of carbon-based bodily experience in the light of anxiety caused by the imposition of silicon-based technological advances. I used McLuhan's framework of a tetrad of human artifact influences (enhance-obscolesce-retrieve-reverse) to analyze the pervasiveness of language and concepts derived from and applied to computational technologies. Finally, I tried to convey and develop conceptual alternatives by creating the short animation “Aurinko and Selene”.",
-            "It is a story of two children, Aurinko (fi. sun) and Selene (gr. moon), who drink milk and subsequently have a mythical argument over their physical and metaphysical differences which separate them ever since. The flow of bodily digestion/indigestion of lactose is contrasted with the images of different encodings (biblical text, human genome, self-generating computer code) that have aimed to explain all kinds of existential questions in all kinds of zeitgeists. ",
-            "The thesis is an embrace of the immediate, embodied experience of being alive. The embrace and its contraposition with the textual, conventional thought tries to reposition these impressions and codes in their own terms – one is not confused with the other. The work is a dream of reconnection with oneself and others instead of doubling into minds and bodies and isolating into the abstract, cranial chambers of rational thought.",
+            "This is a simulation of the genetic bottleneck effect on an imaginary population. Every row is a population generation which can be added with a click.",
+            "Every cell is an individual and the color (given randomly) represents a specific genetic mutation. The color will be likely passed down to future genrations.",
+            "When a genetic bottleneck happens, the population splits, fewer variations are left and the colors of the new branch tend to homogenise.",
+            "This simulation is an interactive version of the Nature cover created in collaboration between Aalto University and FinnGen."
+
 
         ],
         footer: [
-            "Animation: Margo Nowicka \n Sound design: Marija Šumarac \n Music: Mercedes Krapovickas \n Voiceover: Aaron Gelder \n Advisor: Nicola Cerioli \n Supervisor: Rupesh Vyas \n Help and support: Hanna-Katri Eskelinen, Calvin Guillot, Kai Lappalainen \n In collaboration with Finngen"
+            "Credits: Margo Nowicka, Federico Simeoni, Nicola Cerioli, Rupesh Vyas"
 
         ],
         links: {
-            "thesis": "https://aaltodoc.aalto.fi/server/api/core/bitstreams/637768a9-63d5-4180-a5dc-6dcb99ca55a7/content"
+            "Nature issue": "https://www.nature.com/nature/volumes/613/issues/7944",
+            "Simulation website": "https://geneviz.aalto.fi/lines_of_descent/",
+            "Github": "https://github.com/Nicolibus/lines_of_descent"
         },
         mainMedia: {
-            // "img1": "/media/ause10.png",
-            "videoEmbed": "https://player.vimeo.com/video/918695987?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            "img1": "/media/descent_contrast.webp",
         },
         media: {
-            // "img1": "/media/ause4.webp",
-            "img3": "/media/ause3.png",
-            "text1": "The process of lactose digestion in humans. The visual representation on top of the network serves as the visual language for the animation.",
+            "imr1": "/media/descent4.webp",
+            "imw1": "/media/descent3.jpg",
+            // "img3": "/media/ause3.png",
+            // "text1": "The process of lactose digestion in humans. The visual representation on top of the network serves as the visual language for the animation.",
             // "img1": "/media/ause10.png",
-            "imw1": "/media/ause12.webp",
+            "imr2": "/media/descent5_contrast.webp",
         },
-        description: "2D animation"
+        description: "computer simulation"
+    },
+    {
+        title: "Ihmisen jälkeen / Posthuman",
+        img: "",
+        text: [
+            "Together with Calvin Guillot, we collaborated with the director, Teemu Mäki, on the content of the visualisations by using the artificial intelligence models and generative simulations. With the incorporation of the tools of new media, we strived for a manifestation of the ideas of posthumanism that is more subtle and sensitive - that is not confined to telling a story about artificial intelligence and digitial life, but tackles the questions of the human condition raised in the play.",
+
+        ],
+        footer: [
+
+
+        ],
+        links: {
+            "Performed in Tanssin Talo, Helsinki, Finland.": "https://www.tanssintalo.fi/en/performances/musica-nova-helsinki-ihmisen-jalkeen",
+            "Funded by Kone Foundation.": "https://koneensaatio.fi/tarinat-ja-julkaisut/ihmisen-jalkeen-ooppera/",
+        },
+        mainMedia: {
+            "img": "/media/posthuman.webp",
+        },
+        media: {
+            // "video": "/media/posthuman3.mp4",
+            // "video2": "/media/posthuman5.webm",
+            "imw2": "/media/posthuman8.webp",
+            "imw1": "/media/posthuman7.webp",
+            // "videw3": "/media/posthuman6_short.webm",
+            "text1": "Production: The Finnish Chamber Opera and Greta Productions\nProducer: Nea Huovinen\nMarketing officer: Ida Hansen\nComposer: Max Savikangas\nLibretto, video art, direction: Teemu Mäki\nChoreography: Petri Kekoni\nCostumes: Iida Ukkola\nLightning: Erno Seppälä\nSound design and audio engineering: Anders Pohjola & Max Savikangas\nComputer graphics and generative visuals: Calvin Guillot & Małgorzata Nowicka\nConductor: József Hárs\nChorus master / Assistant conductor: Jonas Rannila\nCorrepetitor: Jussi Littunen\nSoloists: Reetta Ristimäki, Petri Bäckström, Susanna Tollet and Tuukka Haapaniemi\nVocal group: Heta Kokkomäki, Nairi Azezian, Martti Anttila and Jussi Linnanmäki\nDancers: Petri Kekoni Company: Meri Pajunpää and Anna Stenberg\nOrchestra: Martta Jämsä (fl/picc/a.fl), Vivian Neff (cl/b.cl), Olli-Pekka Tuomisalo (sax), Tuomo Lassila (perc), Fanny Söderström (pn /kb), Maria Puusaari (vl1), Aleksi Kotila (vl2), Maarit Holkko (vla), Pinja Nuñez (vlc) and Vilhelm Karlsson (db)"
+        },
+        description: "stage visualisation, chamber opera"
+    },
+    {
+        title: "Rottien pyhimys / Rat Saint",
+        img: "",
+        text: [
+            "Rottien pyhimys is a musical story of the paintings in the 16th century Church of the Holy Cross in Hattula, composed by Jukka Nykänen, directed by Reetta Ristimäki and written by Anneli Kanno. Together with Calvin Guillot, we interpreted the story and the original murals into a magical process of the church slowly filling with the paintings in their full, restored color, fantastical ornaments growing all over.",
+            "Performed in:\nMusiikkiteatteri Kapsäkki, Helsinki, Finland,\nAleksanterin teatteri, Helsinki, Finland.",
+
+        ],
+        footer: [
+            "Cast: Aurora Manninen, Jasper Leppänen, Kai Bäckström, Jyri Lahtinen, Petri Bäckström and Eeva Semerdjiev\nMusicians: Janek Öller, Ilkka Heinonen and Miika Vintturi\nLibretto: Anneli Kanto\nComposition: Jukka Nykänen\nDirection and artistic concept: Reetta Ristimäki\nVisual artists: Calvin Guillot and Małgorzata Nowicka (Aalto University)\nLighting design: Mirkka Saari\nSound design: Max Marshall\nCostume design: Marja Uusitalo\nMasking design: Ari Haapaniemi\nProduction: Greta Tuotanto and Music Theater Kapsäkki\nCollaborators: Aalto University's MAGICS project"
+
+        ],
+        links: {
+            "Produced by Greta Tuotanto": "https://www.gretatuotanto.fi/rottien-pyhimys"
+        },
+        mainMedia: {
+            "img": "/media/rats1.webp",
+        },
+        media: {
+            "video": "/media/rats.webm",
+            "img1": "/media/rats2.webp",
+            "imw1": "/media/rats5.webp",
+        },
+        description: "stage visualisation, musical"
+    },
+    {
+        title: "Takeoff",
+        img: "",
+        text: [
+            "This work is a part of the Urban Travel Machines project - a collaboration between three schools of arts and four planetaria with the goal of contributing to the renewal of the literary sector in Europe through the adoption of immersive technology. ",
+            "Takeoff is a meditation on dreams as means of escapism. It is a visual interpretation of the poem, where the protagonist describes the first time he took off - ran away to the limitless world of fantasy, rejecting the absurdity of suffering.",
+            "The work has been presented in the Prima Vista Literary Festival as an immersive slam poetry performance in the planetarium in Tartu, Estonia. The final performance takes place in the Brussels Planetarium Poetry Fest 2024.",
+            "Official Selection: \nZEBRA Poetry Fillm Festival 2023, Berlin, Germany\nTokyo International Short Film Festival, Tokyo, Japan,\nNew York Tri-State International Film Festival, New York, USA,\n Les Instants Vidéo, Marseille, France.\n\nWinner: \nKinomural Open Call 2023, Wroclaw, Poland.\n",
+
+        ],
+        footer: [
+
+
+        ],
+        links: {
+            "Urban Travel Machines website": "https://utm.ap-arts.be/",
+            "Project description on Aalto University website": "https://www.aalto.fi/en/news/the-creative-europe-project-urban-travel-machines-explores-the-potential-of-immersive-technologies"
+        },
+        mainMedia: {
+            "img": "/media/utm1_credits_2024.webp",
+        },
+        media: {
+            "imr1": "/media/utm4.webp",
+            // "imw1": "/media/utm2.webp",
+            "vider2": "/media/takeoff_demo.mp4",
+            "text1": "Poem: Giovanni Baudonck\nVisuals: Hanna-Katri Eskelinen, Calvin Guillot, Margo Nowicka\n\nRealized with the support of the European Education and Culture Executive Agency (EACEA) and co-funded by the Creative Europe Programme of the European Union."
+        },
+        description: "poetry visualisation, planetarium"
     },
     {
         title: "In My Mind's Eye",
@@ -134,7 +289,7 @@ export const data = [
 
         ],
         links: {
-            "github": "https://github.com/nowickam/cellular-automaton-sequencer"
+            "Github": "https://github.com/nowickam/cellular-automaton-sequencer"
         },
         mainMedia: {
             // "videoEmbed": "https://player.vimeo.com/video/905488131?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
@@ -145,112 +300,35 @@ export const data = [
         },
         description: "sound synthesis, pure data"
     },
-    {
-        title: "Ihmisen jälkeen / Posthuman",
-        img: "",
-        text: [
-            "Together with Calvin Guillot, we collaborated with the director, Teemu Mäki, on the content of the visualisations by using the artificial intelligence models and generative simulations. With the incorporation of the tools of new media, we strived for a manifestation of the ideas of posthumanism that is more subtle and sensitive - that is not confined to telling a story about artificial intelligence and digitial life, but tackles the questions of the human condition raised in the play.",
 
-        ],
-        footer: [
-            "Production: The Finnish Chamber Opera and Greta Productions\nProducer: Nea Huovinen\nMarketing officer: Ida Hansen\nComposer: Max Savikangas\nLibretto, video art, direction: Teemu Mäki\nChoreography: Petri Kekoni\nCostumes: Iida Ukkola\nLightning: Erno Seppälä\nSound design and audio engineering: Anders Pohjola & Max Savikangas\nComputer graphics and generative visuals: Calvin Guillot & Małgorzata Nowicka\nConductor: József Hárs\nChorus master / Assistant conductor: Jonas Rannila\nCorrepetitor: Jussi Littunen\nSoloists: Reetta Ristimäki, Petri Bäckström, Susanna Tollet and Tuukka Haapaniemi\nVocal group: Heta Kokkomäki, Nairi Azezian, Martti Anttila and Jussi Linnanmäki\nDancers: Petri Kekoni Company: Meri Pajunpää and Anna Stenberg\nOrchestra: Martta Jämsä (fl/picc/a.fl), Vivian Neff (cl/b.cl), Olli-Pekka Tuomisalo (sax), Tuomo Lassila (perc), Fanny Söderström (pn /kb), Maria Puusaari (vl1), Aleksi Kotila (vl2), Maarit Holkko (vla), Pinja Nuñez (vlc) and Vilhelm Karlsson (db)"
+    // {
+    //     title: "Differential Growth",
+    //     img: "/thumbnails/imp.png",
+    //     text: [
+    //         "Study of the nature-inspired simulations with the differential growth algorithm.",
+    //     ],
+    //     footer: [
+    //         "Supervision: Nuno Correia \n",
 
-        ],
-        links: {
-            "dance house helsinki": "https://www.tanssintalo.fi/en/performances/musica-nova-helsinki-ihmisen-jalkeen",
-            "kone foundation": "https://koneensaatio.fi/tarinat-ja-julkaisut/ihmisen-jalkeen-ooppera/",
-        },
-        mainMedia: {
-            "img": "/media/posthuman.webp",
-        },
-        media: {
-            // "video": "/media/posthuman3.mp4",
-            // "video2": "/media/posthuman5.webm",
-            "imw2": "/media/posthuman8.webp",
-            "imw1": "/media/posthuman7.webp",
-            // "videw3": "/media/posthuman6_short.webm",
-        },
-        description: "stage visualisation, chamber opera"
-    },
-    {
-        title: "Rottien pyhimys / Rat Saint",
-        img: "",
-        text: [
-            "Rottien pyhimys is a musical story of the paintings in the 16th century Church of the Holy Cross in Hattula, composed by Jukka Nykänen, directed by Reetta Ristimäki and written by Anneli Kanno. Together with Calvin Guillot, we interpreted the story and the original murals into a magical process of the church slowly filling with the paintings in their full, restored color, fantastical ornaments growing all over.",
+    //     ],
+    //     links: {
+    //         "github": "https://github.com/nowickam/differential-growth",
+    //         "generative media reel": "https://teaching.nunocorreia.com/2022-gmc-aalto/"
+    //     },
+    //     mainMedia: {
+    //         "img": "/media/diff1.png",
+    //     },
+    //     media: {
+    //         "videw1": "/media/diff.mp4",
+    //         "imw": "media/diff6.png",
+    //         "imw1": "/media/diff5.png",
+    //         "imw2": "/media/diff4.png",
+    //         // "imw3": "/media/diff3.png",
+    //         // "imw4": "/media/diff2.png"
+    //     },
+    //     description: "generative coding"
 
-        ],
-        footer: [
-            "Cast: Aurora Manninen, Jasper Leppänen, Kai Bäckström, Jyri Lahtinen, Petri Bäckström and Eeva Semerdjiev\nMusicians: Janek Öller, Ilkka Heinonen and Miika Vintturi\nLibretto: Anneli Kanto\nComposition: Jukka Nykänen\nDirection and artistic concept: Reetta Ristimäki\nVisual artists: Calvin Guillot and Małgorzata Nowicka (Aalto University)\nLighting design: Mirkka Saari\nSound design: Max Marshall\nCostume design: Marja Uusitalo\nMasking design: Ari Haapaniemi\nProduction: Greta Tuotanto and Music Theater Kapsäkki\nCollaborators: Aalto University's MAGICS project"
-
-        ],
-        links: {
-            "kapsakki music theatre": "https://kapsakki.fi/rottien-pyhimys/"
-        },
-        mainMedia: {
-            "img": "/media/rats1.webp",
-        },
-        media: {
-            "video": "/media/rats.webm",
-            "img1": "/media/rats2.webp",
-        },
-        description: "stage visualisation, musical"
-    },
-    {
-        title: "Takeoff",
-        img: "",
-        text: [
-            "This work is a part of the Urban Travel Machines project - a collaboration between three schools of arts and four planetaria with the goal of contributing to the renewal of the literary sector in Europe through the adoption of immersive technology. ",
-            "Takeoff is a meditation on dreams as means of escapism. It is a visual interpretation of the poem, where the protagonist describes the first time he took off - ran away to the limitless world of fantasy, rejecting the absurdity of suffering.",
-            "The work has been presented in the Prima Vista Literary Festival as an immersive slam poetry performance in the planetarium in Tartu, Estonia. The final performance will take place in the Brussels planetarium, September 2024.",
-            "The cinema version of the work has been presented in ZEBRA Poetry Film Festival 2023 and awarded the Kinomural 2023 Open Call prize.",
-
-        ],
-        footer: [
-            "Realized with the support of the European Education and Culture Executive Agency (EACEA) and co-funded by the Creative Europe Programme of the European Union.",
-            "Poem: Giovanni Baudonck\nVisuals: Hanna-Katri Eskelinen, Calvin Guillot, Margo Nowicka"
-
-        ],
-        links: {
-            "project on aalto website": "https://www.aalto.fi/en/news/the-creative-europe-project-urban-travel-machines-explores-the-potential-of-immersive-technologies"
-        },
-        mainMedia: {
-            "img": "/media/utm1credits.webp",
-        },
-        media: {
-            "imr1": "/media/utm4.webp",
-            // "imw1": "/media/utm2.webp",
-            "vider2": "/media/takeoff_demo.mp4",
-        },
-        description: "poetry visualisation, planetarium"
-    },
-    {
-        title: "Differential Growth",
-        img: "/thumbnails/imp.png",
-        text: [
-            "Study of the nature-inspired simulations with the differential growth algorithm.",
-        ],
-        footer: [
-            "Supervision: Nuno Correia \n",
-
-        ],
-        links: {
-            "github": "https://github.com/nowickam/differential-growth",
-            "generative media reel": "https://teaching.nunocorreia.com/2022-gmc-aalto/"
-        },
-        mainMedia: {
-            "img": "/media/diff1.png",
-        },
-        media: {
-            "videw1": "/media/diff.mp4",
-            "imw": "media/diff6.png",
-            "imw1": "/media/diff5.png",
-            "imw2": "/media/diff4.png",
-            // "imw3": "/media/diff3.png",
-            // "imw4": "/media/diff2.png"
-        },
-        description: "generative coding"
-
-    },
+    // },
     // {
     //     title: "Profundo",
     //     img: "",
@@ -295,12 +373,12 @@ export const data = [
 
         ],
         links: {
-            "github": "https://github.com/nowickam/what-is-in-the-shell",
-            "ocean project page": "https://www.hackster.io/nowickam/what-is-in-the-shell-ocean-7ce990",
-            "radio project page": "https://www.hackster.io/nowickam/what-is-in-the-shell-radio-eb7a41",
-            "ocean video": "https://www.youtube.com/watch?v=IiaRDXWyYTM",
-            "radio video": "https://youtu.be/9V2kslX2MmU",
-            "critical making exhibition": "https://criticalmaking.xyz"
+            "Github": "https://github.com/nowickam/what-is-in-the-shell",
+            "Ocean project page": "https://www.hackster.io/nowickam/what-is-in-the-shell-ocean-7ce990",
+            "Radio project page": "https://www.hackster.io/nowickam/what-is-in-the-shell-radio-eb7a41",
+            "Ocean video": "https://www.youtube.com/watch?v=IiaRDXWyYTM",
+            "Radio video": "https://youtu.be/9V2kslX2MmU",
+            "Critical making exhibition": "https://criticalmaking.xyz"
         },
         mainMedia: {
             "img": "media/shell.png"
@@ -324,7 +402,7 @@ export const data = [
 
         ],
         links: {
-            "github": "https://github.com/nowickam/simple-complexity"
+            "Github": "https://github.com/nowickam/simple-complexity"
         },
         mainMedia: {
             "img": "/media/slime1.png"
@@ -338,74 +416,74 @@ export const data = [
         description: "generative coding"
 
     },
-    {
-        title: "Socrealizm",
-        img: "",
-        text: [
-            "An abstract journey from hope to chaos inspired by the ideological promises of paradise and burdens of its construction inflicted by totalitarian regimes.",
+    // {
+    //     title: "Socrealizm",
+    //     img: "",
+    //     text: [
+    //         "An abstract journey from hope to chaos inspired by the ideological promises of paradise and burdens of its construction inflicted by totalitarian regimes.",
 
-            "Communist paradise under construction was the artistic and ideological objective in the countries under the Soviet regime, which many artists appropriated and believed in. I used it as a main theme of the three-part vj performance - first one sourcing the socialist realism paintings, second showing the construction process of the Palace of Culture and Science (Joseph Stalin's Palace of Culture and Science at the time), third overlaying the abstract growth formation on the personal footage from Warsaw, symbolising the tumor of communist heritage every Pole carries and lives with today.",
+    //         "Communist paradise under construction was the artistic and ideological objective in the countries under the Soviet regime, which many artists appropriated and believed in. I used it as a main theme of the three-part vj performance - first one sourcing the socialist realism paintings, second showing the construction process of the Palace of Culture and Science (Joseph Stalin's Palace of Culture and Science at the time), third overlaying the abstract growth formation on the personal footage from Warsaw, symbolising the tumor of communist heritage every Pole carries and lives with today.",
 
-            "This work is a reminder on the message and fantasies conveyed with art, as there's always a context, historical and political. We all have responsibility for the culture we create and participate in.",
+    //         "This work is a reminder on the message and fantasies conveyed with art, as there's always a context, historical and political. We all have responsibility for the culture we create and participate in.",
 
-        ],
-        footer: [
-            "Realized for TOKYO (student association of Aalto University's School of Arts, Design and Architecture) Maskerad 2022 costume party."
+    //     ],
+    //     footer: [
+    //         "Realized for TOKYO (student association of Aalto University's School of Arts, Design and Architecture) Maskerad 2022 costume party."
 
-        ],
-        links: {
+    //     ],
+    //     links: {
 
-        },
-        mainMedia: {
-            "video": "/media/soc3.mov",
-        },
-        media: {
-            "imw": "/media/soc1.webp",
-            "imw1": "/media/soc2.webp",
-            // "videw": "/media/soc3.mov",
-            "imw2": "/media/soc6.webp",
-            // "imw1": "/media/soc1.webp",
-            // "video": "/media/rats.mp4",
-        },
-        description: "vj"
-    },
-    {
-        title: "Invisible Lines",
-        img: "/thumbnails/ada.png",
-        text: [
-            "The work comprises of two large projections facing each other. On the one side the colors of the images of waves, forest, underwater reef are bleeding into the silhouette of the person entering the space. The feeling of calm is reflected in the sounds of wind and birds. The opposing screen shows burning destruction, glitchy horror happening outside of the person’s reflection, with a dissolution of crimson reds and blacks inside it. Sounds of underwater volcanoes and explosions accompany the turmoil.",
-            "When one travels between the two extremes, one notices an invisible border in the middle, that unveils where one arrives, and blurs the place that is left behind.",
-            "The structure resembles the one of triptych, contraposing two states of the internal, emotional and external, environmental, with the viewer in the middle of ‘The Garden of Earthly Delights’, exerting their agency over the order and the chaos, Eden and Last Judgement.",
-            "What makes us different from the earthly characters of Bosh’ imagination is that we can see what happens to the left and to the right, behind and in front of the central panel. Sheltered on one side, we can see the bombs detonating, feel the earth trembling from its impact. Running from the horrors of hell, we are safe on the other side of the imaginary line.",
-            "This simple form of a triptych escapes the false subtleties and elaborated explanations of the current-day manipulators, and portrays a cry that has stayed unchanged for centuries. Why do I deserve to live and you don’t? Do I have any agency? Childish cries - one might say it is about politics, history, money. Watching people fleeing their homes, being tortured and dead - in the face of it all this explanation still doesn’t make sense.",
-            "Borges warns of imaginary, constructed worlds, warns of the emergent triptychs.",
-            "‘Ten years ago any symmetry with a semblance of order - dialectical materialism, anti-Semitism, Nazism - was sufficient to entrance the minds of men. How could one do other than submit to [the constructed symmetry], to the minute and vast evidence of an orderly planet? It is useless to answer that reality is also orderly. Perhaps it is, but in accord­ance with divine laws - I translate: inhuman laws - which we never quite grasp. The contact and the habit of [the constructed, symmetrical planet] have disintegrated this world. Enchanted by its rigor, humanity forgets over and again that it is a rigor of chess masters, not of angels.’",
-            "Rigorous drawing of invisible lines disturbs the inhuman laws of this world, that we so eagerly want to make our own. At the same time, the very human nature of our constructs makes them paradoxically pointless - why did we agree that this invisible line goes here, what is the reason for creating hells and heavens of this world, side by side.",
-            "The construction of fake dualism, idealistic and absurd, serves the chess masters playing within their squares of the divine board ignoring the suffering of everything that happens to appear on it.",
-        ],
-        footer: [
-            "Visuals: Calvin Guillot, Margo Nowicka \n Sound: Mathias Leopold \n Supervision: Matti Niinimäki \n",
-            "",
-            "Citation from ‘Tlon, Uqbar, Orbis Tertius’ by Jorge Luis Borges"
+    //     },
+    //     mainMedia: {
+    //         "video": "/media/soc3.mov",
+    //     },
+    //     media: {
+    //         "imw": "/media/soc1.webp",
+    //         "imw1": "/media/soc2.webp",
+    //         // "videw": "/media/soc3.mov",
+    //         "imw2": "/media/soc6.webp",
+    //         // "imw1": "/media/soc1.webp",
+    //         // "video": "/media/rats.mp4",
+    //     },
+    //     description: "vj"
+    // },
+    // {
+    //     title: "Invisible Lines",
+    //     img: "/thumbnails/ada.png",
+    //     text: [
+    //         "The work comprises of two large projections facing each other. On the one side the colors of the images of waves, forest, underwater reef are bleeding into the silhouette of the person entering the space. The feeling of calm is reflected in the sounds of wind and birds. The opposing screen shows burning destruction, glitchy horror happening outside of the person’s reflection, with a dissolution of crimson reds and blacks inside it. Sounds of underwater volcanoes and explosions accompany the turmoil.",
+    //         "When one travels between the two extremes, one notices an invisible border in the middle, that unveils where one arrives, and blurs the place that is left behind.",
+    //         "The structure resembles the one of triptych, contraposing two states of the internal, emotional and external, environmental, with the viewer in the middle of ‘The Garden of Earthly Delights’, exerting their agency over the order and the chaos, Eden and Last Judgement.",
+    //         "What makes us different from the earthly characters of Bosh’ imagination is that we can see what happens to the left and to the right, behind and in front of the central panel. Sheltered on one side, we can see the bombs detonating, feel the earth trembling from its impact. Running from the horrors of hell, we are safe on the other side of the imaginary line.",
+    //         "This simple form of a triptych escapes the false subtleties and elaborated explanations of the current-day manipulators, and portrays a cry that has stayed unchanged for centuries. Why do I deserve to live and you don’t? Do I have any agency? Childish cries - one might say it is about politics, history, money. Watching people fleeing their homes, being tortured and dead - in the face of it all this explanation still doesn’t make sense.",
+    //         "Borges warns of imaginary, constructed worlds, warns of the emergent triptychs.",
+    //         "‘Ten years ago any symmetry with a semblance of order - dialectical materialism, anti-Semitism, Nazism - was sufficient to entrance the minds of men. How could one do other than submit to [the constructed symmetry], to the minute and vast evidence of an orderly planet? It is useless to answer that reality is also orderly. Perhaps it is, but in accord­ance with divine laws - I translate: inhuman laws - which we never quite grasp. The contact and the habit of [the constructed, symmetrical planet] have disintegrated this world. Enchanted by its rigor, humanity forgets over and again that it is a rigor of chess masters, not of angels.’",
+    //         "Rigorous drawing of invisible lines disturbs the inhuman laws of this world, that we so eagerly want to make our own. At the same time, the very human nature of our constructs makes them paradoxically pointless - why did we agree that this invisible line goes here, what is the reason for creating hells and heavens of this world, side by side.",
+    //         "The construction of fake dualism, idealistic and absurd, serves the chess masters playing within their squares of the divine board ignoring the suffering of everything that happens to appear on it.",
+    //     ],
+    //     footer: [
+    //         "Visuals: Calvin Guillot, Margo Nowicka \n Sound: Mathias Leopold \n Supervision: Matti Niinimäki \n",
+    //         "",
+    //         "Citation from ‘Tlon, Uqbar, Orbis Tertius’ by Jorge Luis Borges"
 
-        ],
-        links: {
-            "video": "https://youtu.be/LiDLAK-ukv8",
-        },
-        mainMedia: {
-            "video": "/media/lines1.mp4",
-        },
-        media: {
-            "video1": "/media/lines.mp4",
-            "img2": "/media/lines2.png",
-            "img1": "/media/lines1.png",
+    //     ],
+    //     links: {
+    //         "video": "https://youtu.be/LiDLAK-ukv8",
+    //     },
+    //     mainMedia: {
+    //         "video": "/media/lines1.mp4",
+    //     },
+    //     media: {
+    //         "video1": "/media/lines.mp4",
+    //         "img2": "/media/lines2.png",
+    //         "img1": "/media/lines1.png",
 
 
-            // "video2": "/media/lines2.mp4"
-        },
-        description: "interactive installation, touchdesigner"
+    //         // "video2": "/media/lines2.mp4"
+    //     },
+    //     description: "interactive installation, touchdesigner"
 
-    },
+    // },
     // {
     //     title: "Marginal Recollections",
     //     img: "/thumbnails/shell.png",

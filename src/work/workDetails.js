@@ -84,8 +84,10 @@ export default function WorkDetails(props) {
 
     }
 
+    console.log(props)
+
     return (
-        <div ref={ref} className={styles.overflow}>
+        <div ref={ref} className={props.mobile ? (props.toggleMenu ? styles.overflowHide : styles.overflowShow) : styles.overflow}>
             <div className={styles.workMainContainer}>
                 <div className={styles.workImgMain}>{mainMedia}</div>
                 <div className={styles.workTextContainer}>

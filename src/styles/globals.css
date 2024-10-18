@@ -74,7 +74,8 @@ a {
 @media screen and (max-width: 768px) {
   html,
 body {
-  font-size: 10px;
+  /* font-size: 10px; */
+  font-size: 1.8vh;
 }
   .mainVideoVertical{
     max-width: 100%;

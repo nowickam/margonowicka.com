@@ -37,6 +37,7 @@
   margin-bottom: 1.5vmax;
 }
 
+
 .thumbnailContainerActive {
   color: gray;
   cursor: pointer;
@@ -51,10 +52,38 @@
   grid-row: 0; */
 }
 
+.overflowShow{
+  grid-row: 1;
+  overflow: auto;
+  display: block;
+}
+
+.overflowHide{
+  grid-row: 1;
+  overflow: auto;
+  display: none;
+}
+
 .overflow2 {
   overflow: auto;
   /* grid-column: 0;
   grid-row: 0; */
+}
+
+.overflow2Show{
+  grid-row: 1;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding: 4vmax;
+  overflow: auto;
+  display: block;
+}
+
+.overflow2Hide{
+  grid-row: 1;
+  overflow: auto;
+  display: none;
 }
 
 .workMainContainer {
@@ -86,7 +115,7 @@
 }
 
 .workDesc {
-  padding: 2vmax;
+  padding: 1vmax;
   white-space: pre-line;
   text-align: right;
   max-width: 80%;
@@ -100,6 +129,7 @@
 }
 
 .workImgContainer {
+  padding-top: 1vmax;
   grid-column: 2;
   display: flex;
   flex-direction: column;
@@ -166,6 +196,17 @@
 
 @media screen and (max-width: 768px) {
 
+  .container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    margin-left: 1vmax;
+    margin-right: 1vmax;
+    margin-bottom: 1.85vmax;
+    margin-top: 2vmax;
+
+  }
+
   .workTextContainer {
     grid-column: 1 / span 2;
   }
@@ -187,7 +228,7 @@
     flex-direction: column;
   }
   .title {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   
 }

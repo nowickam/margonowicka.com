@@ -93,26 +93,21 @@ export default class Home extends Component {
     this.state = {
       x: 0,
       y: 0,
-      width: 0,
-      height: 0,
       time: 0
     };
-    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
   }
 
   onMouseMove = (e) => {
     const rect = e.target.getBoundingClientRect();
     this.setState({
-      x: (e.clientX) / window.innerWidth,
-      y: 1 - (e.clientY) / window.innerHeight,
+      x: (e.clientX) / this.props.width,
+      y: 1 - (e.clientY) / this.props.height,
     });
     // console.log(this.state.x, this.state.y)
   };
 
   componentDidMount() {
     this.props.changeRoute("h")
-    this.updateWindowDimensions();
-    window.addEventListener('resize', this.updateWindowDimensions);
 
     const loop = _time => {
       this.raf = requestAnimationFrame(loop);
@@ -124,27 +119,23 @@ export default class Home extends Component {
   }
 
   componentWillUnmount() {
-    window.removeEventListener('resize', this.updateWindowDimensions);
     cancelAnimationFrame(this.raf);
   }
 
-  updateWindowDimensions() {
-    this.setState({ width: window.innerWidth, height: window.innerHeight });
-  }
 
   render() {
     return (
       <div className={styles.container} onMouseMove={this.onMouseMove}>
         <div id={styles.name}>Margo Nowicka</div>
 
-        <Surface width={this.state.width} height={this.state.height}>
+        <Surface width={this.props.width} height={this.props.height}>
           <NearestCopy>
             <Node
               shader={shaders.chroma}
               sync
               uniforms={{
                 mouse: [this.state.x, this.state.y],
-                resolution: [this.state.width, this.state.height],
+                resolution: [this.props.width, this.props.height],
                 time: this.state.time
               }}
             />

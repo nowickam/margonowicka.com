@@ -11,25 +11,52 @@ export default class App extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            isHome: "h"
+            isHome: "h",
+            width: window.innerWidth,
+            height: window.innerHeight,
+            toggleMenu: true
         }
 
         this.changeRoute = this.changeRoute.bind(this)
+        this.changeToggleMenu = this.changeToggleMenu.bind(this)
+        this.updateWindowDimensions = this.updateWindowDimensions.bind(this)
     }
 
     changeRoute(route) {
         this.setState({
-            isHome: route
+            isHome: route,
+            toggleMenu: true
         })
+    }
+
+    changeToggleMenu() {
+        this.setState({
+            toggleMenu: !this.state.toggleMenu
+        })
+    }
+
+    componentDidMount() {
+        this.updateWindowDimensions();
+        window.addEventListener('resize', this.updateWindowDimensions);
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('resize', this.updateWindowDimensions);
+    }
+
+    updateWindowDimensions() {
+
+        this.setState({ width: window.innerWidth, height: window.innerHeight });
+        console.log(this.state)
     }
 
     render() {
         return (
             <div id='rootContainer'>
-                <Menu key={this.state.isHome} isHome={this.state.isHome} />
+                <Menu key={this.state.isHome} isHome={this.state.isHome} width={this.state.width} height={this.state.height} toggleMenu={this.state.toggleMenu} changeToggleMenu={this.changeToggleMenu} />
                 <Routes>
-                    <Route path="/" element={<Home changeRoute={this.changeRoute} />} />
-                    <Route path="/work" element={<Work changeRoute={this.changeRoute} />} />
+                    <Route path="/" element={<Home changeRoute={this.changeRoute} width={this.state.width} height={this.state.height} />} />
+                    <Route path="/work" element={<Work toggleMenu={this.state.toggleMenu} changeRoute={this.changeRoute} width={this.state.width} height={this.state.height} changeToggleMenu={this.changeToggleMenu} />} />
                     <Route path="/about" element={<About changeRoute={this.changeRoute} />} />
                 </Routes>
                 <div id='footer'>© 2020-2024 Margo Nowicka</div>

@@ -40,10 +40,16 @@ export default class Thumbnail extends Component {
 
     render() {
         return (
-            < div className={this.state.mouseHover ? styles.thumbnailContainerActive : styles.thumbnailContainer} onClick={this.onClick} onMouseEnter={this.onMouseEnter} onMouseLeave={this.onMouseLeave}>
-                <div className={this.state.active ? styles.titleActive : styles.title}>{this.props.data.title}</div>
-                <div className={styles.description}>{this.props.data.description}</div>
-            </div >
+            this.props.width > 768 ?
+                < div className={this.state.mouseHover ? styles.thumbnailContainerActive : styles.thumbnailContainer} onClick={this.onClick} onMouseEnter={this.onMouseEnter} onMouseLeave={this.onMouseLeave}>
+                    <div className={this.state.active ? styles.titleActive : styles.title}>{this.props.data.title}</div>
+                    <div className={styles.description}>{this.props.data.description}</div>
+                </div >
+                :
+                < div className={this.state.mouseHover ? styles.thumbnailContainerActive : styles.thumbnailContainer} onClick={this.onClick} onMouseEnter={this.onMouseEnter} onMouseLeave={this.onMouseLeave}>
+                    <div className={this.state.active ? styles.titleActive : styles.title}>{this.props.data.title}</div>
+                    <div className={styles.description}>{this.props.data.description}</div>
+                </div >
 
         );
     }

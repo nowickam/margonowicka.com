@@ -13,6 +13,7 @@ export const data = [
 
         ],
         links: {
+            "The exhibition took place in Helsinki Central Library Oodi.": "https://oodihelsinki.fi/event/helsinki:agjavemcau/lines-of-descent/?lang=en",
         },
         mainMedia: {
             "videoV2": "/media/oodi4.mp4",
@@ -94,6 +95,7 @@ export const data = [
         media: {
             "img1": "/media/dys2.jpg",
             "img3": "/media/dysKino.webp",
+            "text1": "The animatioon displayed on a side of the building in Wrocław, Poland during the new media urban festival Kinomurale 2023.",
             "img2": "/media/dys3.jpg",
             // "img4": "/media/dys5.jpg",
             // "img5": "/media/dys6.jpg",
@@ -108,7 +110,7 @@ export const data = [
             "This is a simulation of the genetic bottleneck effect on an imaginary population. Every row is a population generation which can be added with a click.",
             "Every cell is an individual and the color (given randomly) represents a specific genetic mutation. The color will be likely passed down to future genrations.",
             "When a genetic bottleneck happens, the population splits, fewer variations are left and the colors of the new branch tend to homogenise.",
-            "This simulation is an interactive version of the Nature cover created in collaboration between Aalto University and FinnGen."
+            "This simulation is an interactive version of the Nature cover created in collaboration between Aalto University and FinnGen. I was part of the design team for the cover created by Federico Simeoni, and I programmed the graph simulation of its interactive version.",
 
 
         ],

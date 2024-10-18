@@ -53,3 +53,10 @@
   composes: link;
   color: black;
 }
+
+@media screen and (max-width: 768px) {
+  .link:hover {
+    color: black
+  }
+  
+}

@@ -95,7 +95,7 @@ export const data = [
         media: {
             "img1": "/media/dys2.jpg",
             "img3": "/media/dysKino.webp",
-            "text1": "The animatioon displayed on a side of the building in Wrocław, Poland during the new media urban festival Kinomurale 2023.",
+            "text1": "The animation displayed on a side of the building in Wrocław, Poland during the new media urban festival Kinomurale 2023.",
             "img2": "/media/dys3.jpg",
             // "img4": "/media/dys5.jpg",
             // "img5": "/media/dys6.jpg",

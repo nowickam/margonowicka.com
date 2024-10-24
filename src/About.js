@@ -12,7 +12,7 @@ export default class About extends Component {
 
     render() {
         let links = {
-            "CV": "./media/CV_Nowicka_9.2024.pdf",
+            "CV": "./media/CV_Nowicka_10.2024.pdf",
             "programming portoflio": "https://github.com/nowickam",
             "filmfreeway": "https://filmfreeway.com/MalgorzataNowicka",
             "mngnowicka[at]gmail.com": "mailto:mngnowicka@gmail.com",

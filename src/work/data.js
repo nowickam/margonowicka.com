@@ -64,6 +64,8 @@ export const data = [
             // "img1": "/media/ause10.png",
             "img1": "/media/ause12.webp",
             "text2": "The fourfold influence of computation. Along with the definition of computation (center), it outlines what concepts are enhanced, strengthened by it (upper-left); what is pushed away to the background (lower-right); what is retrieved from the past (lower-left); and what is reversed, what opposites it brings up when exaggerated, pushed to its limits (upper-left).",
+            "videw2": "/media/ause14.mp4",
+            "texw4": "The 3D animation of a Lorenz attractor symbolizing the difference setting the children apart and uncovering their genetic makeup at the end.",
             "imw1": "/media/ause13.webp",
             "texw3": "The 3-channel version of the animation for the Lines of Descent exhibition in the Helsinki Central Library Oodi. "
         },

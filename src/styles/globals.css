@@ -28,11 +28,13 @@ a {
   height: 100vh;
 }
 
-
-.mainVideo,
 .mainImg {
   width: 100%;
   height: auto;
+}
+
+.mainVideo{
+  height: 91vh;
 }
 
 .workImg,

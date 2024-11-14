@@ -16,9 +16,9 @@ export const data = [
             "The exhibition took place in Helsinki Central Library Oodi.": "https://oodihelsinki.fi/event/helsinki:agjavemcau/lines-of-descent/?lang=en",
         },
         mainMedia: {
-            "videoV2": "/media/oodi4.mp4",
-            "videoV1": "/media/oodi3.mp4",
-            // "videoV3": "/media/oodi6.mp4",
+            // "videoV2": "/media/oodi4.mp4",
+            // "videoV1": "/media/oodi3.mp4",
+            "video": "/media/oodi6.mp4",
         },
         media: {
 

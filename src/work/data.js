@@ -1,5 +1,45 @@
 export const data = [
     {
+        title: "Bio",
+        img: "",
+        text: [
+            "I am a new media artist, animator and programmer based in Helsinki, Finland. I directed *Aurinko and Selene*, *Dysmorphia* and *Takeoff* animations, displayed in multiple film festivals, worked as a video designer for stage projections in *Rottien Pyhimys* musical and *Ihmisen jälkeen* chamber opera, and was a *creative coder*, programming tutor, and a *graphic designer and exhibition curator* in Aalto University.",
+            "I graduated with a Master of Arts degree in New Media from Aalto with a *thesis highlighting the pervasiveness of computation metaphor in science and culture*. My current artistic and research interests build on this exploration, which I want to deepen by investigating the aesthetic properties of the computation metaphor and their impact on the collective imaginary of algorithms and artificial intelligence.",
+            "By intersecting of computer science, data visualization and new media art, I aim to weave visual counter narratives by devising feminist visual language for algorithmic representation that would deconstruct the totalistic discourses of computation both in science and culture, and foster a more critical and contextual understanding of computer logic.",
+            "Contact: mngnowicka[at]gmail.com",
+
+        ],
+        footer: [
+
+
+        ],
+        links: {
+            // "mngnowicka[at]gmail.com": "mailto:mngnowicka@gmail.com",
+            "CV": "./media/CV_Nowicka_10.2024.pdf",
+            "Programming portoflio": "https://github.com/nowickam",
+            "Filmfreeway": "https://filmfreeway.com/MalgorzataNowicka",
+        },
+        mainMedia: {
+
+        },
+        media: {
+
+        },
+        description: "",
+        tag: "",
+        date: "",
+        works: [
+            "Aurinko and Selene",
+            "Dysmorphia",
+            "Takeoff",
+            "Rottien pyhimys / Rat Saint",
+            "Ihmisen jälkeen / Posthuman",
+            "Genetic Bottleneck",
+            "Lines of Descent",
+            "Conceptual influences of computation in culture and science through the lens of Finnish genetic study"
+        ]
+    },
+    {
         title: "Lines of Descent",
         img: "",
         text: [
@@ -31,25 +71,23 @@ export const data = [
             "imr4": "/media/oodi11.webp",
             "text1": "Curation: Outi Turpeinen, Margo Nowicka, Rupesh Vyas\nExhibition design: Margo Nowicka, Jennifer Sanderson\nCopywriting: Jennifer Sanderson\nAnimation: Margo Nowicka\nMusic: Mercedes Krapovickas\nSound design: Marija Šumarac\nFinnGen/FIMM: Mervi Aavikko, Mari Kaunisto, Helen Cooper, Mary Pat Reeve\nTranslation: Helen Cooper, Mari Kaunisto\nVoiceover: Helen Cooper, Aaron Geldert\nCommunications: Johanna Sippo\nVenue: Oodi Library, Helsinki\nDigital/physical fabrication: Rupesh Vyas, Laura Törnroos, Janne Andberg, Tatu Vuorio, Roel Meijs, Eila Hietanen, Arkus Ahonen"
         },
-        description: "exhibition design"
+        description: "exhibition design",
+        tag: "Exhibition",
+        date: "2024"
     },
     {
         title: "Aurinko and Selene",
         img: "",
         text: [
-            "​​The paradigmatic role of computational technologies in culture and science oftentimes renders natural phenomena as well as human action, interaction and introspection as forms of computation. The inaccurate yet foundational character of those interpretations has been the motivation for my Master’s thesis. ",
-            "In my research, I aimed to identify what is overstated, forgotten or taken for granted in science and culture shaped by computation, and rediscover the meaning of carbon-based bodily experience in the light of anxiety caused by the imposition of silicon-based technological advances. I used McLuhan's framework of a tetrad of human artifact influences (enhance-obscolesce-retrieve-reverse) to analyze the pervasiveness of language and concepts derived from and applied to computational technologies. Finally, I tried to convey and develop conceptual alternatives by creating the short animation “Aurinko and Selene”.",
-            "It tells the story of two children, Sun (fi. Aurinko) and Moon (gr. Selene), whose sibling bond is fractured by a genetic difference—lactose tolerance. Sun carries the gene that allows her to digest milk, while Moon does not. Their shared experience of drinking milk turns into a vivid exploration of their bodies' reactions. As colourful visuals depict their physical sensations, monochrome text frames their evolving effort to understand this difference.",
+
+            "The animation tells a story of two children, Sun (fi. Aurinko) and Moon (gr. Selene), whose sibling bond is fractured by a genetic difference—lactose tolerance. Sun carries the gene that allows her to digest milk, while Moon does not. Their shared experience of drinking milk turns into a vivid exploration of their bodies' reactions. As colourful visuals depict their physical sensations, monochrome text frames their evolving effort to understand this difference.",
             "As the story unfolds, Moon seeks answers from Sun about her discomfort, only to suspect her sister of causing harm. This suspicion leads to a cosmic separation between the two. The revelation of their genetic differences becomes a metaphor for the complexity, embodiment and beauty of variation.",
-            "The thesis is an embrace of the immediate, embodied experience of being alive. The embrace and its contraposition with the textual, conventional thought tries to reposition these impressions and codes in their own terms – one is not confused with the other. The work is a dream of reconnection with oneself and others instead of doubling into minds and bodies and isolating into the abstract, cranial chambers of rational thought.",
 
         ],
         footer: [
-            "Animation: Margo Nowicka \n Sound design: Marija Šumarac \n Music: Mercedes Krapovickas \n Voiceover: Aaron Gelder \n Advisor: Nicola Cerioli \n Supervisor: Rupesh Vyas \n Help and support: Hanna-Katri Eskelinen, Calvin Guillot, Kai Lappalainen \n In collaboration with Finngen"
 
         ],
         links: {
-            "Thesis text": "https://aaltodoc.aalto.fi/server/api/core/bitstreams/637768a9-63d5-4180-a5dc-6dcb99ca55a7/content"
         },
         mainMedia: {
             // "img1": "/media/ause10.png",
@@ -57,19 +95,111 @@ export const data = [
             // "videoEmbed": "https://player.vimeo.com/video/918695987?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
         },
         media: {
+            "text1": "Animation: Margo Nowicka \n Sound design: Marija Šumarac \n Music: Mercedes Krapovickas \n Voiceover: Aaron Gelder \n Advisor: Nicola Cerioli \n Supervisor: Rupesh Vyas \n Help and support: Hanna-Katri Eskelinen, Calvin Guillot, Kai Lappalainen \n In collaboration with Finngen",
             // "img1": "/media/ause4.webp",
             "vider1": "/media/ause1.mp4",
             "imr2": "/media/ause3.png",
             "texw1": "The process of lactose digestion in humans. The visual representation on top of the network (right) serves as the visual language for the lactose tolerance part of the animation (left).",
             // "img1": "/media/ause10.png",
-            "img1": "/media/ause12.webp",
-            "text2": "The fourfold influence of computation. Along with the definition of computation (center), it outlines what concepts are enhanced, strengthened by it (upper-left); what is pushed away to the background (lower-right); what is retrieved from the past (lower-left); and what is reversed, what opposites it brings up when exaggerated, pushed to its limits (upper-left).",
+
             "videw2": "/media/ause14.mp4",
             "texw4": "The 3D animation of a Lorenz attractor symbolizing the difference setting the children apart and uncovering their genetic makeup at the end.",
             "imw1": "/media/ause13.webp",
             "texw3": "The 3-channel version of the animation for the Lines of Descent exhibition in the Helsinki Central Library Oodi. "
         },
-        description: "2D animation"
+        description: "2D animation",
+        tag: "Animation",
+        date: "2023"
+    },
+    {
+        title: "Rottien pyhimys / Rat Saint",
+        img: "",
+        text: [
+            "Rottien pyhimys is a musical story of the paintings in the 16th century Church of the Holy Cross in Hattula, composed by Jukka Nykänen, directed by Reetta Ristimäki and written by Anneli Kanno. Together with Calvin Guillot, we interpreted the story and the original murals into a magical process of the church slowly filling with the paintings in their full, restored color, fantastical ornaments growing all over.",
+            "Performed in:\nMusiikkiteatteri Kapsäkki, Helsinki, Finland,\nAleksanterin teatteri, Helsinki, Finland.",
+
+        ],
+        footer: [
+            "Cast: Aurora Manninen, Jasper Leppänen, Kai Bäckström, Jyri Lahtinen, Petri Bäckström and Eeva Semerdjiev\nMusicians: Janek Öller, Ilkka Heinonen and Miika Vintturi\nLibretto: Anneli Kanto\nComposition: Jukka Nykänen\nDirection and artistic concept: Reetta Ristimäki\nVisual artists: Calvin Guillot and Małgorzata Nowicka (Aalto University)\nLighting design: Mirkka Saari\nSound design: Max Marshall\nCostume design: Marja Uusitalo\nMasking design: Ari Haapaniemi\nProduction: Greta Tuotanto and Music Theater Kapsäkki\nCollaborators: Aalto University's MAGICS project"
+
+        ],
+        links: {
+            "Produced by Greta Tuotanto": "https://www.gretatuotanto.fi/rottien-pyhimys"
+        },
+        mainMedia: {
+            "img": "/media/rats1.webp",
+        },
+        media: {
+            "video": "/media/rats.webm",
+            "img1": "/media/rats2.webp",
+            "imw1": "/media/rats5.webp",
+        },
+        description: "stage visualisation, musical",
+        tag: "Stage projection",
+        date: "2024"
+    },
+
+    {
+        title: "Ihmisen jälkeen / Posthuman",
+        img: "",
+        text: [
+            "Together with Calvin Guillot, we collaborated with the director, Teemu Mäki, on the content of the visualisations by using the artificial intelligence models and generative simulations. With the incorporation of the tools of new media, we strived for a manifestation of the ideas of posthumanism that is more subtle and sensitive - that is not confined to telling a story about artificial intelligence and digitial life, but tackles the questions of the human condition raised in the play.",
+
+        ],
+        footer: [
+
+
+        ],
+        links: {
+            "Performed in Tanssin Talo, Helsinki, Finland.": "https://www.tanssintalo.fi/en/performances/musica-nova-helsinki-ihmisen-jalkeen",
+            "Funded by Kone Foundation.": "https://koneensaatio.fi/tarinat-ja-julkaisut/ihmisen-jalkeen-ooppera/",
+        },
+        mainMedia: {
+            "img": "/media/posthuman.webp",
+        },
+        media: {
+            // "video": "/media/posthuman3.mp4",
+            // "video2": "/media/posthuman5.webm",
+            "imw2": "/media/posthuman8.webp",
+            "imw1": "/media/posthuman7.webp",
+            // "videw3": "/media/posthuman6_short.webm",
+            "text1": "Production: The Finnish Chamber Opera and Greta Productions\nProducer: Nea Huovinen\nMarketing officer: Ida Hansen\nComposer: Max Savikangas\nLibretto, video art, direction: Teemu Mäki\nChoreography: Petri Kekoni\nCostumes: Iida Ukkola\nLightning: Erno Seppälä\nSound design and audio engineering: Anders Pohjola & Max Savikangas\nComputer graphics and generative visuals: Calvin Guillot & Małgorzata Nowicka\nConductor: József Hárs\nChorus master / Assistant conductor: Jonas Rannila\nCorrepetitor: Jussi Littunen\nSoloists: Reetta Ristimäki, Petri Bäckström, Susanna Tollet and Tuukka Haapaniemi\nVocal group: Heta Kokkomäki, Nairi Azezian, Martti Anttila and Jussi Linnanmäki\nDancers: Petri Kekoni Company: Meri Pajunpää and Anna Stenberg\nOrchestra: Martta Jämsä (fl/picc/a.fl), Vivian Neff (cl/b.cl), Olli-Pekka Tuomisalo (sax), Tuomo Lassila (perc), Fanny Söderström (pn /kb), Maria Puusaari (vl1), Aleksi Kotila (vl2), Maarit Holkko (vla), Pinja Nuñez (vlc) and Vilhelm Karlsson (db)"
+        },
+        description: "stage visualisation, chamber opera",
+        tag: "Stage projection",
+        date: "2023"
+    },
+
+    {
+        title: "Takeoff",
+        img: "",
+        text: [
+            "This work is a part of the Urban Travel Machines project - a collaboration between three schools of arts and four planetaria with the goal of contributing to the renewal of the literary sector in Europe through the adoption of immersive technology. ",
+            "Takeoff is a meditation on dreams as means of escapism. It is a visual interpretation of the poem, where the protagonist describes the first time he took off - ran away to the limitless world of fantasy, rejecting the absurdity of suffering.",
+            "The work has been presented in the Prima Vista Literary Festival as an immersive slam poetry performance in the planetarium in Tartu, Estonia. The final performance takes place in the Brussels Planetarium Poetry Fest 2024.",
+            "Official Selection: \nZEBRA Poetry Fillm Festival 2023, Berlin, Germany\nTokyo International Short Film Festival, Tokyo, Japan,\nNew York Tri-State International Film Festival, New York, USA,\n Les Instants Vidéo, Marseille, France.\n\nWinner: \nKinomural Open Call 2023, Wroclaw, Poland.\n",
+
+        ],
+        footer: [
+
+
+        ],
+        links: {
+            "Urban Travel Machines website": "https://utm.ap-arts.be/",
+            "Project description on Aalto University website": "https://www.aalto.fi/en/news/the-creative-europe-project-urban-travel-machines-explores-the-potential-of-immersive-technologies"
+        },
+        mainMedia: {
+            "img": "/media/utm1_credits_2024.webp",
+        },
+        media: {
+            "imr1": "/media/utm4.webp",
+            // "imw1": "/media/utm2.webp",
+            "vider2": "/media/takeoff_demo.mp4",
+            "text1": "Poem: Giovanni Baudonck\nVisuals: Hanna-Katri Eskelinen, Calvin Guillot, Margo Nowicka\n\nRealized with the support of the European Education and Culture Executive Agency (EACEA) and co-funded by the Creative Europe Programme of the European Union."
+        },
+        description: "poetry visualisation, planetarium",
+        tag: "Animation",
+        date: "2023"
     },
     {
         title: "Dysmorphia",
@@ -96,13 +226,15 @@ export const data = [
         },
         media: {
             "img1": "/media/dys2.jpg",
-            "img3": "/media/dysKino.webp",
-            "text1": "The animation displayed on a side of the building in Wrocław, Poland during the new media urban festival Kinomurale 2023.",
+            "imw3": "/media/dysKino.webp",
+            "texw1": "The animation displayed on a side of the building in Wrocław, Poland during the new media urban festival Kinomurale 2023.",
             "img2": "/media/dys3.jpg",
             // "img4": "/media/dys5.jpg",
             // "img5": "/media/dys6.jpg",
         },
-        description: "3D animation"
+        description: "3D animation",
+        tag: "Animation",
+        date: "2022"
     },
 
     {
@@ -136,89 +268,9 @@ export const data = [
             // "img1": "/media/ause10.png",
             "imr2": "/media/descent5_contrast.webp",
         },
-        description: "computer simulation"
-    },
-    {
-        title: "Ihmisen jälkeen / Posthuman",
-        img: "",
-        text: [
-            "Together with Calvin Guillot, we collaborated with the director, Teemu Mäki, on the content of the visualisations by using the artificial intelligence models and generative simulations. With the incorporation of the tools of new media, we strived for a manifestation of the ideas of posthumanism that is more subtle and sensitive - that is not confined to telling a story about artificial intelligence and digitial life, but tackles the questions of the human condition raised in the play.",
-
-        ],
-        footer: [
-
-
-        ],
-        links: {
-            "Performed in Tanssin Talo, Helsinki, Finland.": "https://www.tanssintalo.fi/en/performances/musica-nova-helsinki-ihmisen-jalkeen",
-            "Funded by Kone Foundation.": "https://koneensaatio.fi/tarinat-ja-julkaisut/ihmisen-jalkeen-ooppera/",
-        },
-        mainMedia: {
-            "img": "/media/posthuman.webp",
-        },
-        media: {
-            // "video": "/media/posthuman3.mp4",
-            // "video2": "/media/posthuman5.webm",
-            "imw2": "/media/posthuman8.webp",
-            "imw1": "/media/posthuman7.webp",
-            // "videw3": "/media/posthuman6_short.webm",
-            "text1": "Production: The Finnish Chamber Opera and Greta Productions\nProducer: Nea Huovinen\nMarketing officer: Ida Hansen\nComposer: Max Savikangas\nLibretto, video art, direction: Teemu Mäki\nChoreography: Petri Kekoni\nCostumes: Iida Ukkola\nLightning: Erno Seppälä\nSound design and audio engineering: Anders Pohjola & Max Savikangas\nComputer graphics and generative visuals: Calvin Guillot & Małgorzata Nowicka\nConductor: József Hárs\nChorus master / Assistant conductor: Jonas Rannila\nCorrepetitor: Jussi Littunen\nSoloists: Reetta Ristimäki, Petri Bäckström, Susanna Tollet and Tuukka Haapaniemi\nVocal group: Heta Kokkomäki, Nairi Azezian, Martti Anttila and Jussi Linnanmäki\nDancers: Petri Kekoni Company: Meri Pajunpää and Anna Stenberg\nOrchestra: Martta Jämsä (fl/picc/a.fl), Vivian Neff (cl/b.cl), Olli-Pekka Tuomisalo (sax), Tuomo Lassila (perc), Fanny Söderström (pn /kb), Maria Puusaari (vl1), Aleksi Kotila (vl2), Maarit Holkko (vla), Pinja Nuñez (vlc) and Vilhelm Karlsson (db)"
-        },
-        description: "stage visualisation, chamber opera"
-    },
-    {
-        title: "Rottien pyhimys / Rat Saint",
-        img: "",
-        text: [
-            "Rottien pyhimys is a musical story of the paintings in the 16th century Church of the Holy Cross in Hattula, composed by Jukka Nykänen, directed by Reetta Ristimäki and written by Anneli Kanno. Together with Calvin Guillot, we interpreted the story and the original murals into a magical process of the church slowly filling with the paintings in their full, restored color, fantastical ornaments growing all over.",
-            "Performed in:\nMusiikkiteatteri Kapsäkki, Helsinki, Finland,\nAleksanterin teatteri, Helsinki, Finland.",
-
-        ],
-        footer: [
-            "Cast: Aurora Manninen, Jasper Leppänen, Kai Bäckström, Jyri Lahtinen, Petri Bäckström and Eeva Semerdjiev\nMusicians: Janek Öller, Ilkka Heinonen and Miika Vintturi\nLibretto: Anneli Kanto\nComposition: Jukka Nykänen\nDirection and artistic concept: Reetta Ristimäki\nVisual artists: Calvin Guillot and Małgorzata Nowicka (Aalto University)\nLighting design: Mirkka Saari\nSound design: Max Marshall\nCostume design: Marja Uusitalo\nMasking design: Ari Haapaniemi\nProduction: Greta Tuotanto and Music Theater Kapsäkki\nCollaborators: Aalto University's MAGICS project"
-
-        ],
-        links: {
-            "Produced by Greta Tuotanto": "https://www.gretatuotanto.fi/rottien-pyhimys"
-        },
-        mainMedia: {
-            "img": "/media/rats1.webp",
-        },
-        media: {
-            "video": "/media/rats.webm",
-            "img1": "/media/rats2.webp",
-            "imw1": "/media/rats5.webp",
-        },
-        description: "stage visualisation, musical"
-    },
-    {
-        title: "Takeoff",
-        img: "",
-        text: [
-            "This work is a part of the Urban Travel Machines project - a collaboration between three schools of arts and four planetaria with the goal of contributing to the renewal of the literary sector in Europe through the adoption of immersive technology. ",
-            "Takeoff is a meditation on dreams as means of escapism. It is a visual interpretation of the poem, where the protagonist describes the first time he took off - ran away to the limitless world of fantasy, rejecting the absurdity of suffering.",
-            "The work has been presented in the Prima Vista Literary Festival as an immersive slam poetry performance in the planetarium in Tartu, Estonia. The final performance takes place in the Brussels Planetarium Poetry Fest 2024.",
-            "Official Selection: \nZEBRA Poetry Fillm Festival 2023, Berlin, Germany\nTokyo International Short Film Festival, Tokyo, Japan,\nNew York Tri-State International Film Festival, New York, USA,\n Les Instants Vidéo, Marseille, France.\n\nWinner: \nKinomural Open Call 2023, Wroclaw, Poland.\n",
-
-        ],
-        footer: [
-
-
-        ],
-        links: {
-            "Urban Travel Machines website": "https://utm.ap-arts.be/",
-            "Project description on Aalto University website": "https://www.aalto.fi/en/news/the-creative-europe-project-urban-travel-machines-explores-the-potential-of-immersive-technologies"
-        },
-        mainMedia: {
-            "img": "/media/utm1_credits_2024.webp",
-        },
-        media: {
-            "imr1": "/media/utm4.webp",
-            // "imw1": "/media/utm2.webp",
-            "vider2": "/media/takeoff_demo.mp4",
-            "text1": "Poem: Giovanni Baudonck\nVisuals: Hanna-Katri Eskelinen, Calvin Guillot, Margo Nowicka\n\nRealized with the support of the European Education and Culture Executive Agency (EACEA) and co-funded by the Creative Europe Programme of the European Union."
-        },
-        description: "poetry visualisation, planetarium"
+        description: "computer simulation",
+        tag: "Generative Coding",
+        date: "2024"
     },
     {
         title: "In My Mind's Eye",
@@ -252,35 +304,38 @@ export const data = [
             "imr9": "/media/eye7.webp",
             // "imw9": "/media/eye9.webp",
         },
-        description: "generative coding"
+        description: "generative coding",
+        tag: "Generative Coding",
+        date: "2024"
     },
-    {
-        title: "Don't you weigh yourself",
-        img: "",
-        text: [
-            "Binging on one’s own bones brings blissful lightness to oneself and invisibility to others.",
-            "The narration of this animation is a short, simple text I wrote in the midst of a binging episode. It’s a wordplay on the roots of the three Polish phrases associated with metaphorical and literal weight.",
-            "It tries to work out the apathetic cycle of emotional repression, and subsequent shame and social isolation that such a compulsive behavior brings. "
-        ],
-        footer: [
-            "Animation and sound: Margo Nowicka \n Help and support: Aaron Geldert, Calvin Guillot"
+    // {
+    //     title: "Don't you weigh yourself",
+    //     img: "",
+    //     text: [
+    //         "Binging on one’s own bones brings blissful lightness to oneself and invisibility to others.",
+    //         "The narration of this animation is a short, simple text I wrote in the midst of a binging episode. It’s a wordplay on the roots of the three Polish phrases associated with metaphorical and literal weight.",
+    //         "It tries to work out the apathetic cycle of emotional repression, and subsequent shame and social isolation that such a compulsive behavior brings. "
+    //     ],
+    //     footer: [
+    //         "Animation and sound: Margo Nowicka \n Help and support: Aaron Geldert, Calvin Guillot"
 
-        ],
-        links: {
-            // "too see the animation, please reach out by email": "mailto:mngnowicka@gmail.com"
-        },
-        mainMedia: {
-            "videoEmbed": "https://player.vimeo.com/video/914393561?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-        },
-        media: {
-            // "img1": "/media/noweigh.png",
-            // "img3": "/media/dysKino.webp",
-            // "img2": "/media/dys3.jpg",
-            // "img4": "/media/dys5.jpg",
-            // "img5": "/media/dys6.jpg",
-        },
-        description: "2D animation"
-    },
+    //     ],
+    //     links: {
+    //         // "too see the animation, please reach out by email": "mailto:mngnowicka@gmail.com"
+    //     },
+    //     mainMedia: {
+    //         "videoEmbed": "https://player.vimeo.com/video/914393561?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+    //     },
+    //     media: {
+    //         // "img1": "/media/noweigh.png",
+    //         // "img3": "/media/dysKino.webp",
+    //         // "img2": "/media/dys3.jpg",
+    //         // "img4": "/media/dys5.jpg",
+    //         // "img5": "/media/dys6.jpg",
+    //     },
+    //     description: "2D animation",
+    //     tag: "Animation"
+    // },
     {
         title: "Czas",
         img: "",
@@ -302,7 +357,9 @@ export const data = [
         media: {
             "img1": "/media/czas.webp",
         },
-        description: "sound synthesis, pure data"
+        description: "sound synthesis, pure data",
+        tag: "Experiments",
+        date: "2022"
     },
 
     // {
@@ -361,39 +418,40 @@ export const data = [
     //     },
     //     description: "interactive installation"
     // },
-    {
-        title: "In the Shell",
-        img: "/thumbnails/wiits.png",
-        text: [
-            "It was a long time ago, when my mum who told me that the seashells remember the ocean. With a childish response, I listened and listened to the hum of the moving water, crushing of the waves enclosed in this cavity. Mum's protective narrative bubble burst, unveiling a world that wants me to enjoy its chaos and mourn its entropy.",
-            "It was a month ago that I finally learned what the noise in the seashell actually is. Stripped of another myth that it is the sound of blood coursing through my body, I found out that the shell resonates the surrounding ambient sound. Having rendered my own pulse onto the world, I realize it is not about me, I was deceived by my own bias",
-            "It is now that I am frantically putting myself back in the shell. Shielding myself from anxiety and fear springing from the interaction with the cacophony of yells and cries. I don't speak, laugh, respond to texts, invite to my home, I bury myself in the depths of the shell and slowly fossilize to become a part of it.",
-            "Repeating after Fernando Pessoa:",
-            "‘Believing that each step of my life would mean contact with the horror of the New and that each new person I met was a new and living fragment of the unknown to be placed before me on the table for my daily horrified contemplation, I decided to abstain from everything, to go nowhere, to reduce action to the minimum, to avoid as far as possible meeting either men or events, to perfect abstinence and take abdication to new heights. That's how much living frightens and torments me.’",
-            "This project comprises of two seashells that one can listen to. The first seashell synthesizes underwater ocean ambient sounds depending on the shell’s tilt. The second seashell streams several distorted radio channels. So the two seashells contrapose each other in a fight for the imprint in the collective memory; and at the same time represent a progression, going outwards, from tranquility to overwhelm.",
-        ],
-        footer: [
-            "Supervision: Matti Niinimäki \n",
+    // {
+    //     title: "In the Shell",
+    //     img: "/thumbnails/wiits.png",
+    //     text: [
+    //         "It was a long time ago, when my mum who told me that the seashells remember the ocean. With a childish response, I listened and listened to the hum of the moving water, crushing of the waves enclosed in this cavity. Mum's protective narrative bubble burst, unveiling a world that wants me to enjoy its chaos and mourn its entropy.",
+    //         "It was a month ago that I finally learned what the noise in the seashell actually is. Stripped of another myth that it is the sound of blood coursing through my body, I found out that the shell resonates the surrounding ambient sound. Having rendered my own pulse onto the world, I realize it is not about me, I was deceived by my own bias",
+    //         "It is now that I am frantically putting myself back in the shell. Shielding myself from anxiety and fear springing from the interaction with the cacophony of yells and cries. I don't speak, laugh, respond to texts, invite to my home, I bury myself in the depths of the shell and slowly fossilize to become a part of it.",
+    //         "Repeating after Fernando Pessoa:",
+    //         "‘Believing that each step of my life would mean contact with the horror of the New and that each new person I met was a new and living fragment of the unknown to be placed before me on the table for my daily horrified contemplation, I decided to abstain from everything, to go nowhere, to reduce action to the minimum, to avoid as far as possible meeting either men or events, to perfect abstinence and take abdication to new heights. That's how much living frightens and torments me.’",
+    //         "This project comprises of two seashells that one can listen to. The first seashell synthesizes underwater ocean ambient sounds depending on the shell’s tilt. The second seashell streams several distorted radio channels. So the two seashells contrapose each other in a fight for the imprint in the collective memory; and at the same time represent a progression, going outwards, from tranquility to overwhelm.",
+    //     ],
+    //     footer: [
+    //         "Supervision: Matti Niinimäki \n",
 
-        ],
-        links: {
-            "Github": "https://github.com/nowickam/what-is-in-the-shell",
-            "Ocean project page": "https://www.hackster.io/nowickam/what-is-in-the-shell-ocean-7ce990",
-            "Radio project page": "https://www.hackster.io/nowickam/what-is-in-the-shell-radio-eb7a41",
-            "Ocean video": "https://www.youtube.com/watch?v=IiaRDXWyYTM",
-            "Radio video": "https://youtu.be/9V2kslX2MmU",
-            "Critical making exhibition": "https://criticalmaking.xyz"
-        },
-        mainMedia: {
-            "img": "media/shell.png"
-        },
-        media: {
-            "video1": "media/shell1.mp4",
-            "video2": "media/shell2.mp4"
-        },
-        description: "electronics, sound synthesis"
+    //     ],
+    //     links: {
+    //         "Github": "https://github.com/nowickam/what-is-in-the-shell",
+    //         "Ocean project page": "https://www.hackster.io/nowickam/what-is-in-the-shell-ocean-7ce990",
+    //         "Radio project page": "https://www.hackster.io/nowickam/what-is-in-the-shell-radio-eb7a41",
+    //         "Ocean video": "https://www.youtube.com/watch?v=IiaRDXWyYTM",
+    //         "Radio video": "https://youtu.be/9V2kslX2MmU",
+    //         "Critical making exhibition": "https://criticalmaking.xyz"
+    //     },
+    //     mainMedia: {
+    //         "img": "media/shell.png"
+    //     },
+    //     media: {
+    //         "video1": "media/shell1.mp4",
+    //         "video2": "media/shell2.mp4"
+    //     },
+    //     description: "electronics, sound synthesis",
+    //     tag: "Experiments"
 
-    },
+    // },
     {
         title: "Imperfections",
         img: "/thumbnails/imp.png",
@@ -417,7 +475,9 @@ export const data = [
             // "img3": "/media/malachite2.png"
             "imw1": "/media/malachite.png"
         },
-        description: "generative coding"
+        description: "generative coding",
+        tag: "Generative Coding",
+        date: "2021"
 
     },
     // {
@@ -565,7 +625,7 @@ export const data = [
 
     // },
     {
-        title: "Posthuman",
+        title: "I haven't been in Warsaw for a while",
         img: "/thumbnails/apon.png",
         text: [
             // "Imagine a city of the future. Imagine the nature in it. Untrimmed grass, free to grow on the sidewalk. Ivy climbing up the skyscrapers. Trees growing old, undisturbed, uncut, their trunks twisting and wrapping around the railings.",
@@ -589,7 +649,65 @@ export const data = [
             // "video1": "/media/fp.mp4"
 
         },
-        description: "procedural 3d animation"
+        description: "procedural 3d animation",
+        tag: "Experiments",
+        date: "2021"
+
+    },
+    {
+        title: "Conceptual influences of computation in culture and science through the lens of Finnish genetic study",
+        img: "/thumbnails/apon.png",
+        text: [
+            "​​The paradigmatic role of computational technologies in culture and science oftentimes renders natural phenomena as well as human action, interaction and introspection as forms of computation. The inaccurate yet foundational character of those interpretations has been the motivation for my Master’s thesis. ",
+            "In my research, I aimed to identify what is overstated, forgotten or taken for granted in science and culture shaped by computation, and rediscover the meaning of carbon-based bodily experience in the light of anxiety caused by the imposition of silicon-based technological advances. I used McLuhan's framework of a tetrad of human artifact influences (enhance-obscolesce-retrieve-reverse) to analyze the pervasiveness of language and concepts derived from and applied to computational technologies. Finally, I tried to convey and develop conceptual alternatives by creating the short animation “Aurinko and Selene”.",
+            "The thesis is an embrace of the immediate, embodied experience of being alive. The embrace and its contraposition with the textual, conventional thought tries to reposition these impressions and codes in their own terms – one is not confused with the other. The work is a dream of reconnection with oneself and others instead of doubling into minds and bodies and isolating into the abstract, cranial chambers of rational thought.",
+
+        ],
+        footer: [
+
+        ],
+        links: {
+            "Thesis text": "https://aaltodoc.aalto.fi/server/api/core/bitstreams/637768a9-63d5-4180-a5dc-6dcb99ca55a7/content"
+
+
+        },
+        mainMedia: {
+            "imgV1": "/media/ause12.webp",
+
+
+        },
+        media: {
+            "text2": "The fourfold influence of computation. Along with the definition of computation (center), it outlines what concepts are enhanced, strengthened by it (upper-left); what is pushed away to the background (lower-right); what is retrieved from the past (lower-left); and what is reversed, what opposites it brings up when exaggerated, pushed to its limits (upper-left).",
+
+        },
+        description: "writing",
+        tag: "Writing",
+        date: "2023"
+
+    },
+    {
+        title: "Automated Rendering of Multi-stranded DNA Complexes with Pseudoknots",
+        img: "/thumbnails/apon.png",
+        text: [
+
+        ],
+        footer: [
+
+        ],
+        links: {
+            "Publication": "https://link.springer.com/chapter/10.1007/978-3-031-63742-1_14"
+        },
+        mainMedia: {
+            "imgL1": "/media/pseudo.webp",
+        },
+        media: {
+            // "img": "/media/fp.png",
+            // "video1": "/media/fp.mp4"
+
+        },
+        description: "procedural 3d animation",
+        tag: "Writing",
+        date: "2021"
 
     },
     // {

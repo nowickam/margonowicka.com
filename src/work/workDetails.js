@@ -15,9 +15,39 @@ export default function WorkDetails(props) {
         ref.current.scrollTo(0, 0);
     }, [props.workId])
 
-    let texts = data[id].text.map(function (e, i) {
-        return <div key={id + i} className={styles.workParagraph}>{e}</div>
-    })
+
+    const processText = (text) => {
+        // Regular expression to match text between '*' and replace with link
+        const regex = /\*([^*]+)\*/g;
+        const links = data[id].works
+
+        return text.split(regex).map((part, index) => {
+            // If the part matches the *word* pattern, wrap it with a link
+            if (index % 2 !== 0) {
+                linkIndex += 1
+                let workIndex = data.map(e => e.title).indexOf(links[linkIndex])
+                return <span className={styles.bioLinks} onClick={() => { props.changeWorkBio(workIndex) }} key={index} target="_blank" rel="noopener noreferrer">{part}</span>;
+            } else {
+                return part;
+            }
+        });
+
+    };
+
+    let texts;
+    let linkIndex = -1
+    if (id === 0) {
+        texts = data[id].text.map(function (e, i) {
+            return <div key={id + i} className={styles.workParagraph}>{processText(e)}</div>
+        })
+
+    }
+    else {
+        texts = data[id].text.map(function (e, i) {
+            return <div key={id + i} className={styles.workParagraph}>{e}</div>
+        })
+    }
+
 
     let footers = data[id].footer.map(function (e, i) {
         return <div key={id + i} className={styles.workFooter}>{e}</div>
@@ -25,7 +55,7 @@ export default function WorkDetails(props) {
 
     let links = []
     for (const [key, value] of Object.entries(data[id].links)) {
-        links.push(<a key={id + key} href={value} rel="noreferrer" target="_blank">{key}</a>)
+        links.push(<a key={id + key} href={value} rel="noreferrer" target="_blank">{key} &#8599;</a>)
     }
 
     let media = [];
@@ -46,6 +76,8 @@ export default function WorkDetails(props) {
         else if (key.substring(0, 3) === "img") {
             if (key[3] === 'V')
                 mainMedia.push(<img key={id + value} src={value} alt={data[id].title} className="mainImgVertical" />)
+            else if (key[3] === 'L')
+                mainMedia.push(<img key={id + value} src={value} alt={data[id].title} className={styles.mainImgLong} />)
             else
                 mainMedia.push(<img key={id + value} src={value} alt={data[id].title} className="mainImg" />)
         }
@@ -83,8 +115,6 @@ export default function WorkDetails(props) {
         }
 
     }
-
-    console.log(props)
 
     return (
         <div ref={ref} className={props.mobile ? (props.toggleMenu ? styles.overflowHide : styles.overflowShow) : styles.overflow}>

@@ -14,11 +14,12 @@ export default class App extends Component {
             isHome: "h",
             width: window.innerWidth,
             height: window.innerHeight,
-            toggleMenu: true
+            toggleMenu: false
         }
 
         this.changeRoute = this.changeRoute.bind(this)
         this.changeToggleMenu = this.changeToggleMenu.bind(this)
+        this.setToggleMenu = this.setToggleMenu.bind(this)
         this.updateWindowDimensions = this.updateWindowDimensions.bind(this)
     }
 
@@ -35,6 +36,12 @@ export default class App extends Component {
         })
     }
 
+    setToggleMenu(value) {
+        this.setState({
+            toggleMenu: value
+        })
+    }
+
     componentDidMount() {
         this.updateWindowDimensions();
         window.addEventListener('resize', this.updateWindowDimensions);
@@ -47,16 +54,15 @@ export default class App extends Component {
     updateWindowDimensions() {
 
         this.setState({ width: window.innerWidth, height: window.innerHeight });
-        console.log(this.state)
     }
 
     render() {
         return (
             <div id='rootContainer'>
-                <Menu key={this.state.isHome} isHome={this.state.isHome} width={this.state.width} height={this.state.height} toggleMenu={this.state.toggleMenu} changeToggleMenu={this.changeToggleMenu} />
+                {/* <Menu key={this.state.isHome} isHome={this.state.isHome} width={this.state.width} height={this.state.height} toggleMenu={this.state.toggleMenu} changeToggleMenu={this.changeToggleMenu} /> */}
                 <Routes>
-                    <Route path="/" element={<Home changeRoute={this.changeRoute} width={this.state.width} height={this.state.height} />} />
-                    <Route path="/work" element={<Work toggleMenu={this.state.toggleMenu} changeRoute={this.changeRoute} width={this.state.width} height={this.state.height} changeToggleMenu={this.changeToggleMenu} />} />
+                    {/* <Route path="/" element={<Home changeRoute={this.changeRoute} width={this.state.width} height={this.state.height} />} /> */}
+                    <Route path="/" element={<Work toggleMenu={this.state.toggleMenu} changeRoute={this.changeRoute} width={this.state.width} height={this.state.height} setToggleMenu={this.setToggleMenu} changeToggleMenu={this.changeToggleMenu} />} />
                     <Route path="/about" element={<About changeRoute={this.changeRoute} />} />
                 </Routes>
                 <div id='footer'>© 2020-2024 Margo Nowicka</div>

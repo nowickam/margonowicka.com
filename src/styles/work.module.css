@@ -82,6 +82,8 @@
 
 .thumbnailsHeader{
   font-size: 1.6rem;
+  white-space: nowrap;
+    z-index: 1;
   /* font-weight: bold; */
   /* text-decoration: underline; */
   /* color: green; */
@@ -218,6 +220,15 @@
 .workImgWideRow video {
   flex: 1;
   /* max-width: 50%; */
+}
+
+.videoAbout{
+  position: absolute;
+  right: -10vmax;
+  bottom: 3vmax;
+  width: 55%;
+  z-index: -1;
+  transform: rotate(-70deg);
 }
 
 .workParagraph {

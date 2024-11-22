@@ -21,9 +21,13 @@ export const data = [
         },
         mainMedia: {
 
+            // "videoAbout": "/media/black-white.mov",
+
+        },
+        mainMediaPoster: {
+            // "videoAbout": "",
         },
         media: {
-
         },
         description: "",
         tag: "",
@@ -646,6 +650,10 @@ export const data = [
         mainMedia: {
             "videoV1": "/media/fp1.mp4",
             "videoV2": "/media/fp2.mp4"
+        },
+        mainMediaPoster: {
+            "videoV1": "/media/fp1.webp",
+            "videoV2": "/media/fp2.webp"
         },
         media: {
             // "img": "/media/fp.png",

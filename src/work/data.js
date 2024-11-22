@@ -3,9 +3,9 @@ export const data = [
         title: "Bio",
         img: "",
         text: [
-            "I am a new media artist, animator and programmer based in Helsinki, Finland. I directed *Aurinko and Selene*, *Dysmorphia* and *Takeoff* animations, displayed in multiple film festivals, worked as a video designer for stage projections in *Rottien Pyhimys* musical and *Ihmisen jälkeen* chamber opera, and was a *creative coder*, programming tutor, and a *graphic designer and exhibition curator* in Aalto University.",
-            "I graduated with a Master of Arts degree in New Media from Aalto with a *thesis highlighting the pervasiveness of computation metaphor in science and culture*. My current artistic and research interests build on this exploration, which I want to deepen by investigating the aesthetic properties of the computation metaphor and their impact on the collective imaginary of algorithms and artificial intelligence.",
-            "By intersecting of computer science, data visualization and new media art, I aim to weave visual counter narratives by devising feminist visual language for algorithmic representation that would deconstruct the totalistic discourses of computation both in science and culture, and foster a more critical and contextual understanding of computer logic.",
+            "I am a new media artist, animator and programmer based in Helsinki, Finland. I directed *Aurinko and Selene*, *Dysmorphia* and *Takeoff* animations screened in multiple film festivals, worked as a video designer for stage projections in *Rottien Pyhimys* musical and *Ihmisen jälkeen* chamber opera, was a *creative coder* and programming tutor in Aalto University, and a graphic designer and curator for the *Lines of Descent* exhibition in Oodi Library.",
+            "I graduated with a Master of Arts degree in New Media from Aalto with a *thesis highlighting the pervasiveness of computation metaphor in science and culture*. My current artistic and research interests build on this exploration, which I want to deepen by investigating the aesthetic properties of the computation metaphor and their impact on the collective idea of algorithms and artificial intelligence.",
+            "By intersecting of computer science, data visualization and new media art, I am focusing my efforts on creating visual counter narratives by imagining a feminist visual language for algorithmic representation that would deconstruct the totalistic discourses of computation, and foster a more critical and contextual understanding of computer logic.",
             "Contact: mngnowicka[at]gmail.com",
 
         ],
@@ -59,6 +59,9 @@ export const data = [
             // "videoV2": "/media/oodi4.mp4",
             // "videoV1": "/media/oodi3.mp4",
             "video": "/media/oodi6.mp4",
+        },
+        mainMediaPoster: {
+            "video": "/media/oodi6.webp",
         },
         media: {
 

@@ -71,7 +71,7 @@ export default function WorkDetails(props) {
             else if (key === "videoEmbed")
                 mainMedia.push(<div style={{ padding: "62% 0 0 0", position: "relative", width: "100%" }}><iframe src={value} frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%" }} title={data[id].title}></iframe></div>)
             else
-                mainMedia.push(<video key={id + value} className="mainVideo" autoPlay muted loop src={value} type={"video/mp4"} > Sorry</video>)
+                mainMedia.push(<video key={id + value} className="mainVideo" autoPlay muted poster={data[id].mainMediaPoster[key]} preload="metadata" loop src={value} type={"video/mp4"} > Sorry</video>)
         }
         else if (key.substring(0, 3) === "img") {
             if (key[3] === 'V')

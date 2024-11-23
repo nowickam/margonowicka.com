@@ -188,7 +188,7 @@ export const data = [
 
         ],
         footer: [
-
+            "Poem: Giovanni Baudonck\nVisuals: Hanna-Katri Eskelinen, Calvin Guillot, Margo Nowicka\n\nRealized with the support of the European Education and Culture Executive Agency (EACEA) and co-funded by the Creative Europe Programme of the European Union."
 
         ],
         links: {
@@ -199,10 +199,11 @@ export const data = [
             "img": "/media/utm1_credits_2024.webp",
         },
         media: {
-            "imr1": "/media/utm4.webp",
+            "imr": "/media/utm5.webp",
+            "video2": "/media/takeoff_demo.mp4",
             // "imw1": "/media/utm2.webp",
-            "vider2": "/media/takeoff_demo.mp4",
-            "text1": "Poem: Giovanni Baudonck\nVisuals: Hanna-Katri Eskelinen, Calvin Guillot, Margo Nowicka\n\nRealized with the support of the European Education and Culture Executive Agency (EACEA) and co-funded by the Creative Europe Programme of the European Union."
+            // "text1": "Poem: Giovanni Baudonck\nVisuals: Hanna-Katri Eskelinen, Calvin Guillot, Margo Nowicka\n\nRealized with the support of the European Education and Culture Executive Agency (EACEA) and co-funded by the Creative Europe Programme of the European Union.",
+
         },
         description: "poetry visualisation, planetarium",
         tag: "Animation",

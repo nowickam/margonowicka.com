@@ -3,7 +3,7 @@ export const data = [
         title: "Bio",
         img: "",
         text: [
-            "I am a new media artist, animator and programmer based in Helsinki, Finland. I directed *Aurinko and Selene*, *Dysmorphia* and *Takeoff* animations screened in multiple film festivals, worked as a video designer for stage projections in *Rottien Pyhimys* musical and *Ihmisen jälkeen* chamber opera, was a *creative coder* and programming tutor in Aalto University, and a graphic designer and curator for the *Lines of Descent* exhibition in Oodi Library.",
+            "I am a new media artist, animator and programmer based in Helsinki, Finland. I was a graphic designer and curator for the *Lines of Descent* exhibition in Oodi Central Library, directed *Aurinko and Selene*, *Dysmorphia* and *Takeoff* animations screened in multiple film festivals, worked as a video designer for stage projections in *Rottien Pyhimys* musical and *Ihmisen jälkeen* chamber opera, and was a *creative coder* and programming tutor in Aalto University.",
             "I graduated with a Master of Arts degree in New Media from Aalto with a *thesis highlighting the pervasiveness of computation metaphor in science and culture*. My current artistic and research interests build on this exploration, which I want to deepen by investigating the aesthetic properties of the computation metaphor and their impact on the collective idea of algorithms and artificial intelligence.",
             "By intersecting of computer science, data visualization and new media art, I am focusing my efforts on creating visual counter narratives by imagining a feminist visual language for algorithmic representation that would deconstruct the totalistic discourses of computation, and foster a more critical and contextual understanding of computer logic.",
             "Contact: mngnowicka[at]gmail.com",
@@ -33,13 +33,13 @@ export const data = [
         tag: "",
         date: "",
         works: [
+            "Lines of Descent",
             "Aurinko and Selene",
             "Dysmorphia",
             "Takeoff",
             "Rottien pyhimys / Rat Saint",
             "Ihmisen jälkeen / Posthuman",
             "Genetic Bottleneck",
-            "Lines of Descent",
             "Conceptual influences of computation in culture and science through the lens of Finnish genetic study"
         ]
     },

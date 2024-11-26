@@ -90,7 +90,7 @@ export default class Work extends Component {
                 </div>
                 :
                 <div className={styles.container}>
-                    <div className={styles.thumbnailsHeaderMobile}><span>Margo Nowicka</span><span className={this.props.toggleMenu ? styles.underline : styles.noUnderline} onClick={this.props.changeToggleMenu}>Menu</span></div>
+                    <div className={styles.thumbnailsHeaderMobile}><span>Margo Nowicka</span><span className={this.props.toggleMenu ? styles.menuActive : styles.menuUnactive} onClick={this.props.changeToggleMenu}>Menu</span></div>
                     <WorkDetails workId={this.state.workId} mobile={true} toggleMenu={this.props.toggleMenu} changeWork={this.changeWork} changeWorkBio={this.changeWorkBio} />
                     <div className={this.props.toggleMenu ? styles.overflow2Show : styles.overflow2Hide}><div className={styles.thumbnailsContainer}>{workList}</div></div>
                 </div >

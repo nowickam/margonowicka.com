@@ -94,12 +94,14 @@
   width: 0.4em;
 }
 
-.underline{
+.menuActive{
   text-decoration: underline;
+  cursor: pointer;
 }
 
-.noUnderline{
+.menuUnactive{
   text-decoration: none;
+  cursor: pointer;
 }
 
 /* WORK DETAILS PAGE */

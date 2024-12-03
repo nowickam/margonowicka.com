@@ -6,6 +6,8 @@ import { useParams } from "react-router-dom";
 
 import { data } from './data'
 
+import Canvas from "./canvas";
+
 
 export default function WorkDetails(props) {
     let id = parseInt(props.workId);
@@ -83,6 +85,9 @@ export default function WorkDetails(props) {
             else
                 mainMedia.push(<img key={id + value} src={value} alt={data[id].title} className="mainImg" />)
         }
+        else if (key === "script") {
+            mainMedia.push(<Canvas key={id + value} />)
+        }
     }
 
     // OTHER MEDIA
@@ -109,6 +114,9 @@ export default function WorkDetails(props) {
         else if (key.substring(0, 4) === "text") {
             media.push(<div key={id + value} className={styles.workDesc}>{value}</div>)
         }
+        else if (key.substring(0, 4) === "texl") {
+            media.push(<div key={id + value} className={styles.workDescLeft}>{value}</div>)
+        }
         else if (key.substring(0, 4) === "texw") {
             mediaWide.push(<div key={id + value} className={styles.workDesc}>{value}</div>)
         }
@@ -120,7 +128,7 @@ export default function WorkDetails(props) {
 
     return (
         <div ref={ref} className={props.mobile ? (props.toggleMenu ? styles.overflowHide : styles.overflowShow) : styles.overflow}>
-            <div className={styles.workMainContainer}>
+            <div id="workMainImgRef" className={styles.workMainContainer}>
                 <div className={styles.workImgMain}>{mainMedia}</div>
                 <div className={styles.workTextContainer}>
                     <div className={styles.workText}>{texts}</div>

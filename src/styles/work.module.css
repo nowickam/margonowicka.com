@@ -182,6 +182,16 @@
   margin-right: 0;
 }
 
+.workDescLeft {
+  padding: 1vmax;
+  padding-bottom: 0vmax;
+  white-space: pre-line;
+  text-align: left;
+  width: 60%;
+  margin-left: auto;
+  /* margin-right: 0; */
+}
+
 .workTextContainer {
   grid-column: 1;
   margin-right: 2vmax;

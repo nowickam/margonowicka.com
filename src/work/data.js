@@ -28,6 +28,8 @@ export const data = [
             // "videoAbout": "",
         },
         media: {
+            // "texl1": "My position",
+            // "texl2": "I am creating and writing from the perspective of a white, cisgender woman. I come from Poland, a post communist, European country –  a capitalistic parvenu retaining its spiritual identity in the strong historical and cultural ties to catholicism and its entailing conservative values. I was raised in a Christian, middle-class household. My academic background is in computer science and the exposure to its environment and culture dictates a lot of my personal and intellectual frustrations. I pivoted in my education path to an artistic degree, situated among more diversified private histories and worldviews, in an “economically and ideologically Western” European country. Far from repudiating my upbringing, the new milieu provided the space to examine my concepts and languages of oppression and privilege, finding an anchor in the feminist theory of knowledge and technology."
         },
         description: "",
         tag: "",
@@ -261,8 +263,8 @@ export const data = [
 
         ],
         links: {
-            "Nature issue": "https://www.nature.com/nature/volumes/613/issues/7944",
             "Simulation website": "https://geneviz.aalto.fi/lines_of_descent/",
+            "Nature issue": "https://www.nature.com/nature/volumes/613/issues/7944",
             "Github": "https://github.com/Nicolibus/lines_of_descent"
         },
         mainMedia: {
@@ -460,6 +462,34 @@ export const data = [
     //     tag: "Experiments"
 
     // },
+    {
+        title: "What is FinnGen",
+        img: "/thumbnails/imp.png",
+        text: [
+            "The \"What is FinnGen?\" website aims to provide a comprehensive overview of the FinnGen genetic research project, highlighting its goals and benefits. Through a scrollytelling website, users are guided on an informative journey that explains the intricacies of genetic research, including how data is collected and processed and the current research findings. This interactive website emphasises the unique aspects of Finland's population for genetic research, such as the bottleneck effect. It illustrates the significant impact of FinnGen's results in improving disease understanding and developing new treatments.",
+            "I was responsible for the graphic identity of the website (as the generative piece above) as well as the design of the step-by-step visual explainer on how the health data is mapped onto genomes of thousands of people in a form of a Manhattan plot.",
+        ],
+        footer: [
+
+        ],
+        links: {
+            "Website": "https://geneviz.aalto.fi/what-is-finngen/"
+        },
+        mainMedia: {
+            "script": "what_is_finngen.js"
+        },
+        media: {
+            "text": "Authors: Margo Nowicka, Adelaida Avila, Anastasiia Balagurova, Ulla Eronen, Nicola Cerioli, Rupesh Vyas",
+            "imw1": "/media/finngen1.webp",
+            "imw2": "/media/finngen2.webp",
+            "imw3": "/media/finngen3.webp",
+            "imw4": "/media/finngen4.webp",
+        },
+        description: "generative coding",
+        tag: "Generative Coding",
+        date: "2022"
+
+    },
     {
         title: "Imperfections",
         img: "/thumbnails/imp.png",
@@ -666,8 +696,33 @@ export const data = [
         date: "2021"
 
     },
+    // {
+    //     title: "Notes on Cyborg",
+    //     img: "",
+    //     text: [
+
+
+    //     ],
+    //     footer: [
+
+    //     ],
+    //     links: {
+
+
+    //     },
+    //     mainMedia: {
+
+    //     },
+    //     media: {
+
+    //     },
+    //     description: "writing",
+    //     tag: "Writing",
+    //     date: "2024"
+
+    // },
     {
-        title: "Conceptual influences of computation in culture and science through the lens of Finnish genetic study",
+        title: "Conceptual Influences of Computation in Culture and Science through the Lens of Finnish Genetic Study",
         img: "/thumbnails/apon.png",
         text: [
             "​​The paradigmatic role of computational technologies in culture and science oftentimes renders natural phenomena as well as human action, interaction and introspection as forms of computation. The inaccurate yet foundational character of those interpretations has been the motivation for my Master’s thesis. ",

@@ -15,7 +15,7 @@ export const data = [
         ],
         links: {
             // "mngnowicka[at]gmail.com": "mailto:mngnowicka@gmail.com",
-            "CV": "./media/CV_Nowicka_10.2024.pdf",
+            "CV": "./media/CV_Nowicka_11.2024.pdf",
             "Programming portoflio": "https://github.com/nowickam",
             "Filmfreeway": "https://filmfreeway.com/MalgorzataNowicka",
         },
@@ -42,7 +42,7 @@ export const data = [
             "Rottien pyhimys / Rat Saint",
             "Ihmisen jälkeen / Posthuman",
             "Genetic Bottleneck",
-            "Conceptual influences of computation in culture and science through the lens of Finnish genetic study"
+            "Conceptual Influences of Computation in Culture and Science through the Lens of Finnish Genetic Study"
         ]
     },
     {

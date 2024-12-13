@@ -15,7 +15,7 @@ export const data = [
         ],
         links: {
             // "mngnowicka[at]gmail.com": "mailto:mngnowicka@gmail.com",
-            "CV": "./media/CV_Nowicka_11.2024.pdf",
+            "CV": "./media/CV_Nowicka_12.2024.pdf",
             "Programming portoflio": "https://github.com/nowickam",
             "Filmfreeway": "https://filmfreeway.com/MalgorzataNowicka",
         },

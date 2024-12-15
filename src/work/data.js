@@ -1,11 +1,16 @@
+// TEXT FORMAT
+// & - links (in the order of works)
+// * - bold
+// ^ - surscript
+
 export const data = [
     {
         title: "Bio",
         img: "",
         text: [
-            "I am a new media artist, independent researcher and programmer based in Helsinki, Finland. I was a graphic designer and curator for the *Lines of Descent* exhibition in Oodi Central Library, directed *Aurinko and Selene*, *Dysmorphia* and *Takeoff* animations screened in multiple film festivals, worked as a video designer for stage projections in *Rottien Pyhimys* musical and *Ihmisen jälkeen* chamber opera, and was a *creative coder* and programming tutor in Aalto University.",
-            "I graduated with a Master of Arts degree in New Media from Aalto with a *thesis highlighting the pervasiveness of computation metaphor in science and culture*. My current artistic and research interests build on this exploration, which I want to deepen by investigating the aesthetics of computation metaphor and its impact on the collective idea of algorithms and artificial intelligence.",
-            "By intersecting of computer science, data visualization and new media art, I am focusing my efforts on creating visual counter narratives by imagining a feminist visual language for algorithmic representation that would deconstruct the totalistic discourses of computation, and foster a more critical and contextual understanding of computer logic.",
+            "I am a new media artist, independent researcher and programmer based in Helsinki, Finland. I was a graphic designer and curator for the &Lines of Descent& exhibition in Oodi Central Library, directed &Aurinko and Selene&, &Dysmorphia& and &Takeoff& animations screened in multiple film festivals, worked as a video designer for stage projections in &Rottien Pyhimys& musical and &Ihmisen jälkeen& chamber opera, and was a &creative coder& and programming tutor in Aalto University.",
+            "I graduated with a Master of Arts degree in New Media from Aalto with a &thesis highlighting the pervasiveness of computation metaphor in science and culture&. My current artistic and research interests build on this exploration, which I want to deepen by investigating the aesthetics of computation metaphor and its impact on the collective idea of algorithms and artificial intelligence.",
+            "My work intersects computer science, data visualization and new media art. I focus on creating visual counter narratives by imagining a feminist language for algorithmic representation that would deconstruct the totalistic discourses of computation, and foster a more critical and contextual understanding of computer logic. For a deepened context, please refer to the &Notes on Cyborg&.",
             "Contact: mngnowicka[at]gmail.com",
 
         ],
@@ -20,6 +25,7 @@ export const data = [
             "Filmfreeway": "https://filmfreeway.com/MalgorzataNowicka",
         },
         mainMedia: {
+
 
             // "videoAbout": "/media/black-white.mov",
 
@@ -42,7 +48,8 @@ export const data = [
             "Rottien pyhimys / Rat Saint",
             "Ihmisen jälkeen / Posthuman",
             "Genetic Bottleneck",
-            "Conceptual Influences of Computation in Culture and Science through the Lens of Finnish Genetic Study"
+            "Conceptual Influences of Computation in Culture and Science through the Lens of Finnish Genetic Study",
+            "Notes on Cyborg"
         ]
     },
     {
@@ -696,31 +703,105 @@ export const data = [
         date: "2021"
 
     },
-    // {
-    //     title: "Notes on Cyborg",
-    //     img: "",
-    //     text: [
+    {
+        title: "Notes on Cyborg",
+        img: "",
+        text: [
+            `
+            My artistic research is informed at large by Donna Haraway’s foundational “Cyborg Manifesto”.^1^ She is an American scholar, feminist theorist, and historian of science and technology. She wrote the Manifesto in 1985, at the end of the Cold War, among the critiques of the “second-wave” feminisms, and the rise of neoliberal capitalism. Haraway’s writing is full of metaphors situated in the environment of her time and place, which often prove difficult to decipher given my own experiences decades later, on the other side of the globe, in a different political and historical conditioning. Thus, the following is my reading of the text, mapping her concepts onto my experience as a white, cisgender woman, engineer and artist from Poland – a post-communist country and a capitalistic parvenu retaining its spiritual identity in the strong historical and cultural ties to catholicism and its entailing conservative values. Given this position, I will elaborate on the research question the Manifesto poses in my artistic practice. 
+
+            Cyborg is the figuration of a feminist myth. The figuration concerns humanity, yet escapes its conservative definitions, disobediently occupying places outside the delimiting boundaries – a transgression. Myth lives in the matter of interpersonal relations, and the cyborg story aims to generate and fuel new politics and ethics of difference and coalition (as opposed to totalitarian identification, identity politics). It is situated in a world where a person is seen as a module in an information system. In my reading of it, the story doesn’t necessarily have a plot, but rather established its *Origin*, *Milieu* and *Mission*. I will refer to the figure of cyborg throughout this text by using pronouns they/them to accentuate its post gender character (not in the sense of a binary fusion, but gender as a category in itself that is blasted).^2^
+
+            *Origin: How is the cyborg born?*
+
+            “Cyborg myth is about *transgressed boundaries, potent fusions, and dangerous possibilities*, which progressive people might explore as one part of needed political work.”^1^
+
+            Cyborg was born in the aftermath of the Cold War and its militarism, and out of the tradition of patriarchal capitalism, and racist-colonial humanism. Cyborg breaches its foundational dualisms, like subject-object, self-other, mind-body, culture-nature, man-woman, civilized-primitive, God-man among others. It occupies the liminal spaces between *human and animal, organism and machine, physical and nonphysical*. This cybernetic story rubs on the anxieties that look for essence or inherent value in a process of disassembly and reassembly of meanings. 
+
+            Our animalistic descent constitutes the scientific consensus, yet it has been fueling a stark defense of human exceptionalism. This can be observed in justifying the cruelty towards non-human animals and in the ascetic, Christian hate of the animalistic and sinful body. Human and animal renders culture and nature, which translates to the sophisticated, technologically aided, exploitative second nature of the mind over the barbaric and primitive first nature of the body. It is the domination of the cultured, rational man of technology over the impetuous, irrational woman of the earth. Cyborg asks the bestial question of what alternative sits in-between: how to reconcile with the Christian bully of disembodiment, instead of decoding and encoding the body in search of the abstract mind, producing structures (e.g. universal grammar) to fence off from other living beings or running off to the fantasy of creationism.
+
+            Having irked the strive for separation from the savage body, the cyborg goes on to question the basis for the exceptionalism of the organic matter over the inorganic one. More so, in the face of the development of artificial intelligence, the argument from listing what the machine still cannot do seems to imply a brittle foundation for humanity, as per Turing test argumentation^3^. As a consequence of the transhumanist dream of universal codification, mind and body and tool operate with a new intimacy of a common language. Not only does a human think through and with the tool, but becomes synonymous with it, its codified mirror reflection. Cyborg asks what the possibilities are for such a machinic organism, other than defining themselves through the lens of technological determinism.
+
+            Microelectronics reclaim the godly notions of omnipresence and omniscience, and breach the division between physical and nonphysical. Contrary to a god, technological surveillance and manipulation aims for invisibility not only in the physical sense (e.g. with the miniaturization of chips)^4^ but also the figurative one. Command and control are not represented by an authority, but constitute – weave – the fabric of social reality with the illusion of godly cyberforces imposing the inevitability of progress. Cyborg acknowledges this global – simulation of – electronic consciousness and points out the agency of a module in a decentralized system; asks about the political agency and the power of material disruption in the electromagnetic ether. 
+
+            In occupying the undefined space, cyborg acknowledges the conditions of their birth but tries to disinherit themselves with the oppressive Father of the definitions that gave it its shape. Cyborg is not a refutation of technology, but its embrace and utilization in the strive for equality.
 
 
-    //     ],
-    //     footer: [
+            *Milieu: Where does the cyborg live?*
 
-    //     ],
-    //     links: {
+            Haraway’s cyborg is a response in a social realm – it connects the exclusive feminist identity theories of the 1980s with the digitizing social structures as a token of hope for a new feminist coalition .
+
+            Radical feminism and socialist/marxist-feminism essentialize womanhood and the resulting oppression along different dimensions: sex, gender, objectification, sexualization, experience of violence, or social class, type of labor, economical status. In result, such essentialist approaches create false, totalizing unities that leave history, and the intersectional and polyvocal character of what it means and feels to be a woman in different bodies, places, economies. The feminism of the cyborg then strives to form communities based on “conscious coalition, of affinity, of political kinship”^1^ rather than essentialist identities.
+
+            It builds those communities at the cusp of two modes of domination – organic and informatic. The organics of domination is the naturalized hierarchical order of the white, capitalist patriarchy. It consists of individual organisms with assigned essential properties of race, class, sex deciding their fate. On the other hand, the informatics of domination is the incoming digitization of bodies and interactions – the microelectronic-biotechnological network. It sees the agents in the world as dividual biotic components operating within a designed system of logical inferences that determines the *language, interface and bandwidth of information exchange*. These properties isolated by Haraway underscore the genderless character of the new type of control, and suggest decentralised ways of subverting power for the disadvantaged: Since the network depends on the flow of information through multiple nodes, the role of the node is to break the communication.
+
+            Having briefly introduced the anticipated cyber-dynamic, I would like to turn my attention to the notion of information exchange. The microelectronic-biotechnological network is a structure for exchanging information, thus the power resides in determining what information is and how it flows. The forthcoming analysis discusses the historical constitution of the term information, how the body is rendered in the informatic integrated circuit and what new ethics and politics it produces.
+
+            “*Communications technologies* and *biotechnologies* are the crucial tools recrafting our bodies”.^1^
+
+            Communication technology rests on the concept of information introduced by Shannon in the late 1940s. He was a mathematician and engineer in the times of World War II and the Cold War. He formalized and quantified the notion of information for the purpose of effective communication. Thus, he defined information as a measure of uncertainty in predicting a random binary choice and its unit is a binary digit — bit. The resulting “fundamental problem of communication”^5^ is the challenge of ensuring that information sent by a sender at one point can be faithfully reproduced by a receiver at another point. The relation of the sender or the receiver to the information is of no importance and the “semantic aspects of communication are irrelevant”. So common-sense, qualitative understanding of information with semantics and pragmatics – message, news, knowledge – was replaced by a quantitative stochastic process separated from its grounding in reality, materiality, meaning. That is a crucial step in building the new societal network, where any corporeal or incorporeal component and its interfacing with the digital world, can be stated as an engineering problem of encoding. Haraway warns of the consequences.
+
+            “Communications sciences and modern biologies are constructed by a common move — *the translation of the world into a problem of coding*, a search for a common language in which all resistance to instrumental control disappears and all heterogeneity can be submitted to disassembly, reassembly, investment, and exchange.”^1^
+
+            This phenomenon was described by Agre, contemporary computer scientist and humanities professor, critic of computer technology. He sees computing as a new kind of imperialism, where “[it] aims to reinvent virtually every other site of practice in its own image”.^6^ Now it is more visible how the new networks are recrafting, disassembling and reassembling: every site is restated in the language and ontology of information coding. Imperial politics is not an activity of passive interpretation, it is an action of imposing formalizations that enforce meanings, a new view of understanding bodies in an order – biotic components in a microelectronic network. In order to apply computational language to a site, the site needs to be understood as a computation. Haraway specifies the new categories imposed on the being and interaction of the network’s components.
+
+            “One must think not in terms of essential properties, but in terms of design, boundary constraints, rates of flows, systems logics, costs of lowering constraints.”^1^
+
+            Thus in the new mode of domination, to control is to determine the functioning of areas like the language of information exchange, the extent of data collection and protection, the corollaries of the objective functions, interface design and logic of social interaction, aspects of social reality that are quantified and therefore seen. These parameters are reinventing and restating the old organics of domination into the new structures that can conform to encoding and quantification, to the language of the computer. Amendability to the alphanumeric interpretation is shaping a new system of values, where the sites of practice conforming to the new ethics are desirable and rational, and others redundant and irrational.
+
+            These new aspects of politics and ethics render a different understanding of the body itself – and here we shift from the communications technologies to the biotechnologies. Since information became a universal unit without referring to or correlating with any material entity, it can as well be used to measure and evaluate living organisms: “Organisms have ceased to exist as objects of knowledge, giving way to biotic components, i.e., special kinds of information-processing devices.”^1^ In the informatics of body domination, the body is not a source to a scavenger’s treasure of knowledge, a mystery to be detectively solved or mythically recounted. It is considered a process of flipping bits, a logical decision making, a central processing unit crunching imaginary numbers. It is a cipher to be broken, an algorithm to be assigned, a problem of cryptography. Protoplasm, phlogiston, universal aether, soul and life force are replaced with information. In such a lens, we understand ourselves as products of DNA code, programmable matter of information, subject to the mystical objective function of the evolutionary process. 
+
+            This creates the new intimacy of common symbolic language between the subject and object, science and nature, machine and organism, mind, body and tool. And this common language can be used to create new myths – *“myth and tool mutually constitute each other”*^1^. Organisms are restated in the image of the machine. The machine is rendered as an organism. The body is interpreted as an information processing system, and subsequently information processing techniques are magically found to be describing the bodies under this interpretation. Myth of the information-based universe justifies the usage of the tools of informatics, and the informatics determines the content of the information myth.
 
 
-    //     },
-    //     mainMedia: {
+            *Mission: Why does one need the cyborg?*
 
-    //     },
-    //     media: {
+            The myth hints and delineates directions of art and research that were realized and are yet to be realized. The question of the value of a human that inorganically blasts the definitions of humanity finds resonance in the theories of posthumanism which reevaluate the human essence and its exceptionalism. The feminism and coalition in a medium of dispersed yet gripping informatic control is a collection of social movements under the umbrella of cyberfeminism and other critical movements that Haraway underlined, like ecofeminism (confronting the human and animal distinction, associating the oppression of women with the oppression and separation from nature) and anti-capitalism (rejecting the technological rationality as a mode of infinite production satisfying artificial needs). 
 
-    //     },
-    //     description: "writing",
-    //     tag: "Writing",
-    //     date: "2024"
+            The cyborg myth encourages artists and researchers to identify and highlight the “*deepened dualisms* of mind and body, animal and machine, idealism and materialism in the social practices, symbolic formulations, and physical artifacts associated with “high technology” and scientific culture”.^1^ In particular, it points my artistic research towards the study of dualisms in the symbolic formulations of code and the resulting visual language.
 
-    // },
+            In the *Origin* and *Milieu* of cyborg, I hinted at certain biases and interpretations that it fights and conforms to which constitute my honest hopes and deepest anxieties. In result, the framework of cyborg allows me to examine the existing technological reality and its constructions, and to try to orient myself away from the dooming technological determinism, disempowerment of dispersion and anxious acceleration of disembodiment and codification. 
+
+            My challenge in facing the cyborg is the hindering discomfort towards the original militarism, patriarchal capitalism and academia that Haraway acknowledges and disinherits. On one hand, it is a beautiful idea of a revolutionary, fatherless nurture, on the other it seems to acknowledge and deal with its nature. However, both sides of the coin require work and none of it is given. Cyborg can deepen the dualisms it tries to refute in a confusion about its own genetic makeup. That hindering discomfort turned my attention to the visual representations of code, still inheriting and deepening the aforementioned dualisms. The visual language of code is still deeply entwined with the total surveillance and control of the military origin of computation, and with the total objectivity of the default white, male subject without situating the knowledge a certain algorithm relies on and produces. The total objectivity increases the dispersion, and disembodiment by hiding the human context, and the total surveillance and control leaves its subjects without agency about their present and future.
+
+            Haraway warns of the tools the cyborg world affords – final imposition, final abstraction and final appropriation. The imposition of alphanumeric interpretation – the common move of translating all phenomena into coding problems – is an imperial project that restructures the personal and interpersonal relations in its own image. It is a move towards a universal language and universal control resounding the god trick. The trick lies in the engineering concepts deemed as the natural state of the universe. Numbers do not lie, data reflects reality, statistics is the new objectivity, the universe is flipping the bits everywhere at once. In the new established intimacy between myth and tool, the dualisms embedded in the tool permeate the myth. Bodies become vessels for the brain as the mind and body is separated, and architecture of the central processing unit is imposed. This disadvantageous assessment of the body as the unintelligent resembles the dualism that the cyborg tries to escape, the human and animal – rational and irrational, cognitive and instinctive, cultured and feral. The abstraction became a new tool for exerting a self-serving narrative of terror. It marks other bodies with some essential properties that perpetuate the disproportion of resources and power in racism, sexism, ableism, classism. The appropriation of the body, especially the female body, is controlling reality not only through its interpretation (as in abstraction and imposition), but also what it affords to bodies and what the bodies’ purpose in this reality is. Thus, how can one create a myth that is supposed to blast the inherited dualisms, if it conforms with and adapts to the environment preserving those distinctions in its core? How can imposition, abstraction and appropriation coexist with the lived social, bodily, interspecies realities of situated views? 
+
+            The story of cyborg leaves me with many questions. The new myth of humanity is being invented. The myth is currently based on our tools, and we’re increasingly defined by rates of flow, costs of constraints, degrees of freedom. With the amount of data necessary for the automated systems to act like humans, I wonder how we can interrupt not communication, but translation. Something is being lost in this alphanumeric interpretation: power and control on one hand, experience and significance on the other. I would argue that these are the bastions of humanity – not enumeration of what the machines cannot do. 
+
+            Humanity is to have agency over the significance of one’s experience. And in the race of proving machine creativity, consciousness or any other “human” trait, we’re losing it.
+
+            What is the other myth? Who is the cyborg on the other side?
+
+            “From another perspective, a cyborg world might be about *lived social and bodily realities* in which people are not afraid of their *joint kinship with animals and machines*, not afraid of permanently *partial identities and contradictory standpoints*. The political struggle is to see from both perspectives at once because each reveals both dominations and possibilities unimaginable from the other vantage point.”^1^
+            `
+
+        ],
+        footer: [
+            `
+            1.	Haraway, D. A Cyborg Manifesto - Science, Technology and Socialist-Feminism in the Late Twentieth Century. in Manifestly Haraway (2016).
+            2.	Markussen, R., Olesen, F. & Lykke, N. Cyborgs, Coyotes and Dogs. A kinship of Feminist Figuraions - Interview med Donna Haraway. Kvind. Køn Forsk. (2000) doi:10.7146/kkf.v0i2.28361.
+            3.	Turing, A. Computing Machinery and Intelligence. Mind LIX, 433–460 (1950).
+            4.	Kittler, F. There Is No Software. in The Truth of the Technological World: Essays on the Genealogy of Presence 219–229 (Stanford University Press, Stanford, 2013).
+            5.	Shannon, C. A Mathematical Theory of Communication. Bell Syst. Tech. J. 27, 379–423 (1948).
+            6.	Agre, P. Toward a Critical Technical Practice: Lessons Learned Trying to Reform AI. in Social Science, Technical Systems, and Cooperative Work: Beyond the Great Divide 131–157 (Psychology Press, New York, 2014).
+            `
+
+        ],
+        links: {
+
+
+        },
+        mainMedia: {
+            // "img": "/media/citations_img.png"
+        },
+        media: {
+
+        },
+        description: "writing",
+        tag: "Writing",
+        date: "2024"
+
+    },
     {
         title: "Conceptual Influences of Computation in Culture and Science through the Lens of Finnish Genetic Study",
         img: "/thumbnails/apon.png",

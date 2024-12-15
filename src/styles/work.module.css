@@ -156,6 +156,16 @@
   /* width: 80vw; */
 }
 
+.writingMainContainer{
+  display: grid;
+  grid-template-columns: 60% auto;
+  grid-template-rows: auto;
+  height: 100px;
+  margin: 2vmax;
+  padding-bottom: 1vmax;
+  margin-top: 0vmax;
+}
+
 
 
 .workImgMain {
@@ -195,6 +205,10 @@
 .workTextContainer {
   grid-column: 1;
   margin-right: 2vmax;
+}
+.writingTextContainer {
+  grid-column: 1;
+  margin-left: 2vmax;
 }
 
 .workImgContainer {
@@ -282,6 +296,16 @@
   cursor: pointer;
 }
 
+.textBold{
+  font-weight: bold;
+}
+
+.textSup{
+  vertical-align: super;
+  font-size:small;
+}
+
+
 
 @media screen and (max-width: 768px) {
 
@@ -299,6 +323,9 @@
 
 
   .workTextContainer {
+    grid-column: 1 / span 2;
+  }
+  .writingTextContainer{
     grid-column: 1 / span 2;
   }
   .workImgContainer {

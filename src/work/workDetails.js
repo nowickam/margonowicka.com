@@ -18,12 +18,12 @@ export default function WorkDetails(props) {
     }, [props.workId])
 
 
-    const processText = (text) => {
-        // Regular expression to match text between '*' and replace with link
-        const regex = /\*([^*]+)\*/g;
+    const processAbout = (text) => {
+        // Regular expression to match text between '&' and replace with link
+        const regexLink = /&([^&]*)&/g;
         const links = data[id].works
 
-        return text.split(regex).map((part, index) => {
+        return text.split(regexLink).map((part, index) => {
             // If the part matches the *word* pattern, wrap it with a link
             if (index % 2 !== 0) {
                 linkIndex += 1
@@ -36,17 +36,42 @@ export default function WorkDetails(props) {
 
     };
 
+    const processText = (text) => {
+        // Regular expression to match text between '&' and replace with link
+        const regexBold = /\*([^*]*)\*/g;
+        const regexSup = /\^([^^]*)\^/g;
+
+        // TODO make recursive
+        return text.split(regexBold).map((boldPart, boldIndex) => {
+            // If the part matches the *word* pattern, wrap it with a link
+            if (boldIndex % 2 !== 0) {
+                return <span className={styles.textBold} key={boldIndex}>{boldPart}</span>;
+            } else {
+                return boldPart.split(regexSup).map((supPart, supIndex) => {
+                    // If the part matches the *word* pattern, wrap it with a link
+                    if (supIndex % 2 !== 0) {
+                        return <span className={styles.textSup} key={supIndex}>{supPart}</span>;
+                    } else {
+                        return supPart;
+                    }
+                });
+            }
+        });
+
+    };
+
     let texts;
     let linkIndex = -1
+    // If it's the first element, process the about text
     if (id === 0) {
         texts = data[id].text.map(function (e, i) {
-            return <div key={id + i} className={styles.workParagraph}>{processText(e)}</div>
+            return <div key={id + i} className={styles.workParagraph}>{processAbout(e)}</div>
         })
 
     }
     else {
         texts = data[id].text.map(function (e, i) {
-            return <div key={id + i} className={styles.workParagraph}>{e}</div>
+            return <div key={id + i} className={styles.workParagraph}>{processText(e)}</div>
         })
     }
 
@@ -128,9 +153,9 @@ export default function WorkDetails(props) {
 
     return (
         <div ref={ref} className={props.mobile ? (props.toggleMenu ? styles.overflowHide : styles.overflowShow) : styles.overflow}>
-            <div id="workMainImgRef" className={styles.workMainContainer}>
+            <div id="workMainImgRef" className={data[id].tag === "Writing" ? styles.writingMainContainer : styles.workMainContainer}>
                 <div className={styles.workImgMain}>{mainMedia}</div>
-                <div className={styles.workTextContainer}>
+                <div className={data[id].tag === "Writing" ? styles.writingTextContainer : styles.workTextContainer}>
                     <div className={styles.workText}>{texts}</div>
                     <div className={styles.workLinks}>{links}</div>
                     <div className={styles.workFooters}>{footers}</div>

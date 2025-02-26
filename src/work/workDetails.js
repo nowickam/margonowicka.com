@@ -10,6 +10,8 @@ import Canvas from "./canvas";
 
 
 export default function WorkDetails(props) {
+    // if id === 0 then it's bio
+    // else it's content
     let id = parseInt(props.workId);
     const ref = useRef(null);
 
@@ -62,7 +64,7 @@ export default function WorkDetails(props) {
 
     let texts;
     let linkIndex = -1
-    // If it's the first element, process the about text
+    // If it's the first element, it's the bio and process the bio text
     if (id === 0) {
         texts = data[id].text.map(function (e, i) {
             return <div key={id + i} className={styles.workParagraph}>{processAbout(e)}</div>

@@ -8,9 +8,10 @@ export const data = [
         title: "Bio",
         img: "",
         text: [
-            "I am a new media artist, independent researcher and programmer based in Helsinki, Finland. I was a graphic designer and curator for the &Lines of Descent& exhibition in Oodi Central Library, directed &Aurinko and Selene&, &Dysmorphia& and &Takeoff& animations screened in multiple film festivals, worked as a video designer for stage projections in &Rottien Pyhimys& musical and &Ihmisen jälkeen& chamber opera, and was a &creative coder& and programming tutor in Aalto University.",
-            "I graduated with a Master of Arts degree in New Media from Aalto with a &thesis highlighting the pervasiveness of computation metaphor in science and culture&. My current artistic and research interests build on this exploration, which I want to deepen by investigating the aesthetics of computation metaphor and its impact on the collective idea of algorithms and artificial intelligence.",
-            "My work intersects computer science, data visualization and new media art. I focus on creating visual counter narratives by imagining a feminist language for algorithmic representation that would deconstruct the totalistic discourses of computation, and foster a more critical and contextual understanding of computer logic. For a deepened context, please refer to the &Notes on Cyborg&.",
+            "I conduct a research-based artistic practice in the fields of new media studies and information visualization. I am interested in examining and designing new aesthetics of computation metaphor. My methods combine the analysis of visual epistemology of code (treating its portrayals as forms of communication with layers of meanings) and designing feminist visual language for algorithmic representation. For a deepened context to my artistic statement, please refer to the &Notes on Cyborg&.",
+            "My focus on the influences of computation comes from my MA degree in New Media in Aalto University, with a &thesis& examining the ontological pervasiveness of computation metaphor.",
+            "Professionally, I was a graphic designer and curator for the &Lines of Descent& exhibition in Helsinki Central Library Oodi, directed &Aurinko and Selene&, &Dysmorphia& and &Takeoff& animations screened in multiple film festivals, worked as a video designer for stage projections in &Rottien Pyhimys& musical and &Ihmisen jälkeen& chamber opera, and was a &creative coder& and programming tutor in Aalto University.",
+            "I am based in Helsinki, Finland.",
             "Contact: mngnowicka[at]gmail.com",
 
         ],
@@ -41,6 +42,8 @@ export const data = [
         tag: "",
         date: "",
         works: [
+            "Notes on Cyborg",
+            "Conceptual Influences of Computation in Culture and Science through the Lens of Finnish Genetic Study",
             "Lines of Descent",
             "Aurinko and Selene",
             "Dysmorphia",
@@ -48,8 +51,6 @@ export const data = [
             "Rottien pyhimys / Rat Saint",
             "Ihmisen jälkeen / Posthuman",
             "Genetic Bottleneck",
-            "Conceptual Influences of Computation in Culture and Science through the Lens of Finnish Genetic Study",
-            "Notes on Cyborg"
         ]
     },
     {
@@ -286,7 +287,7 @@ export const data = [
             "imr2": "/media/descent5_contrast.webp",
         },
         description: "computer simulation",
-        tag: "Generative Coding",
+        tag: "Generative coding",
         date: "2024"
     },
     {
@@ -322,7 +323,7 @@ export const data = [
             // "imw9": "/media/eye9.webp",
         },
         description: "generative coding",
-        tag: "Generative Coding",
+        tag: "Generative coding",
         date: "2024"
     },
     // {
@@ -352,6 +353,36 @@ export const data = [
     //     },
     //     description: "2D animation",
     //     tag: "Animation"
+    // },
+    // {
+    //     title: "Seeing Code",
+    //     img: "",
+    //     text: [
+    //         "Freeform, abstract sketches of a process of neural network training. It is part of my initial study into thinking about code through its visual manifestation and performativity.",
+
+
+    //     ],
+    //     footer: [
+    //         ""
+
+    //     ],
+    //     links: {
+    //     },
+    //     mainMedia: {
+    //         // "videoEmbed": "https://player.vimeo.com/video/905488131?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+    //         "img3": "/media/machine1.png",
+
+    //     },
+    //     media: {
+    //         "imw2": "/media/machine3.png",
+    //         "texw2": "Degrees of apophenia: An intuitive drawing on the brittleness of large language models training exemplified by the apophenic gradient between ingenious output and \"hallucinations\"",
+    //         "imw1": "/media/machine2.png",
+    //         "texw1": "Inverted tree hypothesis: A drawing in a similar spirit portraying my study of neural network training. I like to look at it rotated 90 degrees, thinking about Plato's inverted tree, with the roots in the godly heavens of ideas and the branches in the earth.",
+    //         // "texw3": "The Invention of Transformer: First study of combining source code and its possible visual representation."
+    //     },
+    //     description: "illustration",
+    //     tag: "Experiments",
+    //     date: "2025"
     // },
     {
         title: "CzAS",
@@ -493,7 +524,7 @@ export const data = [
             "imw4": "/media/finngen4.webp",
         },
         description: "generative coding",
-        tag: "Generative Coding",
+        tag: "Generative coding",
         date: "2022"
 
     },
@@ -521,7 +552,7 @@ export const data = [
             "imw1": "/media/malachite.png"
         },
         description: "generative coding",
-        tag: "Generative Coding",
+        tag: "Generative coding",
         date: "2021"
 
     },

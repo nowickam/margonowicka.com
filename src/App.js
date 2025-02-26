@@ -65,7 +65,7 @@ export default class App extends Component {
                     <Route path="/" element={<Work toggleMenu={this.state.toggleMenu} changeRoute={this.changeRoute} width={this.state.width} height={this.state.height} setToggleMenu={this.setToggleMenu} changeToggleMenu={this.changeToggleMenu} />} />
                     <Route path="/about" element={<About changeRoute={this.changeRoute} />} />
                 </Routes>
-                <div id='footer'>© 2020-2024 Margo Nowicka</div>
+                <div id='footer'>© 2020-2025 Margo Nowicka</div>
             </div>
         );
     }

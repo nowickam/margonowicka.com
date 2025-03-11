@@ -21,7 +21,7 @@ export const data = [
         ],
         links: {
             // "mngnowicka[at]gmail.com": "mailto:mngnowicka@gmail.com",
-            "CV": "./media/CV_Nowicka_12.2024.pdf",
+            "CV": "./media/Nowicka_CV_3.2025.pdf",
             "Programming portoflio": "https://github.com/nowickam",
             "Filmfreeway": "https://filmfreeway.com/MalgorzataNowicka",
         },
@@ -79,18 +79,44 @@ export const data = [
         },
         media: {
 
-            "imw1": "/media/oodi2.webp",
-            "imw2": "/media/oodi3.webp",
-            "imw3": "/media/oodi9.webp",
+            "imw2": "/media/oodi14.webp",
+            "imw1": "/media/oodi12.webp",
+            "imw3": "/media/oodi13.webp",
             "imr1": "/media/oodi7.webp",
             "imr2": "/media/oodi8.webp",
-            "imr3": "/media/descent4.webp",
-            "imr4": "/media/oodi11.webp",
+            "imr3": "/media/oodi15.webp",
+            "imr4": "/media/oodi16.webp",
             "text1": "Curation: Outi Turpeinen, Margo Nowicka, Rupesh Vyas\nExhibition design: Margo Nowicka, Jennifer Sanderson\nCopywriting: Jennifer Sanderson\nAnimation: Margo Nowicka\nMusic: Mercedes Krapovickas\nSound design: Marija Šumarac\nFinnGen/FIMM: Mervi Aavikko, Mari Kaunisto, Helen Cooper, Mary Pat Reeve\nTranslation: Helen Cooper, Mari Kaunisto\nVoiceover: Helen Cooper, Aaron Geldert\nCommunications: Johanna Sippo\nVenue: Oodi Library, Helsinki\nDigital/physical fabrication: Rupesh Vyas, Laura Törnroos, Janne Andberg, Tatu Vuorio, Roel Meijs, Eila Hietanen, Arkus Ahonen"
         },
         description: "exhibition design",
         tag: "Exhibition",
         date: "2024"
+    },
+    {
+        title: "Listening",
+        img: "",
+        text: [
+            "A short animation in progress. This story is about the kindness of two people who decide to see each other's pain."
+
+        ],
+        footer: [
+
+        ],
+        links: {
+        },
+        mainMedia: {
+            "img1": "/media/listening1.webp",
+            // "videoEmbed": "https://player.vimeo.com/video/918695987?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+        },
+        media: {
+            // "imw1": "/media/expo_still5.png",
+
+            "text1": "Animation: Margo Nowicka \n Music: Wild Perra",
+
+        },
+        description: "2D animation",
+        tag: "Animation",
+        date: "2025"
     },
     {
         title: "Aurinko and Selene",
@@ -121,7 +147,7 @@ export const data = [
 
             "videw2": "/media/ause14.mp4",
             "texw4": "The 3D animation of a Lorenz attractor symbolizing the difference setting the children apart and uncovering their genetic makeup at the end.",
-            "imw1": "/media/ause13.webp",
+            "imw1": "/media/ause14.webp",
             "texw3": "The 3-channel version of the animation for the Lines of Descent exhibition in the Helsinki Central Library Oodi. "
         },
         description: "2D animation",
@@ -148,8 +174,11 @@ export const data = [
         },
         media: {
             "video": "/media/rats.webm",
-            "img1": "/media/rats2.webp",
             "imw1": "/media/rats5.webp",
+            "imw5": "/media/rats13.webp",
+            "imw2": "/media/rats2.webp",
+            "imw3": "/media/rats10.webp",
+            "imw4": "/media/rats11.webp",
         },
         description: "stage visualisation, musical",
         tag: "Stage projection",
@@ -279,12 +308,12 @@ export const data = [
             "img1": "/media/descent_contrast.webp",
         },
         media: {
-            "imr1": "/media/descent4.webp",
-            "imw1": "/media/descent3.jpg",
+            "imr1": "/media/oodi15.webp",
+            "imr2": "/media/descent3.jpg",
             // "img3": "/media/ause3.png",
             // "text1": "The process of lactose digestion in humans. The visual representation on top of the network serves as the visual language for the animation.",
             // "img1": "/media/ause10.png",
-            "imr2": "/media/descent5_contrast.webp",
+            "imw2": "/media/descent5_contrast.webp",
         },
         description: "computer simulation",
         tag: "Generative coding",
@@ -708,7 +737,7 @@ export const data = [
             // "A description of such ecosystem fits a post-apocalyptic city more than any metropolitan area I know of. Currently in vogue - concrete roads, paved sidewalks, glass towers, and pitiful patches of evenly trimmed lawn.",
             // "We know, that letting the grass grow helps conserving water and attracts various species of wildflowers and pollinators. The soil underneath traps the rainfall in the ground, preventing floods and replenishing the reserves of the ground waters. We also realise that older trees produce more oxygen, absorb more carbon and develop better root system, forming an underground forest of support. Making the cities greener decrease the air temperatures, preventing the formation of urban heat islands.",
             // "Apocalypse does not have to mean the end of the world. The word comes from the Ancient Greek /apo/ (off) and /kaluptein/ (to cover) - and literally translates to uncover, reveal the disguised truth. Nature will reclaim the areas we seized sooner or later, with or without us. It’s our choice if we want our post-apocalyptic cities to be a result of a climate-driven eradication of humankind that we’re steering ourselves towards, or a revelation of our surrender to nature.",
-            "Video work integrating footage of locations in Warsaw with overlayed procedural 3D animations."
+            "XR video work integrating footage of two locations in Warsaw with procedural 3D animations of expansive nature."
         ],
         footer: [
 
@@ -834,7 +863,7 @@ export const data = [
 
     },
     {
-        title: "Conceptual Influences of Computation in Culture and Science through the Lens of Finnish Genetic Study",
+        title: "MA Thesis: Conceptual Influences of Computation in Culture and Science through the Lens of Finnish Genetic Study",
         img: "/thumbnails/apon.png",
         text: [
             "​​The paradigmatic role of computational technologies in culture and science oftentimes renders natural phenomena as well as human action, interaction and introspection as forms of computation. The inaccurate yet foundational character of those interpretations has been the motivation for my Master’s thesis. ",

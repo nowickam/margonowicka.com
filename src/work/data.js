@@ -8,8 +8,9 @@ export const data = [
         title: "Bio",
         img: "",
         text: [
-            "I conduct a research-based artistic practice in the fields of new media studies and information visualization. I am interested in examining and designing new aesthetics of computation metaphor. My methods combine the analysis of visual epistemology of code (treating its portrayals as forms of communication with layers of meanings) and designing feminist visual language for algorithmic representation. For a deepened context to my artistic statement, please refer to the &Notes on Cyborg&.",
-            "My focus on the influences of computation comes from my MA degree in New Media in Aalto University, with a &thesis& examining the ontological pervasiveness of computation metaphor.",
+            "I am a new media artist and creative technologist.",
+            "I am currently focusing on developing a research-based practice in the fields of new media studies and information visualization. I am interested in examining and designing new aesthetics of computation metaphor. My methods combine the analysis of visual epistemology of code (treating its portrayals as forms of communication with layers of meanings) and designing feminist visual language for algorithmic representation. For a deepened context to my artistic statement, please refer to the &Notes on Cyborg&.",
+            "My emphasis on the influences of computation comes from my MA degree in New Media in Aalto University, with a &thesis& examining the ontological pervasiveness of computation metaphor.",
             "Professionally, I was a graphic designer and curator for the &Lines of Descent& exhibition in Helsinki Central Library Oodi, directed &Aurinko and Selene&, &Dysmorphia& and &Takeoff& animations screened in multiple film festivals, worked as a video designer for stage projections in &Rottien Pyhimys& musical and &Ihmisen jälkeen& chamber opera, and was a &creative coder& and programming tutor in Aalto University.",
             "I am based in Helsinki, Finland.",
             "Contact: mngnowicka[at]gmail.com",

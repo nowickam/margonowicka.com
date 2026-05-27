@@ -1,0 +1,422 @@
+.container {
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: max(60px, 15vw) minmax(0, 1fr);
+  grid-template-rows: 1fr;
+  column-gap: 3vw;
+  row-gap: 1vh;
+  margin-left: 1.5vmax;
+  margin-bottom: 1.5vmax;
+  margin-top: 1vmax;
+  margin-right: 1.5vmax;
+  height: 100%;
+  min-height: 0;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  height: 100%;
+}
+
+.thumbnailsContainer {
+  overflow: auto;
+  min-height: 0;
+  flex: 1;
+  max-height: none;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.4) transparent;
+}
+
+.workContent {
+  display: block;
+  width: 100%;
+}
+
+.workContent > * {
+  display: block;
+}
+
+.title {
+  font-size: 1.2rem;
+}
+
+.titleActive {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 0.75rem;
+}
+
+
+.workDetailsScroll,
+.overflow {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.4) transparent;
+  scrollbar-gutter: stable;
+}
+
+.workDetailsScroll::-webkit-scrollbar,
+.overflow::-webkit-scrollbar,
+.thumbnailsContainer::-webkit-scrollbar {
+  width: 10px;
+}
+
+.workDetailsScroll::-webkit-scrollbar-thumb,
+.overflow::-webkit-scrollbar-thumb,
+.thumbnailsContainer::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 999px;
+}
+
+.workDetailsScroll::-webkit-scrollbar-track,
+.overflow::-webkit-scrollbar-track,
+.thumbnailsContainer::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.thumbnailTag {
+  font-size: 1rem;
+  font-weight: bold;
+  text-shadow:0px 0px 1px black;
+}
+
+.thumbnail {
+  font-size: 1.1rem;
+  margin: 0.5vh 0;
+  cursor: pointer;
+}
+
+.thumbnailActive {
+  font-size: 1.1rem;
+  margin: 0.5vh 0;
+  text-shadow:0px 0px 2px black;
+}
+
+.thumbnail:hover {
+  font-size: 1.1rem;
+  margin: 0.5vh 0;
+  text-shadow:0px 0px 1px black;
+}
+
+.thumbnailContainer {
+  margin-top: 1.5vmax;
+}
+
+.thumbnailsHeader {
+  font-size: 1.6rem;
+  white-space: nowrap;
+  z-index: 1;
+  font-weight: bold;
+  text-shadow:0px 0px 2px black;
+}
+
+.spacer {
+  display: inline-block;
+  width: 0.4em;
+}
+
+.menuActive {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.menuUnactive {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* WORK DETAILS PAGE */
+
+.overflow {
+  overflow-y: auto;
+  overflow-x: hidden;
+  grid-column: 2;
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  height: 100%;
+}
+
+.workDetailsScroll {
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  flex: 1;
+  height: calc(100% - 2.5rem);
+  margin-top: 2.5rem;
+}
+
+.overflowShow {
+  grid-row: 2;
+  overflow: auto;
+  display: block;
+}
+
+.overflowHide {
+  grid-row: 2;
+  overflow: auto;
+  display: none;
+}
+
+.overflow2 {
+  overflow: auto;
+  grid-column: 1;
+  grid-row: 2;
+  scrollbar-width: none;
+  min-height: 0;
+  height: 100%;
+}
+
+.overflow2Show {
+  grid-row: 3;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding: 1rem;
+  overflow: auto;
+  display: block;
+}
+
+.overflow2Hide {
+  grid-row: 3;
+  overflow: auto;
+  display: none;
+}
+
+.workMainContainer {
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-rows: auto;
+  height: 100px;
+  margin: 2vmax;
+  padding-bottom: 1vmax;
+  margin-top: 0vmax;
+}
+
+.writingMainContainer {
+  display: grid;
+  grid-template-columns: 60% auto;
+  grid-template-rows: auto;
+  height: 100px;
+  margin: 2vmax;
+  padding-bottom: 1vmax;
+  margin-top: 0vmax;
+}
+
+.workText {
+  font-size: 1.1rem;
+  padding-top: 1vmax;
+  white-space: pre-line;
+}
+
+.workDesc {
+  padding: 1vmax;
+  white-space: pre-line;
+  text-align: right;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.workDescLeft {
+  padding: 1vmax;
+  padding-bottom: 0vmax;
+  white-space: pre-line;
+  text-align: left;
+  width: 60%;
+  margin-left: auto;
+}
+
+.workTextContainer {
+  grid-column: 1;
+  margin-right: 2vmax;
+}
+
+.writingTextContainer {
+  grid-column: 1;
+  margin-left: 2vmax;
+}
+
+.workImgContainer {
+  padding-top: 1vmax;
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.workImgWideContainer {
+  grid-column: 1 / span 2;
+}
+
+.workImgWide {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.workImgWideRow {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 2vmax;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  height: fit-content;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.4) transparent;
+}
+
+.workImgWideRow img,
+.workImgWideRow video {
+  flex: 0 0 auto;
+  /* max-width: 60vw; */
+  height: 70vh;
+  width: auto;
+  /* height: auto; */
+  min-width: 0;
+}
+
+.videoAbout {
+  position: absolute;
+  right: -10vmax;
+  bottom: 3vmax;
+  width: 55%;
+  z-index: -1;
+  transform: rotate(-70deg);
+}
+
+.workParagraph {
+    padding: 0.5vh;
+    width: 60%;
+    white-space: pre-line;
+}
+
+.workFooter {
+  font-size: 0.8rem;
+  padding-top: 1vmax;
+  white-space: pre-line;
+  text-align: right;
+}
+
+.workLinks {
+  text-decoration: underline;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.mainVideoVertical {
+  max-width: 50%;
+  max-height: 91vh;
+  height: auto;
+}
+
+.mainImgLong {
+  max-width: 100%;
+  height: auto;
+}
+
+.bioLinks {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.textBold {
+  font-weight: bold;
+}
+
+.textSup {
+  vertical-align: super;
+  font-size: small;
+}
+
+.thumbnailList {
+  display: flex;
+  flex-direction: column;
+}
+
+.thumbnailsHeaderMobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 2rem 1fr auto;
+    margin-left: 1vmax;
+    margin-right: 1vmax;
+    margin-bottom: 1.85vmax;
+    margin-top: 2vmax;
+    height: 100%;
+  }
+
+  .workTextContainer {
+    grid-column: 1 / span 2;
+  }
+
+  .writingTextContainer {
+    grid-column: 1 / span 2;
+  }
+
+  .workImgContainer {
+    grid-column: 1 / span 2;
+  }
+
+  .workImgWideRow {
+    flex-direction: column;
+  }
+
+  .workImgWideRow img {
+    max-width: 100%;
+  }
+
+  .workImgWideRow video {
+    max-width: 100%;
+  }
+
+  .title {
+    font-size: 1.2rem;
+  }
+
+  .thumbnailsHeaderMobile {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .workDetailsScroll {
+    grid-column: 1;
+    grid-row: 2;
+    overflow: auto;
+    margin-top: 2.5rem;
+  }
+
+  .overflow2Show {
+    grid-row: 3;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 1rem;
+    overflow: auto;
+    display: block;
+  }
+
+  .overflow2Hide {
+    display: none;
+  }
+}

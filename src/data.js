@@ -8,11 +8,11 @@ export const data = [
         title: "Bio",
         img: "",
         text: [
-            "I am a PhD candidate in Visual Communication Design at Aalto University. My research focuses on developing technically and artistically engaged visualizations of computer code. By studying the aesthetics that emerge from machinic configurations, I aim to develop a visual language capable of representing the internal complexity of algorithms.",
+            "I am a PhD candidate in Visual Communication Design at Aalto University. My research focuses on developing technically and artistically engaged visualizations of computer code. By studying the aesthetics that emerge from machinic configurations, I aim to develop a visual language capable of representing the intricacies of computational processes.",
 
-            "My interest in computational influences began during my MA studies in New Media, with my &thesis& examining its ontological pervasiveness in culture and science.",
+            "My interest in studying computation began during the MA studies in New Media, with my &thesis& examining its ontological pervasiveness in culture and science.",
 
-            "Alongside my research, I work as an animator. I have contributed to projects focused on &intangible cultural heritage&, while also developing personal works centered on &self-perception& and &social interaction&.",
+            "Alongside research, I work as an animator. I have contributed to projects focused on &intangible cultural heritage&, while also developing personal works centered on &self-perception& and &social interaction&.",
 
             "I also have professional experience in &exhibition design&, &theatrical stage projections&, and &creative coding&.",
 
@@ -25,7 +25,7 @@ export const data = [
 
         ],
         links: {
-            "CV": "/public/media/Nowicka_CV_3.2025.pdf",
+            "CV": "/public/media/CV_Nowicka_5.2026.pdf",
             "Programming portoflio": "https://github.com/nowickam",
             "Filmfreeway": "https://filmfreeway.com/MalgorzataNowicka",
         },
